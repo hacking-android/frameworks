@@ -1,0 +1,161 @@
+Summary for /tmp/frameworksms67vol0/devices/google/Pixel 2/29/QPP6.190730.005/jar/bouncycastle.jar
+Decompiled with CFR 0.145
+
+
+com.android.org.bouncycastle.asn1.x500.style.IETFUtils
+----------------------------
+
+valueToString(com.android.org.bouncycastle.asn1.ASN1Encodable )
+  Loose catch block
+
+
+com.android.org.bouncycastle.crypto.generators.DSAParametersGenerator
+----------------------------
+
+generateParameters_FIPS186_2()
+  Unable to fully structure code
+generateParameters_FIPS186_3()
+  Unable to fully structure code
+
+
+com.android.org.bouncycastle.jcajce.provider.asymmetric.util.BaseCipherSpi
+----------------------------
+
+engineUnwrap(byte[] java.lang.String int )
+  Loose catch block
+
+
+com.android.org.bouncycastle.jcajce.provider.asymmetric.x509.X509CRLObject
+----------------------------
+
+isRevoked(java.security.cert.Certificate )
+  Loose catch block
+
+
+com.android.org.bouncycastle.jcajce.provider.symmetric.util.BaseKeyGenerator
+----------------------------
+
+engineInit(int java.security.SecureRandom )
+  Unable to fully structure code
+
+
+com.android.org.bouncycastle.jce.provider.CertPathValidatorUtilities
+----------------------------
+
+findIssuerCerts(java.security.cert.X509Certificate java.util.List<java.security.cert.CertStore> java.util.List<com.android.org.bouncycastle.jcajce.PKIXCertStore> )
+  Loose catch block
+getDeltaCRLs(java.util.Date java.security.cert.X509CRL java.util.List<java.security.cert.CertStore> java.util.List<com.android.org.bouncycastle.jcajce.PKIXCRLStore> )
+  Loose catch block
+prepareNextCertB1(int java.util.List[] java.lang.String java.util.Map java.security.cert.X509Certificate )
+  Loose catch block
+
+
+com.android.org.bouncycastle.jce.provider.PKIXCertPathBuilderSpi
+----------------------------
+
+build(java.security.cert.X509Certificate com.android.org.bouncycastle.jcajce.PKIXExtendedBuilderParameters java.util.List )
+  Loose catch block
+
+
+com.android.org.bouncycastle.jce.provider.PKIXCertPathValidatorSpi
+----------------------------
+
+engineValidate(java.security.cert.CertPath java.security.cert.CertPathParameters )
+  Loose catch block
+
+
+com.android.org.bouncycastle.jce.provider.RFC3280CertPathUtilities
+----------------------------
+
+checkCRLs(com.android.org.bouncycastle.jcajce.PKIXExtendedParameters java.security.cert.X509Certificate java.util.Date java.security.cert.X509Certificate java.security.PublicKey java.util.List com.android.org.bouncycastle.jcajce.util.JcaJceHelper )
+  Loose catch block
+processCRLB2(com.android.org.bouncycastle.asn1.x509.DistributionPoint java.lang.Object java.security.cert.X509CRL )
+  Loose catch block
+processCRLC(java.security.cert.X509CRL java.security.cert.X509CRL com.android.org.bouncycastle.jcajce.PKIXExtendedParameters )
+  Unable to fully structure code
+processCRLF(java.security.cert.X509CRL java.lang.Object java.security.cert.X509Certificate java.security.PublicKey com.android.org.bouncycastle.jcajce.PKIXExtendedParameters java.util.List com.android.org.bouncycastle.jcajce.util.JcaJceHelper )
+  Loose catch block
+processCertA(java.security.cert.CertPath com.android.org.bouncycastle.jcajce.PKIXExtendedParameters int java.security.PublicKey boolean com.android.org.bouncycastle.asn1.x500.X500Name java.security.cert.X509Certificate com.android.org.bouncycastle.jcajce.util.JcaJceHelper )
+  Loose catch block
+
+
+com.android.org.bouncycastle.jce.provider.X509CRLObject
+----------------------------
+
+isRevoked(java.security.cert.Certificate )
+  Loose catch block
+
+
+com.android.org.bouncycastle.util.IPAddress
+----------------------------
+
+isValidIPv6(java.lang.String )
+  Unable to fully structure code
+
+
+com.android.org.bouncycastle.jcajce.provider.asymmetric.rsa.CipherSpi
+----------------------------
+
+getOutput()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+engineInit(int java.security.Key java.security.spec.AlgorithmParameterSpec java.security.SecureRandom )
+  Unable to fully structure code
+
+
+com.android.org.bouncycastle.jcajce.provider.keystore.bc.BcKeyStoreSpi
+----------------------------
+
+decodeKey(java.io.DataInputStream )
+  Unable to fully structure code
+getObject(char[] )
+  Unable to fully structure code
+
+
+com.android.org.bouncycastle.jcajce.provider.keystore.pkcs12.PKCS12KeyStoreSpi
+----------------------------
+
+doStore(java.io.OutputStream char[] boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [37[WHILELOOP]], but top level block is 8[TRYBLOCK]
+engineLoad(java.io.InputStream char[] )
+  Unable to fully structure code
+
+
+com.android.org.bouncycastle.jcajce.provider.symmetric.util.BaseWrapCipher
+----------------------------
+
+engineDoFinal(byte[] int int byte[] int )
+  Loose catch block
+engineInit(int java.security.Key java.security.spec.AlgorithmParameterSpec java.security.SecureRandom )
+  Unable to fully structure code
+engineUnwrap(byte[] java.lang.String int )
+  Loose catch block
+
+
+com.android.org.bouncycastle.asn1.x509.X509Name
+----------------------------
+
+<init>(com.android.org.bouncycastle.asn1.ASN1Sequence )
+  Loose catch block
+
+
+com.android.org.bouncycastle.crypto.generators.DESedeKeyGenerator
+----------------------------
+
+generateKey()
+  Unable to fully structure code
+
+
+com.android.org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher
+----------------------------
+
+engineDoFinal(byte[] int int byte[] int )
+  Unable to fully structure code
+engineInit(int java.security.Key java.security.spec.AlgorithmParameterSpec java.security.SecureRandom )
+  Unable to fully structure code
+
+
+com.android.org.bouncycastle.jcajce.provider.symmetric.util.BaseStreamCipher
+----------------------------
+
+engineInit(int java.security.Key java.security.spec.AlgorithmParameterSpec java.security.SecureRandom )
+  Unable to fully structure code

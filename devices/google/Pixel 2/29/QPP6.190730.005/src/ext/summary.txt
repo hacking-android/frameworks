@@ -1,0 +1,359 @@
+Summary for /tmp/frameworksms67vol0/devices/google/Pixel 2/29/QPP6.190730.005/jar/ext.jar
+Decompiled with CFR 0.145
+
+
+com.android.i18n.phonenumbers.MetadataManager
+----------------------------
+
+loadMetadataAndCloseInput(java.io.InputStream )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+
+
+com.android.i18n.phonenumbers.PhoneNumberToTimeZonesMapper
+----------------------------
+
+loadPrefixTimeZonesMapFromFile(java.lang.String )
+  Unable to fully structure code
+
+
+com.android.i18n.phonenumbers.prefixmapper.PrefixFileReader
+----------------------------
+
+loadMappingFileProvider()
+  Unable to fully structure code
+
+
+com.google.android.rappor.Encoder
+----------------------------
+
+<init>(java.util.Random java.security.MessageDigest java.security.MessageDigest byte[] java.lang.String int double double double int int )
+  Loose catch block
+
+
+gov.nist.core.GenericObject
+----------------------------
+
+match(java.lang.Object )
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.EventScanner
+----------------------------
+
+deliverEvent(gov.nist.javax.sip.EventWrapper )
+  Unable to fully structure code
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 13[DOLOOP]
+
+
+gov.nist.javax.sip.parser.Pipeline
+----------------------------
+
+read()
+  Loose catch block
+
+
+gov.nist.javax.sip.parser.PipelinedMsgParser
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+gov.nist.javax.sip.parser.StringMsgParser
+----------------------------
+
+parseSIPHeader(java.lang.String )
+  Loose catch block
+parseSIPMessage(java.lang.String )
+  Loose catch block
+parseSIPMessage(byte[] )
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.stack.IOHandler
+----------------------------
+
+sendBytes(java.net.InetAddress java.net.InetAddress int java.lang.String byte[] boolean gov.nist.javax.sip.stack.MessageChannel )
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.stack.MessageChannel
+----------------------------
+
+sendMessage(gov.nist.javax.sip.message.SIPMessage javax.sip.address.Hop )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[CATCHBLOCK]], but top level block is 2[TRYBLOCK]
+
+
+gov.nist.javax.sip.stack.MessageProcessor
+----------------------------
+
+setSentBy(java.lang.String )
+  Loose catch block
+
+
+gov.nist.core.HostNameParser
+----------------------------
+
+hostPort(boolean )
+  Unable to fully structure code
+
+
+gov.nist.core.LexerCore
+----------------------------
+
+consumeValidChars(char[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[CASE]], but top level block is 1[TRYBLOCK]
+ttokenSafe()
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.DialogFilter
+----------------------------
+
+processRequest(gov.nist.javax.sip.message.SIPRequest gov.nist.javax.sip.stack.MessageChannel )
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.address.NetObject
+----------------------------
+
+match(java.lang.Object )
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.clientauthutils.AuthenticationHelperImpl
+----------------------------
+
+getAuthorization(java.lang.String java.lang.String java.lang.String javax.sip.header.WWWAuthenticateHeader gov.nist.javax.sip.clientauthutils.UserCredentialHash )
+  Loose catch block
+getAuthorization(java.lang.String java.lang.String java.lang.String javax.sip.header.WWWAuthenticateHeader gov.nist.javax.sip.clientauthutils.UserCredentials )
+  Loose catch block
+
+
+gov.nist.javax.sip.header.SIPObject
+----------------------------
+
+match(java.lang.Object )
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.stack.SIPTransactionStack
+----------------------------
+
+addTransactionHash(gov.nist.javax.sip.stack.SIPTransaction )
+  Unable to fully structure code
+createRawMessageChannel(java.lang.String int javax.sip.address.Hop )
+  Loose catch block
+findTransaction(gov.nist.javax.sip.message.SIPMessage boolean )
+  Loose catch block
+newSIPServerResponse(gov.nist.javax.sip.message.SIPResponse gov.nist.javax.sip.stack.MessageChannel )
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.stack.TLSMessageProcessor
+----------------------------
+
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+gov.nist.javax.sip.stack.UDPMessageChannel
+----------------------------
+
+run()
+  Unable to fully structure code
+sendMessage(gov.nist.javax.sip.message.SIPMessage )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 6[FORLOOP]
+sendMessage(byte[] java.net.InetAddress int boolean )
+  Loose catch block
+
+
+gov.nist.javax.sip.stack.UDPMessageProcessor
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+org.ccil.cowan.tagsoup.HTMLScanner
+----------------------------
+
+scan(java.io.Reader org.ccil.cowan.tagsoup.ScanHandler )
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.SipProviderImpl
+----------------------------
+
+getNewClientTransaction(javax.sip.message.Request )
+  Loose catch block
+sendRequest(javax.sip.message.Request )
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.SipStackImpl
+----------------------------
+
+<init>(java.util.Properties )
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.parser.StatusLineParser
+----------------------------
+
+statusCode()
+  Loose catch block
+
+
+gov.nist.javax.sip.parser.URLParser
+----------------------------
+
+hvalue()
+  Unable to fully structure code
+sipURL(boolean )
+  Loose catch block
+
+
+gov.nist.javax.sip.stack.SIPDialog
+----------------------------
+
+stopTimer()
+  Loose catch block
+runTask()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 4[UNCONDITIONALDOLOOP]
+run()
+  Loose catch block
+
+
+gov.nist.javax.sip.stack.SIPTransaction
+----------------------------
+
+acquireSem()
+  Loose catch block
+
+
+gov.nist.javax.sip.stack.TCPMessageChannel
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.stack.TLSMessageChannel
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.parser.ContentEncodingParser
+----------------------------
+
+parse()
+  Loose catch block
+
+
+gov.nist.javax.sip.parser.ContentLanguageParser
+----------------------------
+
+parse()
+  Loose catch block
+
+
+gov.nist.javax.sip.parser.ContentLengthParser
+----------------------------
+
+parse()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+
+
+gov.nist.javax.sip.parser.ExpiresParser
+----------------------------
+
+parse()
+  Loose catch block
+
+
+gov.nist.javax.sip.parser.MaxForwardsParser
+----------------------------
+
+parse()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+
+
+gov.nist.javax.sip.parser.RetryAfterParser
+----------------------------
+
+parse()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 6[CATCHBLOCK]
+
+
+gov.nist.javax.sip.parser.TimeStampParser
+----------------------------
+
+parse()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 6[CATCHBLOCK]
+
+
+gov.nist.javax.sip.parser.ims.AddressHeaderParser
+----------------------------
+
+parse(gov.nist.javax.sip.header.ims.AddressHeaderIms )
+  Loose catch block
+
+
+gov.nist.javax.sip.stack.SIPClientTransaction
+----------------------------
+
+processResponse(gov.nist.javax.sip.message.SIPResponse gov.nist.javax.sip.stack.MessageChannel )
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.parser.AddressParametersParser
+----------------------------
+
+parse(gov.nist.javax.sip.header.AddressParametersHeader )
+  Loose catch block
+
+
+gov.nist.javax.sip.parser.ContentDispositionParser
+----------------------------
+
+parse()
+  Loose catch block
+
+
+gov.nist.javax.sip.parser.EventParser
+----------------------------
+
+parse()
+  Loose catch block
+
+
+gov.nist.javax.sip.parser.extensions.MinSEParser
+----------------------------
+
+parse()
+  Loose catch block
+
+
+gov.nist.javax.sip.parser.extensions.SessionExpiresParser
+----------------------------
+
+parse()
+  Loose catch block
+
+
+gov.nist.javax.sip.parser.ims.PChargingFunctionAddressesParser
+----------------------------
+
+parse()
+  Unable to fully structure code
+
+
+gov.nist.javax.sip.parser.ims.PChargingVectorParser
+----------------------------
+
+parse()
+  Unable to fully structure code

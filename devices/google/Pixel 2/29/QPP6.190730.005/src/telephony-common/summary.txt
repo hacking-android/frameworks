@@ -1,0 +1,583 @@
+Summary for /tmp/frameworksms67vol0/devices/google/Pixel 2/29/QPP6.190730.005/jar/telephony-common.jar
+Decompiled with CFR 0.145
+
+
+com.android.internal.telephony.CarrierInfoManager
+----------------------------
+
+getCarrierInfoForImsiEncryption(int android.content.Context )
+  Loose catch block
+updateOrInsertCarrierKey(android.telephony.ImsiEncryptionInfo android.content.Context int )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.CarrierKeyDownloadManager
+----------------------------
+
+onDownloadComplete(long java.lang.String )
+  Loose catch block
+parseJsonAndPersistKey(java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.CarrierResolver
+----------------------------
+
+getCarrierIdFromMccMnc(android.content.Context java.lang.String )
+  Unable to fully structure code
+getCarrierIdsFromApnQuery(android.content.Context java.lang.String java.lang.String java.lang.String )
+  Unable to fully structure code
+getCarrierMatchingRulesFromMccMnc(android.content.Context java.lang.String )
+  Unable to fully structure code
+getCarrierNameFromId(int )
+  Unable to fully structure code
+getPreferApn()
+  Loose catch block
+isPreferApnUserEdited(java.lang.String )
+  Unable to fully structure code
+loadCarrierMatchingRulesOnMccMnc()
+  Unable to fully structure code
+
+
+com.android.internal.telephony.DeviceStateMonitor
+----------------------------
+
+onReceive(android.content.Context android.content.Intent )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.IIccPhoneBook
+----------------------------
+
+updateAdnRecordsInEfByIndex(int java.lang.String java.lang.String int java.lang.String )
+  Loose catch block
+updateAdnRecordsInEfByIndexForSubscriber(int int java.lang.String java.lang.String int java.lang.String )
+  Loose catch block
+updateAdnRecordsInEfBySearch(int java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String )
+  Loose catch block
+updateAdnRecordsInEfBySearchForSubscriber(int int java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String )
+  Loose catch block
+
+
+com.android.internal.telephony.IccSmsInterfaceManager
+----------------------------
+
+isFailedOrDraft(android.content.ContentResolver android.net.Uri )
+  Loose catch block
+loadTextAndAddress(android.content.ContentResolver android.net.Uri )
+  Loose catch block
+
+
+com.android.internal.telephony.InboundSmsHandler
+----------------------------
+
+processMessagePart(com.android.internal.telephony.InboundSmsTracker )
+  Loose catch block
+writeInboxMessage(android.content.Intent )
+  Loose catch block
+
+
+com.android.internal.telephony.LocaleTracker
+----------------------------
+
+updateTrackingStatus()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Statement already marked as first in another block
+
+
+com.android.internal.telephony.MccTable
+----------------------------
+
+updateMccMncConfiguration(android.content.Context java.lang.String )
+  Loose catch block
+
+
+com.android.internal.telephony.PackageBasedTokenUtil
+----------------------------
+
+generatePackageBasedToken(android.content.pm.PackageManager java.lang.String )
+  Loose catch block
+
+
+com.android.internal.telephony.SMSDispatcher
+----------------------------
+
+handleNotInService(int android.app.PendingIntent )
+  Unable to fully structure code
+persistSentMessageIfRequired(android.content.Context int int )
+  Loose catch block
+
+
+com.android.internal.telephony.ServiceStateTracker
+----------------------------
+
+setNotification(int )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.SmsBroadcastUndelivered
+----------------------------
+
+scanRawTable(android.content.Context com.android.internal.telephony.cdma.CdmaInboundSmsHandler com.android.internal.telephony.gsm.GsmInboundSmsHandler long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 22[WHILELOOP]
+
+
+com.android.internal.telephony.SmsDispatchersController
+----------------------------
+
+injectSmsPdu(android.telephony.SmsMessage java.lang.String com.android.internal.telephony.SmsDispatchersController$SmsInjectionCallback boolean )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.SmsNumberUtils
+----------------------------
+
+formatNumber(android.content.Context java.lang.String java.lang.String int )
+  Unable to fully structure code
+getAllCountryCodes(android.content.Context )
+  Unable to fully structure code
+getAllIDDs(android.content.Context java.lang.String )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.SmsUsageMonitor
+----------------------------
+
+getPatternMatcherFromFile(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+loadPremiumSmsPolicyDb()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 25[UNCONDITIONALDOLOOP]
+
+
+com.android.internal.telephony.SubscriptionController
+----------------------------
+
+setSubscriptionPropertyIntoContentResolver(int java.lang.String java.lang.String android.content.ContentResolver )
+  Unable to fully structure code
+addSubInfo(java.lang.String java.lang.String int int )
+  Unable to fully structure code
+getAllSubInfoCount(java.lang.String )
+  Unable to fully structure code
+getImsiPrivileged(int )
+  Unable to fully structure code
+getSubInfo(java.lang.String java.lang.Object )
+  Unable to fully structure code
+getSubscriptionProperty(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [29[CASE]], but top level block is 1[TRYBLOCK]
+setDefaultDataSubId(int )
+  Unable to fully structure code
+setDisplayNameUsingSrc(java.lang.String int int )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.SubscriptionInfoUpdater
+----------------------------
+
+getSimStateFromLockedReason(java.lang.String )
+  Unable to fully structure code
+internalIccStateToMessage(java.lang.String )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.WapPushOverSms
+----------------------------
+
+decodeWapPdu(byte[] com.android.internal.telephony.InboundSmsHandler )
+  Unable to fully structure code
+getDeliveryOrReadReportThreadId(android.content.Context com.google.android.mms.pdu.GenericPdu )
+  Unable to fully structure code
+isDuplicateNotification(android.content.Context com.google.android.mms.pdu.NotificationInd )
+  Loose catch block
+writeInboxMessage(int com.google.android.mms.pdu.GenericPdu )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.cat.BerTlv
+----------------------------
+
+decode(byte[] )
+  Loose catch block
+
+
+com.android.internal.telephony.cat.ComprehensionTlv
+----------------------------
+
+decode(byte[] int )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.cat.ImageDescriptor
+----------------------------
+
+parse(byte[] int )
+  Loose catch block
+
+
+com.android.internal.telephony.cat.RilMessageDecoder
+----------------------------
+
+decodeMessageParams(com.android.internal.telephony.cat.RilMessage )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.cdma.EriManager
+----------------------------
+
+loadEriFileFromXml()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 15[UNCONDITIONALDOLOOP]
+
+
+com.android.internal.telephony.dataconnection.ApnContext
+----------------------------
+
+resetErrorCodeRetries()
+  Unable to fully structure code
+
+
+com.android.internal.telephony.dataconnection.DataConnection
+----------------------------
+
+setLinkProperties(android.telephony.data.DataCallResponse android.net.LinkProperties )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [7[WHILELOOP]], but top level block is 3[CATCHBLOCK]
+updateTcpBufferSizes(int )
+  Unable to fully structure code
+getNetworkCapabilities()
+  Unable to fully structure code
+
+
+com.android.internal.telephony.euicc.EuiccController
+----------------------------
+
+downloadSubscription(int android.telephony.euicc.DownloadableSubscription boolean java.lang.String boolean android.os.Bundle android.app.PendingIntent )
+  Unable to fully structure code
+getDownloadableSubscriptionMetadata(int android.telephony.euicc.DownloadableSubscription boolean java.lang.String android.app.PendingIntent )
+  Loose catch block
+getEid(int java.lang.String )
+  Unable to fully structure code
+switchToSubscription(int int boolean java.lang.String android.app.PendingIntent )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.ims.RcsEventQueryHelper
+----------------------------
+
+performEventQuery(android.os.Bundle )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.ims.RcsMessageQueryHelper
+----------------------------
+
+getDeliveryParticipantsForMessage(int )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.ims.RcsThreadQueryHelper
+----------------------------
+
+performThreadQuery(android.os.Bundle )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.imsphone.ImsRttTextHandler
+----------------------------
+
+run()
+  Loose catch block
+
+
+com.android.internal.telephony.metrics.TelephonyMetrics
+----------------------------
+
+toPdpType(java.lang.String )
+  Unable to fully structure code
+writeOnRilSolicitedResponse(int int int int java.lang.Object )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+com.android.internal.telephony.protobuf.nano.Extension
+----------------------------
+
+writeRepeatedData(java.lang.Object com.android.internal.telephony.protobuf.nano.CodedOutputByteBufferNano )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 19[CASE]
+
+
+com.android.internal.telephony.protobuf.nano.MessageNanoPrinter
+----------------------------
+
+print(java.lang.String java.lang.Object java.lang.StringBuffer java.lang.StringBuffer )
+  Loose catch block
+
+
+com.android.internal.telephony.test.LineReader
+----------------------------
+
+getNextLine(boolean )
+  Loose catch block
+
+
+com.android.internal.telephony.test.TestConferenceEventPackageParser
+----------------------------
+
+parse()
+  Loose catch block
+
+
+com.android.internal.telephony.uicc.AdnRecord
+----------------------------
+
+parseRecord(byte[] )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.uicc.AdnRecordLoader
+----------------------------
+
+handleMessage(android.os.Message )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.uicc.CarrierTestOverride
+----------------------------
+
+loadCarrierTestOverrides()
+  Loose catch block
+
+
+com.android.internal.telephony.uicc.VoiceMailConstants
+----------------------------
+
+loadVoiceMail()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 15[UNCONDITIONALDOLOOP]
+
+
+com.android.phone.ecc.nano.Extension
+----------------------------
+
+writeRepeatedData(java.lang.Object com.android.phone.ecc.nano.CodedOutputByteBufferNano )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 19[CASE]
+
+
+com.android.phone.ecc.nano.MessageNanoPrinter
+----------------------------
+
+print(java.lang.String java.lang.Object java.lang.StringBuffer java.lang.StringBuffer )
+  Loose catch block
+
+
+com.google.android.mms.pdu.PduComposer
+----------------------------
+
+makeMessageBody(int )
+  Unable to fully structure code
+make()
+  Unable to fully structure code
+
+
+com.google.android.mms.pdu.PduHeaders
+----------------------------
+
+setOctet(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+com.google.android.mms.pdu.PduParser
+----------------------------
+
+parseContentTypeParams(java.io.ByteArrayInputStream java.util.HashMap<java.lang.Integer, java.lang.Object> java.lang.Integer )
+  Unable to fully structure code
+parseEncodedStringValue(java.io.ByteArrayInputStream )
+  Unable to fully structure code
+parseHeaders(java.io.ByteArrayInputStream )
+  Unable to fully structure code
+
+
+com.google.android.mms.pdu.PduPersister
+----------------------------
+
+loadParts(long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 20[UNCONDITIONALDOLOOP]
+persistData(com.google.android.mms.pdu.PduPart android.net.Uri java.lang.String java.util.HashMap<android.net.Uri, java.io.InputStream> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 9[TRYBLOCK]
+load(android.net.Uri )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [7[TRYBLOCK]], but top level block is 33[CATCHBLOCK]
+updateParts(android.net.Uri com.google.android.mms.pdu.PduBody java.util.HashMap<android.net.Uri, java.io.InputStream> )
+  Unable to fully structure code
+
+
+com.google.android.mms.util.DrmConvertSession
+----------------------------
+
+open(android.content.Context java.lang.String )
+  Loose catch block
+close(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 4 blocks at once
+
+
+com.android.internal.telephony.DefaultPhoneNotifier
+----------------------------
+
+doNotifyDataConnection(com.android.internal.telephony.Phone java.lang.String com.android.internal.telephony.PhoneConstants$DataState )
+  Loose catch block
+
+
+com.android.internal.telephony.ImsSmsDispatcher
+----------------------------
+
+sendSms(com.android.internal.telephony.SMSDispatcher$SmsTracker )
+  Loose catch block
+
+
+com.android.internal.telephony.NewNitzStateMachine
+----------------------------
+
+updateTimeFromNitz()
+  Loose catch block
+
+
+com.android.internal.telephony.OldNitzStateMachine
+----------------------------
+
+updateTimeFromNitz()
+  Unable to fully structure code
+
+
+com.android.internal.telephony.cat.CatService
+----------------------------
+
+getInstance(com.android.internal.telephony.CommandsInterface android.content.Context com.android.internal.telephony.uicc.UiccProfile int )
+  Unable to fully structure code
+handleCmdResponse(com.android.internal.telephony.cat.CatResponseMessage )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.cdma.CdmaInboundSmsHandler
+----------------------------
+
+dispatchMessageRadioSpecific(com.android.internal.telephony.SmsMessageBase )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.cdma.CdmaServiceCategoryProgramHandler
+----------------------------
+
+sendScpResults()
+  Loose catch block
+
+
+com.android.internal.telephony.ims.ImsResolver
+----------------------------
+
+updateImsServiceFeatures(com.android.internal.telephony.ims.ImsResolver$ImsServiceInfo )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.imsphone.ImsPhoneCallTracker
+----------------------------
+
+dialInternal(com.android.internal.telephony.imsphone.ImsPhoneConnection int int android.os.Bundle )
+  Loose catch block
+dial(java.lang.String com.android.internal.telephony.imsphone.ImsPhone$ImsDialArgs )
+  Loose catch block
+hangup(com.android.internal.telephony.imsphone.ImsPhoneCall )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.test.ModelInterpreter
+----------------------------
+
+run()
+  Loose catch block
+
+
+com.android.internal.telephony.uicc.IccFileHandler
+----------------------------
+
+handleMessage(android.os.Message )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 7[CASE]
+
+
+com.android.internal.telephony.uicc.IccRecords
+----------------------------
+
+handleMessage(android.os.Message )
+  Loose catch block
+
+
+com.android.internal.telephony.uicc.euicc.EuiccCard
+----------------------------
+
+addDeviceCapability(com.android.internal.telephony.uicc.asn1.Asn1Node$Builder java.lang.String )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.GsmCdmaPhone
+----------------------------
+
+handleCallWaitingIncallSupplementaryService(java.lang.String )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.RIL
+----------------------------
+
+setDataProfile(android.telephony.data.DataProfile[] boolean android.os.Message )
+  Unable to fully structure code
+setSimCardPower(int android.os.Message android.os.WorkSource )
+  Unable to fully structure code
+setupDataCall(int android.telephony.data.DataProfile boolean boolean int android.net.LinkProperties android.os.Message )
+  Loose catch block
+
+
+com.android.internal.telephony.uicc.IsimUiccRecords
+----------------------------
+
+handleMessage(android.os.Message )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.uicc.RuimRecords
+----------------------------
+
+handleMessage(android.os.Message )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+onRecordLoaded(android.os.AsyncResult )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.uicc.SIMFileHandler
+----------------------------
+
+getEFPath(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+com.android.internal.telephony.uicc.SIMRecords
+----------------------------
+
+handleMessage(android.os.Message )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [42[CASE]], but top level block is 1[TRYBLOCK]
+setVoiceCallForwardingFlag(int boolean java.lang.String )
+  Unable to fully structure code
+setVoiceMessageWaiting(int int )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.uicc.UsimFileHandler
+----------------------------
+
+getEFPath(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+com.android.internal.telephony.imsphone.ImsPhone
+----------------------------
+
+handleCallWaitingIncallSupplementaryService(java.lang.String )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.sip.SipPhone
+----------------------------
+
+hangup()
+  Loose catch block

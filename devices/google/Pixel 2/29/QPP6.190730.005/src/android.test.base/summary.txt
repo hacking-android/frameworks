@@ -1,0 +1,18 @@
+Summary for /tmp/frameworksms67vol0/devices/google/Pixel 2/29/QPP6.190730.005/jar/android.test.base.jar
+Decompiled with CFR 0.145
+
+
+junit.framework.TestCase
+----------------------------
+
+runBare()
+  Loose catch block
+
+
+android.test.InstrumentationTestCase
+----------------------------
+
+runMethod(java.lang.reflect.Method int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+sendKeys(java.lang.String )
+  Loose catch block

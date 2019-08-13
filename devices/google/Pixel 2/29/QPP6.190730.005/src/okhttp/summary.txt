@@ -1,0 +1,102 @@
+Summary for /tmp/frameworksms67vol0/devices/google/Pixel 2/29/QPP6.190730.005/jar/okhttp.jar
+Decompiled with CFR 0.145
+
+
+com.android.okhttp.Call
+----------------------------
+
+getResponse(com.android.okhttp.Request boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+execute()
+  Unable to fully structure code
+
+
+com.android.okhttp.HttpUrl
+----------------------------
+
+percentDecode(com.android.okhttp.okio.Buffer java.lang.String int int boolean )
+  Unable to fully structure code
+
+
+com.android.okhttp.TlsVersion
+----------------------------
+
+forJavaName(java.lang.String )
+  Unable to fully structure code
+
+
+com.android.okhttp.internal.DiskLruCache
+----------------------------
+
+readJournal()
+  Loose catch block
+
+
+com.android.okhttp.internal.framed.FramedConnection
+----------------------------
+
+newStream(int java.util.List<com.android.okhttp.internal.framed.Header> boolean boolean )
+  Unable to fully structure code
+writeData(int boolean com.android.okhttp.okio.Buffer long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 5[CATCHBLOCK]
+execute()
+  Loose catch block
+
+
+com.android.okhttp.internal.framed.FramedStream
+----------------------------
+
+getResponseHeaders()
+  Loose catch block
+
+
+com.android.okhttp.internal.http.CacheStrategy
+----------------------------
+
+isCacheable(com.android.okhttp.Response com.android.okhttp.Request )
+  Unable to fully structure code
+
+
+com.android.okhttp.internal.http.HttpEngine
+----------------------------
+
+followUpRequest()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+com.android.okhttp.internal.huc.HttpURLConnectionImpl
+----------------------------
+
+execute(boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+com.android.okhttp.internal.io.RealConnection
+----------------------------
+
+connectTls(int int com.android.okhttp.internal.ConnectionSpecSelector )
+  Loose catch block
+isHealthy(boolean )
+  Unable to fully structure code
+
+
+com.android.okhttp.okio.AsyncTimeout
+----------------------------
+
+close()
+  Loose catch block
+flush()
+  Loose catch block
+write(com.android.okhttp.okio.Buffer long )
+  Loose catch block
+close()
+  Loose catch block
+read(com.android.okhttp.okio.Buffer long )
+  Loose catch block
+
+
+com.android.okhttp.okio.InflaterSource
+----------------------------
+
+read(com.android.okhttp.okio.Buffer long )
+  Unable to fully structure code

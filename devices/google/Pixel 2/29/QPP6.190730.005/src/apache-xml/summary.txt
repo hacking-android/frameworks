@@ -1,0 +1,461 @@
+Summary for /tmp/frameworksms67vol0/devices/google/Pixel 2/29/QPP6.190730.005/jar/apache-xml.jar
+Decompiled with CFR 0.145
+
+
+org.apache.xalan.processor.TransformerFactoryImpl
+----------------------------
+
+getAssociatedStylesheet(javax.xml.transform.Source java.lang.String java.lang.String java.lang.String )
+  Exception : java.lang.IllegalStateException: Malformed exception block, to < from
+newTemplates(javax.xml.transform.Source )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK], 1[TRYBLOCK]], but top level block is 9[CATCHBLOCK]
+
+
+org.apache.xalan.processor.XSLTAttributeDef
+----------------------------
+
+setAttrValue(org.apache.xalan.processor.StylesheetHandler java.lang.String java.lang.String java.lang.String java.lang.String org.apache.xalan.templates.ElemTemplateElement )
+  Unable to fully structure code
+
+
+org.apache.xalan.templates.TemplateList
+----------------------------
+
+getTemplate(org.apache.xpath.XPathContext int org.apache.xml.utils.QName int int boolean org.apache.xml.dtm.DTM )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[DOLOOP]], but top level block is 2[TRYBLOCK]
+getTemplateFast(org.apache.xpath.XPathContext int int org.apache.xml.utils.QName int boolean org.apache.xml.dtm.DTM )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [11[DOLOOP]], but top level block is 0[TRYBLOCK]
+
+
+org.apache.xalan.transformer.ClonerToResultTree
+----------------------------
+
+cloneToResultTree(int int org.apache.xml.dtm.DTM org.apache.xml.serializer.SerializationHandler boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[CASE]], but top level block is 0[TRYBLOCK]
+
+
+org.apache.xalan.transformer.TrAXFilter
+----------------------------
+
+parse(org.xml.sax.InputSource )
+  Loose catch block
+
+
+org.apache.xalan.transformer.TransformerIdentityImpl
+----------------------------
+
+createResultContentHandler(javax.xml.transform.Result )
+  Loose catch block
+transform(javax.xml.transform.Source javax.xml.transform.Result )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+org.apache.xalan.xslt.EnvironmentCheck
+----------------------------
+
+appendEnvironmentReport(org.w3c.dom.Node org.w3c.dom.Document java.util.Hashtable )
+  Unable to fully structure code
+checkDOMVersion(java.util.Hashtable )
+  Loose catch block
+checkSAXVersion(java.util.Hashtable )
+  Loose catch block
+
+
+org.apache.xalan.xslt.ObjectFactory
+----------------------------
+
+findJarServiceProviderName(java.lang.String )
+  Loose catch block
+lookUpFactoryClassName(java.lang.String java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+org.apache.xml.dtm.ObjectFactory
+----------------------------
+
+findJarServiceProviderName(java.lang.String )
+  Loose catch block
+lookUpFactoryClassName(java.lang.String java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+org.apache.xml.dtm.ref.CoroutineManager
+----------------------------
+
+co_joinCoroutineSet(int )
+  Unable to fully structure code
+
+
+org.apache.xml.dtm.ref.DTMTreeWalker
+----------------------------
+
+traverse(int )
+  Unable to fully structure code
+traverse(int int )
+  Unable to fully structure code
+
+
+org.apache.xml.serializer.CharInfo
+----------------------------
+
+<init>(java.lang.String java.lang.String boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK], 1[TRYBLOCK]], but top level block is 19[WHILELOOP]
+
+
+org.apache.xml.serializer.ObjectFactory
+----------------------------
+
+findJarServiceProviderName(java.lang.String )
+  Loose catch block
+lookUpFactoryClassName(java.lang.String java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+org.apache.xml.serializer.OutputPropertiesFactory
+----------------------------
+
+loadPropertiesFile(java.lang.String java.util.Properties )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [7[CATCHBLOCK]], but top level block is 3[TRYBLOCK]
+
+
+org.apache.xml.serializer.TreeWalker
+----------------------------
+
+traverse(org.w3c.dom.Node )
+  Unable to fully structure code
+traverse(org.w3c.dom.Node org.w3c.dom.Node )
+  Unable to fully structure code
+
+
+org.apache.xml.serializer.dom3.DOM3TreeWalker
+----------------------------
+
+serializeAttList(org.w3c.dom.Element )
+  Unable to fully structure code
+traverse(org.w3c.dom.Node )
+  Unable to fully structure code
+traverse(org.w3c.dom.Node org.w3c.dom.Node )
+  Unable to fully structure code
+
+
+org.apache.xml.serializer.dom3.LSSerializerImpl
+----------------------------
+
+write(org.w3c.dom.Node org.w3c.dom.ls.LSOutput )
+  Unable to fully structure code
+writeToURI(org.w3c.dom.Node java.lang.String )
+  Unable to fully structure code
+
+
+org.apache.xml.utils.ObjectFactory
+----------------------------
+
+findJarServiceProviderName(java.lang.String )
+  Loose catch block
+lookUpFactoryClassName(java.lang.String java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+org.apache.xml.utils.TreeWalker
+----------------------------
+
+traverse(org.w3c.dom.Node org.w3c.dom.Node )
+  Unable to fully structure code
+traverseFragment(org.w3c.dom.Node )
+  Unable to fully structure code
+
+
+org.apache.xml.utils.XMLReaderManager
+----------------------------
+
+getXMLReader()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 2[TRYBLOCK]
+
+
+org.apache.xpath.SourceTreeManager
+----------------------------
+
+getXMLReader(javax.xml.transform.Source javax.xml.transform.SourceLocator )
+  Loose catch block
+
+
+org.apache.xpath.VariableStack
+----------------------------
+
+getVariableOrParam(org.apache.xpath.XPathContext org.apache.xml.utils.QName )
+  Unable to fully structure code
+
+
+org.apache.xpath.axes.WalkerFactory
+----------------------------
+
+isNaturalDocOrder(org.apache.xpath.compiler.Compiler int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[CASE]], but top level block is 3[SWITCH]
+isOptimizableForDescendantIterator(org.apache.xpath.compiler.Compiler int int )
+  Unable to fully structure code
+isProximateInnerExpr(org.apache.xpath.compiler.Compiler int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+org.apache.xpath.compiler.Lexer
+----------------------------
+
+tokenize(java.lang.String java.util.Vector )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+org.apache.xpath.functions.ObjectFactory
+----------------------------
+
+findJarServiceProviderName(java.lang.String )
+  Loose catch block
+lookUpFactoryClassName(java.lang.String java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+org.apache.xalan.templates.AVT
+----------------------------
+
+<init>(org.apache.xalan.processor.StylesheetHandler java.lang.String java.lang.String java.lang.String java.lang.String org.apache.xalan.templates.ElemTemplateElement )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [18[WHILELOOP]], but top level block is 4[TRYBLOCK]
+
+
+org.apache.xalan.transformer.TransformerImpl
+----------------------------
+
+transformToRTF(org.apache.xalan.templates.ElemTemplateElement org.apache.xml.dtm.DTM )
+  Loose catch block
+applyTemplateToNode(org.apache.xalan.templates.ElemTemplateElement org.apache.xalan.templates.ElemTemplate int )
+  Unable to fully structure code
+executeChildTemplates(org.apache.xalan.templates.ElemTemplateElement org.w3c.dom.Node org.apache.xml.utils.QName org.xml.sax.ContentHandler )
+  Unable to fully structure code
+executeChildTemplates(org.apache.xalan.templates.ElemTemplateElement org.xml.sax.ContentHandler )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+executeChildTemplates(org.apache.xalan.templates.ElemTemplateElement boolean )
+  Unable to fully structure code
+run()
+  Unable to fully structure code
+transform(javax.xml.transform.Source boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+transformNode(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 13[UNCONDITIONALDOLOOP]
+transformToString(org.apache.xalan.templates.ElemTemplateElement )
+  Loose catch block
+
+
+org.apache.xml.dtm.ref.DTMDefaultBase
+----------------------------
+
+dumpDTM(java.io.OutputStream )
+  Unable to fully structure code
+getTypedAttribute(int int )
+  Unable to fully structure code
+
+
+org.apache.xml.dtm.ref.DTMManagerDefault
+----------------------------
+
+getDTM(int )
+  Loose catch block
+getDTM(javax.xml.transform.Source boolean org.apache.xml.dtm.DTMWSFilter boolean boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+getDTMHandleFromNode(org.w3c.dom.Node )
+  Unable to fully structure code
+
+
+org.apache.xpath.XPath
+----------------------------
+
+bool(org.apache.xpath.XPathContext int org.apache.xml.utils.PrefixResolver )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+execute(org.apache.xpath.XPathContext int org.apache.xml.utils.PrefixResolver )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+
+
+org.apache.xpath.compiler.Compiler
+----------------------------
+
+getWhatToShow(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+org.apache.xpath.jaxp.JAXPExtensionsProvider
+----------------------------
+
+extFunction(java.lang.String java.lang.String java.util.Vector java.lang.Object )
+  Unable to fully structure code
+
+
+org.apache.xalan.templates.ElemNumber
+----------------------------
+
+formatNumberList(org.apache.xalan.transformer.TransformerImpl long[] int )
+  Unable to fully structure code
+getPreviousNode(org.apache.xpath.XPathContext int )
+  Unable to fully structure code
+
+
+org.apache.xalan.templates.RedundentExprEliminator
+----------------------------
+
+addVarDeclToElem(org.apache.xalan.templates.ElemTemplateElement org.apache.xpath.axes.LocPathIterator org.apache.xalan.templates.ElemVariable )
+  Unable to fully structure code
+
+
+org.apache.xalan.processor.ProcessorInclude
+----------------------------
+
+parse(org.apache.xalan.processor.StylesheetHandler java.lang.String java.lang.String java.lang.String org.xml.sax.Attributes )
+  Unable to fully structure code
+startElement(org.apache.xalan.processor.StylesheetHandler java.lang.String java.lang.String java.lang.String org.xml.sax.Attributes )
+  Unable to fully structure code
+
+
+org.apache.xalan.templates.ElemCopy
+----------------------------
+
+execute(org.apache.xalan.transformer.TransformerImpl )
+  Loose catch block
+
+
+org.apache.xalan.templates.ElemElement
+----------------------------
+
+execute(org.apache.xalan.transformer.TransformerImpl )
+  Unable to fully structure code
+
+
+org.apache.xalan.templates.ElemLiteralResult
+----------------------------
+
+execute(org.apache.xalan.transformer.TransformerImpl )
+  Loose catch block
+getNamedItem(java.lang.String )
+  Unable to fully structure code
+getNamedItemNS(java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+org.apache.xml.dtm.ref.DTMDefaultBaseIterators
+----------------------------
+
+next()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[DOLOOP]], but top level block is 3[SIMPLE_IF_TAKEN]
+next()
+  Unable to fully structure code
+
+
+org.apache.xml.serializer.ToStream
+----------------------------
+
+cdata(char[] int int )
+  Unable to fully structure code
+characters(char[] int int )
+  Unable to fully structure code
+comment(char[] int int )
+  Unable to fully structure code
+setProp(java.lang.String java.lang.String boolean )
+  Unable to fully structure code
+
+
+org.apache.xpath.axes.PredicatedNodeTest
+----------------------------
+
+acceptNode(int )
+  Loose catch block
+executePredicates(int org.apache.xpath.XPathContext )
+  Unable to fully structure code
+
+
+org.apache.xpath.patterns.StepPattern
+----------------------------
+
+checkProximityPosition(org.apache.xpath.XPathContext int org.apache.xml.dtm.DTM int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 23[UNCONDITIONALDOLOOP]
+getProximityPosition(org.apache.xpath.XPathContext int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 4 blocks at once
+executePredicates(org.apache.xpath.XPathContext org.apache.xml.dtm.DTM int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+org.apache.xalan.processor.ProcessorLRE
+----------------------------
+
+startElement(org.apache.xalan.processor.StylesheetHandler java.lang.String java.lang.String java.lang.String org.xml.sax.Attributes )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 12[CATCHBLOCK]
+
+
+org.apache.xalan.templates.ElemApplyTemplates
+----------------------------
+
+transformSelectedNodes(org.apache.xalan.transformer.TransformerImpl )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [12[TRYBLOCK]], but top level block is 47[WHILELOOP]
+
+
+org.apache.xml.serializer.ToHTMLStream
+----------------------------
+
+processingInstruction(java.lang.String java.lang.String )
+  Loose catch block
+
+
+org.apache.xml.serializer.ToXMLStream
+----------------------------
+
+processingInstruction(java.lang.String java.lang.String )
+  Loose catch block
+
+
+org.apache.xpath.functions.FuncSystemProperty
+----------------------------
+
+execute(org.apache.xpath.XPathContext )
+  Loose catch block
+
+
+org.apache.xpath.patterns.ContextMatchStepPattern
+----------------------------
+
+executeRelativePathPattern(org.apache.xpath.XPathContext org.apache.xpath.patterns.StepPattern )
+  Unable to fully structure code
+
+
+org.apache.xalan.templates.FuncDocument
+----------------------------
+
+getDoc(org.apache.xpath.XPathContext int java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+org.apache.xml.dtm.ref.sax2dtm.SAX2DTM2
+----------------------------
+
+next()
+  Unable to fully structure code
+next()
+  Unable to fully structure code
+next()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[DOLOOP]], but top level block is 4[SIMPLE_IF_TAKEN]
+next()
+  Unable to fully structure code
+
+
+org.apache.xpath.axes.FilterExprIteratorSimple
+----------------------------
+
+executeFilterExpr(int org.apache.xpath.XPathContext org.apache.xml.utils.PrefixResolver boolean int org.apache.xpath.Expression )
+  Loose catch block
+
+
+org.apache.xpath.axes.MatchPatternIterator
+----------------------------
+
+acceptNode(int org.apache.xpath.XPathContext )
+  Loose catch block
+
+
+org.apache.xpath.axes.UnionChildIterator
+----------------------------
+
+acceptNode(int )
+  Loose catch block
