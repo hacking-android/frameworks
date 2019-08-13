@@ -1,0 +1,18 @@
+Summary for /tmp/frameworksh3008liq/devices/google/Pixel 2/29/QPP6.190730.005/jar/ims-common.jar
+Decompiled with CFR 0.145
+
+
+com.android.ims.ImsManager
+----------------------------
+
+lambda$notifyStateChanged$0$ImsManager$Connector$1()
+  Unable to fully structure code
+
+
+com.android.ims.MmTelFeatureConnection
+----------------------------
+
+registerCallback(android.telephony.ims.aidl.IImsCapabilityCallback )
+  Loose catch block
+unregisterCallback(android.telephony.ims.aidl.IImsCapabilityCallback )
+  Loose catch block

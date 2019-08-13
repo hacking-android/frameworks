@@ -1,0 +1,4555 @@
+Summary for /tmp/frameworksh3008liq/devices/google/Pixel 2/29/QPP6.190730.005/jar/framework.jar
+Decompiled with CFR 0.145
+
+
+android.accounts.AccountManager
+----------------------------
+
+internalGetResult(java.lang.Long java.util.concurrent.TimeUnit )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+internalGetResult(java.lang.Long java.util.concurrent.TimeUnit )
+  Loose catch block
+run(android.accounts.AccountManagerFuture<android.os.Bundle> )
+  Loose catch block
+
+
+android.animation.AnimatorInflater
+----------------------------
+
+loadAnimator(android.content.res.Resources android.content.res.Resources$Theme int float )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+loadStateListAnimator(android.content.Context int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+
+
+android.app.DownloadManager
+----------------------------
+
+rename(android.content.Context long java.lang.String )
+  Unable to fully structure code
+getString(int )
+  Unable to fully structure code
+setDestinationInExternalPublicDir(java.lang.String java.lang.String )
+  Loose catch block
+
+
+android.app.Instrumentation
+----------------------------
+
+execStartActivity(android.content.Context android.os.IBinder android.os.IBinder android.app.Activity android.content.Intent int android.os.Bundle )
+  Loose catch block
+execStartActivityAsCaller(android.content.Context android.os.IBinder android.os.IBinder android.app.Activity android.content.Intent int android.os.Bundle android.os.IBinder boolean int )
+  Loose catch block
+
+
+android.app.LoadedApk
+----------------------------
+
+performReceive(android.content.Intent int java.lang.String android.os.Bundle boolean boolean int )
+  Unable to fully structure code
+
+
+android.app.LocalActivityManager
+----------------------------
+
+startActivity(java.lang.String android.content.Intent )
+  Unable to fully structure code
+
+
+android.app.QueuedWork
+----------------------------
+
+waitToFinish()
+  Loose catch block
+
+
+android.app.ResourcesManager
+----------------------------
+
+appendLibAssetsForMainAssetPath(java.lang.String java.lang.String[] )
+  Unable to fully structure code
+createBaseActivityResources(android.os.IBinder java.lang.String java.lang.String[] java.lang.String[] java.lang.String[] int android.content.res.Configuration android.content.res.CompatibilityInfo java.lang.ClassLoader )
+  Loose catch block
+getResources(android.os.IBinder java.lang.String java.lang.String[] java.lang.String[] java.lang.String[] int android.content.res.Configuration android.content.res.CompatibilityInfo java.lang.ClassLoader )
+  Loose catch block
+
+
+android.app.StatsManager
+----------------------------
+
+getRegisteredExperimentIds()
+  Loose catch block
+setActiveConfigsChangedOperation(android.app.PendingIntent )
+  Loose catch block
+
+
+android.app.SystemServiceRegistry
+----------------------------
+
+getService(android.app.ContextImpl )
+  Loose catch block
+
+
+android.app.UiAutomation
+----------------------------
+
+connect(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [15[UNCONDITIONALDOLOOP]], but top level block is 6[TRYBLOCK]
+disconnect()
+  Loose catch block
+executeAndWaitForEvent(java.lang.Runnable android.app.UiAutomation$AccessibilityEventFilter long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 29[UNCONDITIONALDOLOOP]
+
+
+android.app.VoiceInteractor
+----------------------------
+
+submitRequest(android.app.VoiceInteractor$Request java.lang.String )
+  Unable to fully structure code
+
+
+android.app.WallpaperManager
+----------------------------
+
+setBitmap(android.graphics.Bitmap android.graphics.Rect boolean int int )
+  Loose catch block
+setResource(int int )
+  Loose catch block
+setStream(java.io.InputStream android.graphics.Rect boolean int )
+  Loose catch block
+suggestDesiredDimensions(int int )
+  Unable to fully structure code
+getCurrentWallpaperLocked(android.content.Context int boolean )
+  Unable to fully structure code
+getDefaultWallpaper(android.content.Context int )
+  Loose catch block
+
+
+android.app.admin.DevicePolicyManager
+----------------------------
+
+generateKeyPair(android.content.ComponentName java.lang.String android.security.keystore.KeyGenParameterSpec int )
+  Loose catch block
+installKeyPair(android.content.ComponentName java.security.PrivateKey java.security.cert.Certificate[] java.lang.String int )
+  Loose catch block
+installSystemUpdate(android.content.ComponentName android.net.Uri java.util.concurrent.Executor android.app.admin.DevicePolicyManager$InstallSystemUpdateCallback )
+  Loose catch block
+setAlwaysOnVpnPackage(android.content.ComponentName java.lang.String boolean java.util.Set<java.lang.String> )
+  Unable to fully structure code
+setCrossProfileCalendarPackages(android.content.ComponentName java.util.Set<java.lang.String> )
+  Unable to fully structure code
+
+
+android.app.backup.BackupManager
+----------------------------
+
+selectBackupTransport(android.content.ComponentName android.app.backup.SelectBackupTransportCallback )
+  Unable to fully structure code
+
+
+android.app.backup.FullBackup
+----------------------------
+
+maybeParseBackupSchemeLocked()
+  Loose catch block
+
+
+android.app.backup.RestoreSession
+----------------------------
+
+endRestoreSession()
+  Unable to fully structure code
+
+
+android.app.slice.SliceManager
+----------------------------
+
+bindSlice(android.content.Intent java.util.Set<android.app.slice.SliceSpec> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+bindSlice(android.net.Uri java.util.Set<android.app.slice.SliceSpec> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+getSliceDescendants(android.net.Uri )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+mapIntentToUri(android.content.Intent )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.bluetooth.BluetoothAdapter
+----------------------------
+
+onBluetoothServiceDown()
+  Unable to fully structure code
+onBluetoothServiceUp(android.bluetooth.IBluetooth )
+  Unable to fully structure code
+addOnMetadataChangedListener(android.bluetooth.BluetoothDevice java.util.concurrent.Executor android.bluetooth.BluetoothAdapter$OnMetadataChangedListener )
+  Unable to fully structure code
+cancelDiscovery()
+  Loose catch block
+finalize()
+  Unable to fully structure code
+getBluetoothClass()
+  Loose catch block
+getBondedDevices()
+  Loose catch block
+getConnectionState()
+  Loose catch block
+getDiscoverableTimeout()
+  Loose catch block
+getDiscoveryEndMillis()
+  Loose catch block
+getIoCapability()
+  Loose catch block
+getLeIoCapability()
+  Loose catch block
+getLeMaximumAdvertisingDataLength()
+  Loose catch block
+getMaxConnectedAudioDevices()
+  Loose catch block
+getProfileConnectionState(int )
+  Loose catch block
+getScanMode()
+  Loose catch block
+getUuids()
+  Loose catch block
+isDiscovering()
+  Loose catch block
+isEnabled()
+  Loose catch block
+isLe2MPhySupported()
+  Loose catch block
+isLeCodedPhySupported()
+  Loose catch block
+isLeExtendedAdvertisingSupported()
+  Loose catch block
+isLePeriodicAdvertisingSupported()
+  Loose catch block
+isMultipleAdvertisementSupported()
+  Loose catch block
+isOffloadedFilteringSupported()
+  Loose catch block
+isOffloadedScanBatchingSupported()
+  Loose catch block
+requestControllerActivityEnergyInfo(android.os.ResultReceiver )
+  Unable to fully structure code
+setBluetoothClass(android.bluetooth.BluetoothClass )
+  Loose catch block
+setIoCapability(int )
+  Loose catch block
+setLeIoCapability(int )
+  Loose catch block
+setName(java.lang.String )
+  Loose catch block
+setScanMode(int int )
+  Loose catch block
+startDiscovery()
+  Loose catch block
+
+
+android.bluetooth.BluetoothProfileConnector
+----------------------------
+
+doUnbind()
+  Loose catch block
+
+
+android.bluetooth.BluetoothSocket
+----------------------------
+
+bindListen()
+  Loose catch block
+connect()
+  Unable to fully structure code
+
+
+android.bluetooth.le.BluetoothLeAdvertiser
+----------------------------
+
+startAdvertising(android.bluetooth.le.AdvertiseSettings android.bluetooth.le.AdvertiseData android.bluetooth.le.AdvertiseData android.bluetooth.le.AdvertiseCallback )
+  Unable to fully structure code
+
+
+android.bluetooth.le.BluetoothLeScanner
+----------------------------
+
+startScan(java.util.List<android.bluetooth.le.ScanFilter> android.bluetooth.le.ScanSettings android.os.WorkSource android.bluetooth.le.ScanCallback android.app.PendingIntent java.util.List<java.util.List<android.bluetooth.le.ResultStorageDescriptor>> )
+  Unable to fully structure code
+onScannerRegistered(int int )
+  Loose catch block
+
+
+android.bluetooth.le.PeriodicAdvertisingManager
+----------------------------
+
+registerSync(android.bluetooth.le.ScanResult int int android.bluetooth.le.PeriodicAdvertisingCallback android.os.Handler )
+  Loose catch block
+
+
+android.bluetooth.le.ScanRecord
+----------------------------
+
+parseFromBytes(byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [21[CASE]], but top level block is 1[TRYBLOCK]
+
+
+android.content.AbstractThreadedSyncAdapter
+----------------------------
+
+cancelSync(android.content.ISyncContext )
+  Unable to fully structure code
+run()
+  Unable to fully structure code
+
+
+android.content.RestrictionsManager
+----------------------------
+
+loadManifestRestrictions(java.lang.String android.content.res.XmlResourceParser )
+  Loose catch block
+
+
+android.content.UriMatcher
+----------------------------
+
+createChild(java.lang.String )
+  Unable to fully structure code
+
+
+android.content.pm.FallbackCategoryProvider
+----------------------------
+
+loadFallbacks()
+  Loose catch block
+
+
+android.content.pm.PackageInstaller
+----------------------------
+
+openSession(int )
+  Loose catch block
+
+
+android.content.pm.PackageParser
+----------------------------
+
+cacheResult(java.io.File int android.content.pm.PackageParser$Package )
+  Unable to fully structure code
+parseApkLite(java.lang.String org.xmlpull.v1.XmlPullParser android.util.AttributeSet android.content.pm.PackageParser$SigningDetails )
+  Unable to fully structure code
+parseApkLiteInner(java.io.File java.io.FileDescriptor java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 13[CATCHBLOCK]
+parseBaseApk(java.io.File android.content.res.AssetManager int )
+  Unable to fully structure code
+parseIntent(android.content.res.Resources android.content.res.XmlResourceParser boolean boolean android.content.pm.PackageParser$IntentInfo java.lang.String[] )
+  Unable to fully structure code
+parsePermission(android.content.pm.PackageParser$Package android.content.res.Resources android.content.res.XmlResourceParser java.lang.String[] )
+  Unable to fully structure code
+parseSplitApk(android.content.pm.PackageParser$Package int android.content.res.AssetManager int )
+  Unable to fully structure code
+parseMonolithicPackage(java.io.File int )
+  Loose catch block
+
+
+android.content.pm.RegisteredServicesCache
+----------------------------
+
+findOrCreateUserLocked(int boolean )
+  Unable to fully structure code
+generateServicesMap(int[] int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [8[WHILELOOP]], but top level block is 2[TRYBLOCK]
+migrateIfNecessaryLocked()
+  Unable to fully structure code
+parseServiceInfo(android.content.pm.ResolveInfo )
+  Unable to fully structure code
+
+
+android.content.pm.dex.DexMetadataHelper
+----------------------------
+
+validateDexMetadataFile(java.lang.String )
+  Loose catch block
+
+
+android.content.res.AssetManager
+----------------------------
+
+addAssetPathInternal(java.lang.String boolean boolean )
+  Unable to fully structure code
+loadStaticRuntimeOverlays(java.util.ArrayList<android.content.res.ApkAssets> )
+  Loose catch block
+
+
+android.content.res.ResourcesImpl
+----------------------------
+
+loadDrawableForCookie(android.content.res.Resources android.util.TypedValue int int )
+  Unable to fully structure code
+loadDrawable(android.content.res.Resources android.util.TypedValue int int android.content.res.Resources$Theme )
+  Unable to fully structure code
+loadFont(android.content.res.Resources android.util.TypedValue int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[CATCHBLOCK]], but top level block is 3[TRYBLOCK]
+
+
+android.database.DatabaseUtils
+----------------------------
+
+insertInternal(android.content.ContentValues boolean )
+  Loose catch block
+execute()
+  Loose catch block
+
+
+android.database.sqlite.SQLiteConnectionPool
+----------------------------
+
+waitForConnection(java.lang.String int android.os.CancellationSignal )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.database.sqlite.SQLiteOpenHelper
+----------------------------
+
+getDatabaseLocked(boolean )
+  Unable to fully structure code
+
+
+android.database.sqlite.SQLiteSession
+----------------------------
+
+endTransactionUnchecked(android.os.CancellationSignal boolean )
+  Unable to fully structure code
+
+
+android.ddm.DdmHandleViewDebug
+----------------------------
+
+captureLayers(android.view.View )
+  Loose catch block
+dumpHierarchy(android.view.View java.nio.ByteBuffer )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[SIMPLE_IF_TAKEN]], but top level block is 0[TRYBLOCK]
+profileView(android.view.View android.view.View )
+  Loose catch block
+
+
+android.drm.DrmManagerClient
+----------------------------
+
+convertUriToPath(android.net.Uri )
+  Loose catch block
+getOriginalMimeType(java.lang.String )
+  Loose catch block
+
+
+android.gamedriver.GameDriverProto
+----------------------------
+
+dynamicMethod(com.android.framework.protobuf.GeneratedMessageLite$MethodToInvoke java.lang.Object java.lang.Object )
+  Loose catch block
+dynamicMethod(com.android.framework.protobuf.GeneratedMessageLite$MethodToInvoke java.lang.Object java.lang.Object )
+  Loose catch block
+
+
+android.graphics.BitmapFactory
+----------------------------
+
+decodeFile(java.lang.String android.graphics.BitmapFactory$Options )
+  Loose catch block
+decodeFileDescriptor(java.io.FileDescriptor android.graphics.Rect android.graphics.BitmapFactory$Options )
+  Unable to fully structure code
+decodeResource(android.content.res.Resources int android.graphics.BitmapFactory$Options )
+  Loose catch block
+
+
+android.graphics.FontFamily
+----------------------------
+
+addFont(java.lang.String int android.graphics.fonts.FontVariationAxis[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+android.graphics.ImageDecoder
+----------------------------
+
+decodeDrawableImpl(android.graphics.ImageDecoder$Source android.graphics.ImageDecoder$OnHeaderDecodedListener )
+  Unable to fully structure code
+isMimeTypeSupported(java.lang.String )
+  Unable to fully structure code
+
+
+android.graphics.PixelFormat
+----------------------------
+
+getPixelFormatInfo(int android.graphics.PixelFormat )
+  Unable to fully structure code
+
+
+android.graphics.Typeface
+----------------------------
+
+createFromResources(android.content.res.FontResourcesParser$FamilyResourceEntry android.content.res.AssetManager java.lang.String )
+  Unable to fully structure code
+build()
+  Unable to fully structure code
+
+
+android.graphics.drawable.Drawable
+----------------------------
+
+createFromPath(java.lang.String )
+  Loose catch block
+getBitmapDrawable(android.content.res.Resources android.util.TypedValue java.io.InputStream )
+  Unable to fully structure code
+
+
+android.graphics.drawable.DrawableInflater
+----------------------------
+
+inflateFromTag(java.lang.String )
+  Unable to fully structure code
+
+
+android.graphics.fonts.Font
+----------------------------
+
+<init>(android.os.ParcelFileDescriptor long long )
+  Loose catch block
+<init>(java.io.File )
+  Loose catch block
+
+
+android.graphics.fonts.FontFileUtil
+----------------------------
+
+analyzeStyle(java.nio.ByteBuffer int android.graphics.fonts.FontVariationAxis[] )
+  Unable to fully structure code
+
+
+android.graphics.fonts.SystemFonts
+----------------------------
+
+createFontFamily(java.lang.String java.util.List<android.text.FontConfig$Font> java.lang.String int java.util.Map<java.lang.String, java.nio.ByteBuffer> java.util.ArrayList<android.graphics.fonts.Font> )
+  Unable to fully structure code
+mmap(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.graphics.pdf.PdfEditor
+----------------------------
+
+<init>(android.os.ParcelFileDescriptor )
+  Loose catch block
+
+
+android.graphics.pdf.PdfRenderer
+----------------------------
+
+<init>(android.os.ParcelFileDescriptor )
+  Loose catch block
+
+
+android.hardware.Camera
+----------------------------
+
+updateAppOpsPlayAudio()
+  Unable to fully structure code
+setPreviewCallbackAllocation(android.renderscript.Allocation )
+  Unable to fully structure code
+
+
+android.hardware.camera2.CameraManager
+----------------------------
+
+openCameraDeviceUserAsync(java.lang.String android.hardware.camera2.CameraDevice$StateCallback java.util.concurrent.Executor int )
+  Unable to fully structure code
+connectCameraServiceLocked()
+  Loose catch block
+
+
+android.hardware.camera2.legacy.LegacyCameraDevice
+----------------------------
+
+configureOutputs(android.util.SparseArray<android.view.Surface> boolean )
+  Unable to fully structure code
+finalize()
+  Unable to fully structure code
+
+
+android.hardware.camera2.legacy.LegacyFocusStateMapper
+----------------------------
+
+processRequestTriggers(android.hardware.camera2.CaptureRequest android.hardware.Camera$Parameters )
+  Unable to fully structure code
+onAutoFocusMoving(boolean android.hardware.Camera )
+  Unable to fully structure code
+onAutoFocus(boolean android.hardware.Camera )
+  Unable to fully structure code
+
+
+android.hardware.camera2.legacy.LegacyMetadataMapper
+----------------------------
+
+convertAntiBandingMode(java.lang.String )
+  Unable to fully structure code
+createRequestTemplate(android.hardware.camera2.CameraCharacteristics int )
+  Unable to fully structure code
+
+
+android.hardware.camera2.legacy.LegacyResultMapper
+----------------------------
+
+convertLegacyAfMode(java.lang.String )
+  Unable to fully structure code
+convertLegacyAwbMode(java.lang.String )
+  Unable to fully structure code
+mapAeAndFlashMode(android.hardware.camera2.impl.CameraMetadataNative android.hardware.camera2.CameraCharacteristics android.hardware.Camera$Parameters )
+  Unable to fully structure code
+
+
+android.hardware.camera2.legacy.PerfMeasurement
+----------------------------
+
+dumpPerformanceData(java.lang.String )
+  Loose catch block
+
+
+android.hardware.camera2.legacy.RequestThreadManager
+----------------------------
+
+handleMessage(android.os.Message )
+  Exception : java.lang.IllegalStateException: Backjump on non jumping statement [] lbl133 : TryStatement: try { 11[TRYBLOCK]
+
+
+
+android.hardware.display.DisplayManager
+----------------------------
+
+getDisplays(java.lang.String )
+  Unable to fully structure code
+
+
+android.hardware.display.DisplayManagerGlobal
+----------------------------
+
+createVirtualDisplay(android.content.Context android.media.projection.MediaProjection java.lang.String int int int android.view.Surface int android.hardware.display.VirtualDisplay$Callback android.os.Handler java.lang.String )
+  Loose catch block
+
+
+android.hardware.display.NightDisplayListener
+----------------------------
+
+onChange(boolean android.net.Uri )
+  Unable to fully structure code
+
+
+android.hardware.soundtrigger.KeyphraseEnrollmentInfo
+----------------------------
+
+getKeyphraseMetadataFromApplicationInfo(android.content.pm.PackageManager android.content.pm.ApplicationInfo java.util.List<java.lang.String> )
+  Unable to fully structure code
+
+
+android.hardware.usb.DeviceFilter
+----------------------------
+
+read(org.xmlpull.v1.XmlPullParser )
+  Loose catch block
+
+
+android.hardware.usb.UsbRequest
+----------------------------
+
+dequeue(boolean )
+  Unable to fully structure code
+
+
+android.inputmethodservice.Keyboard
+----------------------------
+
+loadKeyboard(android.content.Context android.content.res.XmlResourceParser )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [17[UNCONDITIONALDOLOOP]], but top level block is 5[TRYBLOCK]
+
+
+android.location.LocalListenerHelper
+----------------------------
+
+add(TListener android.os.Handler )
+  Unable to fully structure code
+
+
+android.accessibilityservice.AccessibilityServiceInfo
+----------------------------
+
+<init>(android.content.pm.ResolveInfo android.content.Context )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[WHILELOOP]], but top level block is 1[TRYBLOCK]
+
+
+android.accessibilityservice.IAccessibilityServiceConnection
+----------------------------
+
+findAccessibilityNodeInfoByAccessibilityId(int long int android.view.accessibility.IAccessibilityInteractionConnectionCallback int long android.os.Bundle )
+  Loose catch block
+findAccessibilityNodeInfosByText(int long java.lang.String int android.view.accessibility.IAccessibilityInteractionConnectionCallback long )
+  Loose catch block
+findAccessibilityNodeInfosByViewId(int long java.lang.String int android.view.accessibility.IAccessibilityInteractionConnectionCallback long )
+  Loose catch block
+findFocus(int long int int android.view.accessibility.IAccessibilityInteractionConnectionCallback long )
+  Loose catch block
+focusSearch(int long int int android.view.accessibility.IAccessibilityInteractionConnectionCallback long )
+  Loose catch block
+performAccessibilityAction(int long int android.os.Bundle int android.view.accessibility.IAccessibilityInteractionConnectionCallback long )
+  Loose catch block
+setMagnificationScaleAndCenter(int float float float boolean )
+  Loose catch block
+
+
+android.accounts.IAccountManager
+----------------------------
+
+addAccount(android.accounts.IAccountManagerResponse java.lang.String java.lang.String java.lang.String[] boolean android.os.Bundle )
+  Loose catch block
+addAccountAsUser(android.accounts.IAccountManagerResponse java.lang.String java.lang.String java.lang.String[] boolean android.os.Bundle int )
+  Loose catch block
+getAuthToken(android.accounts.IAccountManagerResponse android.accounts.Account java.lang.String boolean boolean android.os.Bundle )
+  Loose catch block
+startAddAccountSession(android.accounts.IAccountManagerResponse java.lang.String java.lang.String java.lang.String[] boolean android.os.Bundle )
+  Loose catch block
+
+
+android.app.ActivityThread
+----------------------------
+
+callActivityOnStop(android.app.ActivityThread$ActivityClientRecord boolean java.lang.String )
+  Loose catch block
+handleBindApplication(android.app.ActivityThread$AppBindData )
+  Unable to fully structure code
+handleCreateBackupAgent(android.app.ActivityThread$CreateBackupAgentData )
+  Unable to fully structure code
+handleDumpHeap(android.app.ActivityThread$DumpHeapData )
+  Loose catch block
+handleReceiver(android.app.ActivityThread$ReceiverData )
+  Loose catch block
+handleUnbindService(android.app.ActivityThread$BindServiceData )
+  Unable to fully structure code
+installProvider(android.content.Context android.app.ContentProviderHolder android.content.pm.ProviderInfo boolean boolean boolean )
+  Loose catch block
+installProviderAuthoritiesLocked(android.content.IContentProvider android.content.ContentProvider android.app.ContentProviderHolder )
+  Unable to fully structure code
+performLaunchActivity(android.app.ActivityThread$ActivityClientRecord android.content.Intent )
+  Unable to fully structure code
+performPauseActivityIfNeeded(android.app.ActivityThread$ActivityClientRecord java.lang.String )
+  Loose catch block
+setupGraphicsSupport(android.content.Context )
+  Unable to fully structure code
+handleDispatchPackageBroadcast(int java.lang.String[] )
+  Loose catch block
+handleProfilerControl(boolean android.app.ProfilerInfo int )
+  Unable to fully structure code
+handleRequestAssistContextExtras(android.app.ActivityThread$RequestAssistContextExtras )
+  Loose catch block
+performDestroyActivity(android.os.IBinder boolean int boolean java.lang.String )
+  Unable to fully structure code
+dumpDbInfo(android.os.ParcelFileDescriptor java.lang.String[] )
+  Loose catch block
+
+
+android.app.ApplicationPackageManager
+----------------------------
+
+getBadgedDrawable(android.graphics.drawable.Drawable android.graphics.drawable.Drawable android.graphics.Rect boolean )
+  Unable to fully structure code
+
+
+android.app.ContextImpl
+----------------------------
+
+bindServiceCommon(android.content.Intent android.content.ServiceConnection int java.lang.String android.os.Handler java.util.concurrent.Executor android.os.UserHandle )
+  Loose catch block
+createActivityContext(android.app.ActivityThread android.app.LoadedApk android.content.pm.ActivityInfo android.os.IBinder int android.content.res.Configuration )
+  Loose catch block
+startIntentSender(android.content.IntentSender android.content.Intent int int int android.os.Bundle )
+  Unable to fully structure code
+
+
+android.app.IActivityController
+----------------------------
+
+appCrashed(java.lang.String int java.lang.String java.lang.String long java.lang.String )
+  Loose catch block
+
+
+android.app.IActivityManager
+----------------------------
+
+bindIsolatedService(android.app.IApplicationThread android.os.IBinder android.content.Intent java.lang.String android.app.IServiceConnection int java.lang.String java.lang.String int )
+  Loose catch block
+bindService(android.app.IApplicationThread android.os.IBinder android.content.Intent java.lang.String android.app.IServiceConnection int java.lang.String int )
+  Loose catch block
+broadcastIntent(android.app.IApplicationThread android.content.Intent java.lang.String android.content.IIntentReceiver int java.lang.String android.os.Bundle java.lang.String[] int android.os.Bundle boolean boolean int )
+  Unable to fully structure code
+checkUriPermission(android.net.Uri int int int int android.os.IBinder )
+  Loose catch block
+dumpHeap(java.lang.String int boolean boolean boolean java.lang.String android.os.ParcelFileDescriptor android.os.RemoteCallback )
+  Loose catch block
+finishReceiver(android.os.IBinder int java.lang.String android.os.Bundle boolean int )
+  Loose catch block
+getIntentSender(int java.lang.String android.os.IBinder java.lang.String int android.content.Intent[] java.lang.String[] int android.os.Bundle int )
+  Loose catch block
+handleIncomingUser(int int int boolean boolean java.lang.String java.lang.String )
+  Loose catch block
+profileControl(java.lang.String int boolean android.app.ProfilerInfo int )
+  Loose catch block
+registerReceiver(android.app.IApplicationThread java.lang.String android.content.IIntentReceiver android.content.IntentFilter java.lang.String int int )
+  Loose catch block
+resizeStack(int android.graphics.Rect boolean boolean boolean int )
+  Loose catch block
+sendIntentSender(android.content.IIntentSender android.os.IBinder int android.content.Intent java.lang.String android.content.IIntentReceiver java.lang.String android.os.Bundle )
+  Loose catch block
+setServiceForeground(android.content.ComponentName android.os.IBinder int android.app.Notification int int )
+  Loose catch block
+startActivity(android.app.IApplicationThread java.lang.String android.content.Intent java.lang.String android.os.IBinder java.lang.String int int android.app.ProfilerInfo android.os.Bundle )
+  Unable to fully structure code
+startActivityAsUser(android.app.IApplicationThread java.lang.String android.content.Intent java.lang.String android.os.IBinder java.lang.String int int android.app.ProfilerInfo android.os.Bundle int )
+  Unable to fully structure code
+startInstrumentation(android.content.ComponentName java.lang.String int android.os.Bundle android.app.IInstrumentationWatcher android.app.IUiAutomationConnection int java.lang.String )
+  Loose catch block
+startService(android.app.IApplicationThread android.content.Intent java.lang.String boolean java.lang.String int )
+  Loose catch block
+
+
+android.app.IActivityTaskManager
+----------------------------
+
+launchAssistIntent(android.content.Intent int java.lang.String int android.os.Bundle )
+  Loose catch block
+requestAssistContextExtras(int android.app.IAssistDataReceiver android.os.Bundle android.os.IBinder boolean boolean )
+  Loose catch block
+resizeStack(int android.graphics.Rect boolean boolean boolean int )
+  Loose catch block
+setTaskWindowingModeSplitScreenPrimary(int int boolean boolean android.graphics.Rect boolean )
+  Loose catch block
+startActivities(android.app.IApplicationThread java.lang.String android.content.Intent[] java.lang.String[] android.os.IBinder android.os.Bundle int )
+  Loose catch block
+startActivity(android.app.IApplicationThread java.lang.String android.content.Intent java.lang.String android.os.IBinder java.lang.String int int android.app.ProfilerInfo android.os.Bundle )
+  Unable to fully structure code
+startActivityAndWait(android.app.IApplicationThread java.lang.String android.content.Intent java.lang.String android.os.IBinder java.lang.String int int android.app.ProfilerInfo android.os.Bundle int )
+  Unable to fully structure code
+startActivityAsCaller(android.app.IApplicationThread java.lang.String android.content.Intent java.lang.String android.os.IBinder java.lang.String int int android.app.ProfilerInfo android.os.Bundle android.os.IBinder boolean int )
+  Unable to fully structure code
+startActivityAsUser(android.app.IApplicationThread java.lang.String android.content.Intent java.lang.String android.os.IBinder java.lang.String int int android.app.ProfilerInfo android.os.Bundle int )
+  Unable to fully structure code
+startActivityIntentSender(android.app.IApplicationThread android.content.IIntentSender android.os.IBinder android.content.Intent java.lang.String android.os.IBinder java.lang.String int int int android.os.Bundle )
+  Unable to fully structure code
+startActivityWithConfig(android.app.IApplicationThread java.lang.String android.content.Intent java.lang.String android.os.IBinder java.lang.String int int android.content.res.Configuration android.os.Bundle int )
+  Unable to fully structure code
+startAssistantActivity(java.lang.String int int android.content.Intent java.lang.String android.os.Bundle int )
+  Loose catch block
+startVoiceActivity(java.lang.String int int android.content.Intent java.lang.String android.service.voice.IVoiceInteractionSession com.android.internal.app.IVoiceInteractor int android.app.ProfilerInfo android.os.Bundle int )
+  Unable to fully structure code
+
+
+android.app.IAlarmManager
+----------------------------
+
+set(java.lang.String int long long long int android.app.PendingIntent android.app.IAlarmListener java.lang.String android.os.WorkSource android.app.AlarmManager$AlarmClockInfo )
+  Unable to fully structure code
+
+
+android.app.IApplicationThread
+----------------------------
+
+bindApplication(java.lang.String android.content.pm.ApplicationInfo java.util.List<android.content.pm.ProviderInfo> android.content.ComponentName android.app.ProfilerInfo android.os.Bundle android.app.IInstrumentationWatcher android.app.IUiAutomationConnection int boolean boolean boolean boolean android.content.res.Configuration android.content.res.CompatibilityInfo java.util.Map android.os.Bundle java.lang.String android.content.AutofillOptions android.content.ContentCaptureOptions )
+  Unable to fully structure code
+dumpHeap(boolean boolean boolean java.lang.String android.os.ParcelFileDescriptor android.os.RemoteCallback )
+  Loose catch block
+dumpMemInfo(android.os.ParcelFileDescriptor android.os.Debug$MemoryInfo boolean boolean boolean boolean boolean java.lang.String[] )
+  Loose catch block
+dumpMemInfoProto(android.os.ParcelFileDescriptor android.os.Debug$MemoryInfo boolean boolean boolean boolean java.lang.String[] )
+  Loose catch block
+scheduleRegisteredReceiver(android.content.IIntentReceiver android.content.Intent int java.lang.String android.os.Bundle boolean boolean int int )
+  Loose catch block
+
+
+android.app.IBackupAgent
+----------------------------
+
+doBackup(android.os.ParcelFileDescriptor android.os.ParcelFileDescriptor android.os.ParcelFileDescriptor long android.app.backup.IBackupCallback int )
+  Loose catch block
+doFullBackup(android.os.ParcelFileDescriptor long int android.app.backup.IBackupManager int )
+  Loose catch block
+doRestore(android.os.ParcelFileDescriptor long android.os.ParcelFileDescriptor int android.app.backup.IBackupManager )
+  Loose catch block
+
+
+android.app.IInstantAppResolver
+----------------------------
+
+getInstantAppResolveInfoList(android.content.Intent int[] int java.lang.String int android.os.IRemoteCallback )
+  Loose catch block
+
+
+android.app.INotificationManager
+----------------------------
+
+enqueueNotificationWithTag(java.lang.String java.lang.String java.lang.String int android.app.Notification int )
+  Loose catch block
+
+
+android.app.IUriGrantsManager
+----------------------------
+
+grantUriPermissionFromOwner(android.os.IBinder int java.lang.String android.net.Uri int int int )
+  Loose catch block
+
+
+android.app.IWallpaperManager
+----------------------------
+
+getWallpaper(java.lang.String android.app.IWallpaperManagerCallback int android.os.Bundle int )
+  Loose catch block
+setWallpaper(java.lang.String java.lang.String android.graphics.Rect boolean android.os.Bundle int android.app.IWallpaperManagerCallback int )
+  Loose catch block
+
+
+android.app.Notification
+----------------------------
+
+makeBigContentView()
+  Unable to fully structure code
+
+
+android.app.PendingIntent
+----------------------------
+
+getActivity(android.content.Context int android.content.Intent int android.os.Bundle )
+  Loose catch block
+getActivityAsUser(android.content.Context int android.content.Intent int android.os.Bundle android.os.UserHandle )
+  Loose catch block
+sendAndReturnResult(android.content.Context int android.content.Intent android.app.PendingIntent$OnFinished android.os.Handler java.lang.String android.os.Bundle )
+  Unable to fully structure code
+
+
+android.app.SharedPreferencesImpl
+----------------------------
+
+loadFromDisk()
+  Unable to fully structure code
+writeToFile(android.app.SharedPreferencesImpl$MemoryCommitResult boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+android.app.WallpaperInfo
+----------------------------
+
+<init>(android.content.Context android.content.pm.ResolveInfo )
+  Unable to fully structure code
+
+
+android.app.admin.DeviceAdminInfo
+----------------------------
+
+<init>(android.content.Context android.content.pm.ActivityInfo )
+  Unable to fully structure code
+
+
+android.app.admin.IDevicePolicyManager
+----------------------------
+
+bindDeviceAdminServiceAsUser(android.content.ComponentName android.app.IApplicationThread android.os.IBinder android.content.Intent android.app.IServiceConnection int int )
+  Loose catch block
+generateKeyPair(android.content.ComponentName java.lang.String java.lang.String android.security.keystore.ParcelableKeyGenParameterSpec int android.security.keymaster.KeymasterCertificateChain )
+  Loose catch block
+installKeyPair(android.content.ComponentName java.lang.String byte[] byte[] byte[] java.lang.String boolean boolean )
+  Loose catch block
+setKeyPairCertificate(android.content.ComponentName java.lang.String java.lang.String byte[] byte[] boolean )
+  Loose catch block
+setPermissionGrantState(android.content.ComponentName java.lang.String java.lang.String java.lang.String int android.os.RemoteCallback )
+  Loose catch block
+startManagedQuickContact(java.lang.String long boolean long android.content.Intent )
+  Loose catch block
+startViewCalendarEventInManagedProfile(java.lang.String long long long boolean int )
+  Loose catch block
+
+
+android.app.backup.BlobBackupHelper
+----------------------------
+
+performBackup(android.os.ParcelFileDescriptor android.app.backup.BackupDataOutput android.os.ParcelFileDescriptor )
+  Loose catch block
+
+
+android.app.backup.IBackupManager
+----------------------------
+
+acknowledgeFullBackupOrRestoreForUser(int int boolean java.lang.String java.lang.String android.app.backup.IFullBackupRestoreObserver )
+  Loose catch block
+updateTransportAttributesForUser(int android.content.ComponentName java.lang.String android.content.Intent java.lang.String android.content.Intent java.lang.CharSequence )
+  Loose catch block
+
+
+android.app.backup.WallpaperBackupHelper
+----------------------------
+
+restoreEntity(android.app.backup.BackupDataInputStream )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 4 blocks at once
+
+
+android.app.slice.ISliceManager
+----------------------------
+
+checkSlicePermission(android.net.Uri java.lang.String java.lang.String int int java.lang.String[] )
+  Loose catch block
+
+
+android.app.slice.SliceItem
+----------------------------
+
+readObj(java.lang.String android.os.Parcel )
+  Unable to fully structure code
+writeObj(android.os.Parcel int java.lang.Object java.lang.String )
+  Unable to fully structure code
+
+
+android.app.usage.IUsageStatsManager
+----------------------------
+
+queryConfigurationStats(int long long java.lang.String )
+  Loose catch block
+queryEventStats(int long long java.lang.String )
+  Loose catch block
+queryEventsForPackageForUser(long long int java.lang.String java.lang.String )
+  Loose catch block
+queryEventsForUser(long long int java.lang.String )
+  Loose catch block
+queryUsageStats(int long long java.lang.String )
+  Loose catch block
+registerAppUsageLimitObserver(int java.lang.String[] long long android.app.PendingIntent java.lang.String )
+  Loose catch block
+registerAppUsageObserver(int java.lang.String[] long android.app.PendingIntent java.lang.String )
+  Loose catch block
+registerUsageSessionObserver(int java.lang.String[] long long android.app.PendingIntent android.app.PendingIntent java.lang.String )
+  Loose catch block
+
+
+android.app.usage.UsageStats
+----------------------------
+
+update(java.lang.String long int int )
+  Unable to fully structure code
+
+
+android.bluetooth.BluetoothA2dp
+----------------------------
+
+setOptionalCodecsEnabled(android.bluetooth.BluetoothDevice int )
+  Unable to fully structure code
+
+
+android.bluetooth.BluetoothDevice
+----------------------------
+
+connectGatt(android.content.Context boolean android.bluetooth.BluetoothGattCallback int boolean int android.os.Handler )
+  Loose catch block
+
+
+android.bluetooth.BluetoothGatt
+----------------------------
+
+requestLeConnectionUpdate(int int int int int int )
+  Loose catch block
+
+
+android.bluetooth.BluetoothHeadset
+----------------------------
+
+doUnbind()
+  Loose catch block
+
+
+android.bluetooth.BluetoothHearingAid
+----------------------------
+
+adjustVolume(int )
+  Unable to fully structure code
+setVolume(int )
+  Unable to fully structure code
+
+
+android.bluetooth.BluetoothPbap
+----------------------------
+
+doUnbind()
+  Loose catch block
+
+
+android.bluetooth.IBluetoothGatt
+----------------------------
+
+clientConnect(int java.lang.String boolean int boolean int )
+  Loose catch block
+leConnectionUpdate(int java.lang.String int int int int int int )
+  Loose catch block
+readUsingCharacteristicUuid(int java.lang.String android.os.ParcelUuid int int int )
+  Loose catch block
+sendResponse(int java.lang.String int int int byte[] )
+  Loose catch block
+startAdvertisingSet(android.bluetooth.le.AdvertisingSetParameters android.bluetooth.le.AdvertiseData android.bluetooth.le.AdvertiseData android.bluetooth.le.PeriodicAdvertisingParameters android.bluetooth.le.AdvertiseData int int android.bluetooth.le.IAdvertisingSetCallback )
+  Unable to fully structure code
+writeCharacteristic(int java.lang.String int int int byte[] )
+  Loose catch block
+
+
+android.bluetooth.IBluetoothGattServerCallback
+----------------------------
+
+onCharacteristicWriteRequest(java.lang.String int int int boolean boolean int byte[] )
+  Loose catch block
+onDescriptorWriteRequest(java.lang.String int int int boolean boolean int byte[] )
+  Loose catch block
+
+
+android.bluetooth.IBluetoothHeadset
+----------------------------
+
+clccResponse(int int int int boolean java.lang.String int )
+  Loose catch block
+phoneStateChanged(int int int java.lang.String int java.lang.String )
+  Loose catch block
+
+
+android.bluetooth.IBluetoothMapClient
+----------------------------
+
+sendMessage(android.bluetooth.BluetoothDevice android.net.Uri[] java.lang.String android.app.PendingIntent android.app.PendingIntent )
+  Loose catch block
+
+
+android.bluetooth.le.IPeriodicAdvertisingCallback
+----------------------------
+
+onSyncEstablished(int android.bluetooth.BluetoothDevice int int int int )
+  Loose catch block
+
+
+android.content.ClipData
+----------------------------
+
+readHtmlTextFromParcel(android.os.Parcel )
+  Loose catch block
+coerceToHtmlOrStyledText(android.content.Context boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+coerceToText(android.content.Context )
+  Loose catch block
+
+
+android.content.ContentProviderClient
+----------------------------
+
+applyBatch(java.lang.String java.util.ArrayList<android.content.ContentProviderOperation> )
+  Loose catch block
+bulkInsert(android.net.Uri android.content.ContentValues[] )
+  Loose catch block
+call(java.lang.String java.lang.String java.lang.String android.os.Bundle )
+  Loose catch block
+canonicalize(android.net.Uri )
+  Loose catch block
+delete(android.net.Uri java.lang.String java.lang.String[] )
+  Loose catch block
+getStreamTypes(android.net.Uri java.lang.String )
+  Loose catch block
+getType(android.net.Uri )
+  Loose catch block
+insert(android.net.Uri android.content.ContentValues )
+  Loose catch block
+openAssetFile(android.net.Uri java.lang.String android.os.CancellationSignal )
+  Unable to fully structure code
+openFile(android.net.Uri java.lang.String android.os.CancellationSignal )
+  Unable to fully structure code
+openTypedAssetFile(android.net.Uri java.lang.String android.os.Bundle android.os.CancellationSignal )
+  Unable to fully structure code
+query(android.net.Uri java.lang.String[] android.os.Bundle android.os.CancellationSignal )
+  Unable to fully structure code
+refresh(android.net.Uri android.os.Bundle android.os.CancellationSignal )
+  Unable to fully structure code
+uncanonicalize(android.net.Uri )
+  Loose catch block
+update(android.net.Uri android.content.ContentValues java.lang.String java.lang.String[] )
+  Loose catch block
+
+
+android.content.ContentResolver
+----------------------------
+
+getType(android.net.Uri )
+  Loose catch block
+openAssetFileDescriptor(android.net.Uri java.lang.String android.os.CancellationSignal )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 12[CATCHBLOCK]
+openTypedAssetFileDescriptor(android.net.Uri java.lang.String android.os.Bundle android.os.CancellationSignal )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 12[CATCHBLOCK]
+query(android.net.Uri java.lang.String[] android.os.Bundle android.os.CancellationSignal )
+  Loose catch block
+refresh(android.net.Uri android.os.Bundle android.os.CancellationSignal )
+  Unable to fully structure code
+update(android.net.Uri android.content.ContentValues java.lang.String java.lang.String[] )
+  Loose catch block
+
+
+android.content.IContentService
+----------------------------
+
+notifyChange(android.net.Uri android.database.IContentObserver boolean int int int java.lang.String )
+  Loose catch block
+
+
+android.content.IIntentReceiver
+----------------------------
+
+performReceive(android.content.Intent int java.lang.String android.os.Bundle boolean boolean int )
+  Loose catch block
+
+
+android.content.IIntentSender
+----------------------------
+
+send(int android.content.Intent java.lang.String android.os.IBinder android.content.IIntentReceiver java.lang.String android.os.Bundle )
+  Loose catch block
+
+
+android.content.Intent
+----------------------------
+
+getIntentOld(java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[CASE]], but top level block is 3[TRYBLOCK]
+parseCommandArgs(android.os.ShellCommand android.content.Intent$CommandOptionHandler )
+  Unable to fully structure code
+parseUri(java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [8[UNCONDITIONALDOLOOP]], but top level block is 3[TRYBLOCK]
+prepareToLeaveProcess(boolean )
+  Unable to fully structure code
+
+
+android.content.IntentSender
+----------------------------
+
+sendIntent(android.content.Context int android.content.Intent android.content.IntentSender$OnFinished android.os.Handler java.lang.String )
+  Unable to fully structure code
+
+
+android.content.LoggingContentInterface
+----------------------------
+
+applyBatch(java.lang.String java.util.ArrayList<android.content.ContentProviderOperation> )
+  Loose catch block
+bulkInsert(android.net.Uri android.content.ContentValues[] )
+  Loose catch block
+call(java.lang.String java.lang.String java.lang.String android.os.Bundle )
+  Loose catch block
+canonicalize(android.net.Uri )
+  Loose catch block
+delete(android.net.Uri java.lang.String java.lang.String[] )
+  Loose catch block
+getStreamTypes(android.net.Uri java.lang.String )
+  Loose catch block
+getType(android.net.Uri )
+  Loose catch block
+insert(android.net.Uri android.content.ContentValues )
+  Loose catch block
+openAssetFile(android.net.Uri java.lang.String android.os.CancellationSignal )
+  Loose catch block
+openFile(android.net.Uri java.lang.String android.os.CancellationSignal )
+  Loose catch block
+openTypedAssetFile(android.net.Uri java.lang.String android.os.Bundle android.os.CancellationSignal )
+  Loose catch block
+query(android.net.Uri java.lang.String[] android.os.Bundle android.os.CancellationSignal )
+  Loose catch block
+refresh(android.net.Uri android.os.Bundle android.os.CancellationSignal )
+  Loose catch block
+uncanonicalize(android.net.Uri )
+  Loose catch block
+update(android.net.Uri android.content.ContentValues java.lang.String java.lang.String[] )
+  Loose catch block
+
+
+android.content.pm.ILauncherApps
+----------------------------
+
+getShortcuts(java.lang.String long java.lang.String java.util.List android.content.ComponentName int android.os.UserHandle )
+  Loose catch block
+showAppDetailsAsUser(android.app.IApplicationThread java.lang.String android.content.ComponentName android.graphics.Rect android.os.Bundle android.os.UserHandle )
+  Loose catch block
+startActivityAsUser(android.app.IApplicationThread java.lang.String android.content.ComponentName android.graphics.Rect android.os.Bundle android.os.UserHandle )
+  Loose catch block
+startSessionDetailsActivityAsUser(android.app.IApplicationThread java.lang.String android.content.pm.PackageInstaller$SessionInfo android.graphics.Rect android.os.Bundle android.os.UserHandle )
+  Loose catch block
+startShortcut(java.lang.String java.lang.String java.lang.String android.graphics.Rect android.os.Bundle int )
+  Loose catch block
+
+
+android.content.pm.IPackageInstaller
+----------------------------
+
+installExistingPackage(java.lang.String int int android.content.IntentSender int java.util.List<java.lang.String> )
+  Loose catch block
+
+
+android.content.pm.IPackageInstallerSession
+----------------------------
+
+write(java.lang.String long long android.os.ParcelFileDescriptor )
+  Loose catch block
+
+
+android.content.pm.IPackageManager
+----------------------------
+
+performDexOptMode(java.lang.String boolean java.lang.String boolean boolean java.lang.String )
+  Loose catch block
+queryIntentActivityOptions(android.content.ComponentName android.content.Intent[] java.lang.String[] android.content.Intent java.lang.String int int )
+  Loose catch block
+setLastChosenActivity(android.content.Intent java.lang.String int android.content.IntentFilter int android.content.ComponentName )
+  Loose catch block
+setPackagesSuspendedAsUser(java.lang.String[] boolean android.os.PersistableBundle android.os.PersistableBundle android.content.pm.SuspendDialogInfo java.lang.String int )
+  Loose catch block
+updatePermissionFlags(java.lang.String java.lang.String int int boolean int )
+  Loose catch block
+
+
+android.content.pm.PackageBackwardCompatibility
+----------------------------
+
+addOptionalUpdater(java.util.List<android.content.pm.PackageSharedLibraryUpdater> java.lang.String java.util.function.Supplier<android.content.pm.PackageSharedLibraryUpdater> )
+  Loose catch block
+
+
+android.content.pm.ShortcutInfo
+----------------------------
+
+lookUpResourceId(android.content.res.Resources java.lang.String java.lang.String java.lang.String )
+  Loose catch block
+
+
+android.content.res.Configuration
+----------------------------
+
+readFromProto(android.util.proto.ProtoInputStream long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [17[CASE]], but top level block is 2[TRYBLOCK]
+
+
+android.content.rollback.IRollbackManager
+----------------------------
+
+snapshotAndRestoreUserData(java.lang.String int[] int long java.lang.String int )
+  Loose catch block
+
+
+android.database.sqlite.SQLiteConnection
+----------------------------
+
+canonicalizeSyncMode(java.lang.String )
+  Unable to fully structure code
+setLocaleFromConfiguration()
+  Loose catch block
+collectDbStats(java.util.ArrayList<android.database.sqlite.SQLiteDebug$DbStats> )
+  Loose catch block
+execute(java.lang.String java.lang.Object[] android.os.CancellationSignal )
+  Loose catch block
+executeForBlobFileDescriptor(java.lang.String java.lang.Object[] android.os.CancellationSignal )
+  Loose catch block
+executeForChangedRowCount(java.lang.String java.lang.Object[] android.os.CancellationSignal )
+  Loose catch block
+executeForCursorWindow(java.lang.String java.lang.Object[] android.database.CursorWindow int int boolean android.os.CancellationSignal )
+  Unable to fully structure code
+executeForLastInsertedRowId(java.lang.String java.lang.Object[] android.os.CancellationSignal )
+  Loose catch block
+executeForLong(java.lang.String java.lang.Object[] android.os.CancellationSignal )
+  Loose catch block
+executeForString(java.lang.String java.lang.Object[] android.os.CancellationSignal )
+  Loose catch block
+prepare(java.lang.String android.database.sqlite.SQLiteStatementInfo )
+  Unable to fully structure code
+
+
+android.database.sqlite.SQLiteDatabase
+----------------------------
+
+delete(java.lang.String java.lang.String java.lang.String[] )
+  Loose catch block
+executeSql(java.lang.String java.lang.Object[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+getAttachedDbs()
+  Unable to fully structure code
+insertWithOnConflict(java.lang.String java.lang.String android.content.ContentValues int )
+  Loose catch block
+isDatabaseIntegrityOk()
+  Unable to fully structure code
+updateWithOnConflict(java.lang.String android.content.ContentValues java.lang.String java.lang.String[] int )
+  Loose catch block
+
+
+android.filterpacks.videosrc.MediaSource
+----------------------------
+
+setupMediaPlayer(boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [13[SIMPLE_IF_TAKEN]], but top level block is 1[TRYBLOCK]
+
+
+android.gesture.Gesture
+----------------------------
+
+createFromParcel(android.os.Parcel )
+  Unable to fully structure code
+writeToParcel(android.os.Parcel int )
+  Unable to fully structure code
+
+
+android.graphics.drawable.BitmapDrawable
+----------------------------
+
+<init>(android.content.res.Resources java.lang.String )
+  Loose catch block
+updateStateFromTypedArray(android.content.res.TypedArray int )
+  Unable to fully structure code
+applyTheme(android.content.res.Resources$Theme )
+  Unable to fully structure code
+
+
+android.graphics.drawable.GradientDrawable
+----------------------------
+
+ensureValidRect()
+  Unable to fully structure code
+
+
+android.graphics.drawable.Icon
+----------------------------
+
+sameAs(android.graphics.drawable.Icon )
+  Unable to fully structure code
+
+
+android.graphics.drawable.NinePatchDrawable
+----------------------------
+
+applyTheme(android.content.res.Resources$Theme )
+  Unable to fully structure code
+
+
+android.graphics.drawable.VectorDrawable
+----------------------------
+
+inflateChildElements(android.content.res.Resources org.xmlpull.v1.XmlPullParser android.util.AttributeSet android.content.res.Resources$Theme )
+  Unable to fully structure code
+applyTheme(android.content.res.Resources$Theme )
+  Loose catch block
+
+
+android.hardware.biometrics.BiometricPrompt
+----------------------------
+
+authenticateInternal(android.hardware.biometrics.BiometricPrompt$CryptoObject android.os.CancellationSignal java.util.concurrent.Executor android.hardware.biometrics.BiometricPrompt$AuthenticationCallback int android.hardware.biometrics.IBiometricConfirmDeviceCredentialCallback )
+  Loose catch block
+
+
+android.hardware.biometrics.IBiometricService
+----------------------------
+
+authenticate(android.os.IBinder long int android.hardware.biometrics.IBiometricServiceReceiver java.lang.String android.os.Bundle android.hardware.biometrics.IBiometricConfirmDeviceCredentialCallback )
+  Loose catch block
+
+
+android.hardware.camera2.impl.CameraCaptureSessionImpl
+----------------------------
+
+close()
+  Loose catch block
+
+
+android.hardware.camera2.impl.CameraDeviceImpl
+----------------------------
+
+checkAndFireSequenceComplete()
+  Loose catch block
+configureStreamsChecked(android.hardware.camera2.params.InputConfiguration java.util.List<android.hardware.camera2.params.OutputConfiguration> int android.hardware.camera2.CaptureRequest )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [9[CATCHBLOCK]], but top level block is 5[TRYBLOCK]
+onResultReceived(android.hardware.camera2.impl.CameraMetadataNative android.hardware.camera2.impl.CaptureResultExtras android.hardware.camera2.impl.PhysicalCaptureResultInfo[] )
+  Unable to fully structure code
+
+
+android.hardware.display.IDisplayManager
+----------------------------
+
+createVirtualDisplay(android.hardware.display.IVirtualDisplayCallback android.media.projection.IMediaProjection java.lang.String java.lang.String int int int android.view.Surface int java.lang.String )
+  Loose catch block
+
+
+android.hardware.face.IFaceService
+----------------------------
+
+authenticate(android.os.IBinder long int android.hardware.face.IFaceServiceReceiver int java.lang.String )
+  Loose catch block
+cancelAuthenticationFromService(android.os.IBinder java.lang.String int int int boolean )
+  Loose catch block
+prepareForAuthentication(boolean android.os.IBinder long int android.hardware.biometrics.IBiometricServiceReceiverInternal java.lang.String int int int int )
+  Loose catch block
+
+
+android.hardware.fingerprint.IFingerprintService
+----------------------------
+
+authenticate(android.os.IBinder long int android.hardware.fingerprint.IFingerprintServiceReceiver int java.lang.String )
+  Loose catch block
+cancelAuthenticationFromService(android.os.IBinder java.lang.String int int int boolean )
+  Loose catch block
+enroll(android.os.IBinder byte[] int android.hardware.fingerprint.IFingerprintServiceReceiver int java.lang.String )
+  Loose catch block
+prepareForAuthentication(android.os.IBinder long int android.hardware.biometrics.IBiometricServiceReceiverInternal java.lang.String int int int int )
+  Loose catch block
+
+
+android.hardware.location.IGeofenceHardwareCallback
+----------------------------
+
+onGeofenceTransition(int int android.location.Location long int )
+  Loose catch block
+
+
+android.hardware.radio.TunerAdapter
+----------------------------
+
+getProgramList(java.util.Map<java.lang.String, java.lang.String> )
+  Loose catch block
+
+
+android.location.IFusedGeofenceHardware
+----------------------------
+
+modifyGeofenceOptions(int int int int int int )
+  Loose catch block
+
+
+android.location.IGeocodeProvider
+----------------------------
+
+getFromLocation(double double int android.location.GeocoderParams java.util.List<android.location.Address> )
+  Loose catch block
+getFromLocationName(java.lang.String double double double double int android.location.GeocoderParams java.util.List<android.location.Address> )
+  Unable to fully structure code
+
+
+android.location.IGnssStatusListener
+----------------------------
+
+onSvStatusChanged(int int[] float[] float[] float[] float[] )
+  Loose catch block
+
+
+android.location.IGpsGeofenceHardware
+----------------------------
+
+addCircularHardwareGeofence(int double double double int int int int )
+  Loose catch block
+
+
+android.location.ILocationManager
+----------------------------
+
+getFromLocation(double double int android.location.GeocoderParams java.util.List<android.location.Address> )
+  Loose catch block
+getFromLocationName(java.lang.String double double double double int android.location.GeocoderParams java.util.List<android.location.Address> )
+  Unable to fully structure code
+setTestProviderStatus(java.lang.String int android.os.Bundle long java.lang.String )
+  Loose catch block
+
+
+android.location.Location
+----------------------------
+
+convert(java.lang.String )
+  Unable to fully structure code
+
+
+android.app.FragmentManagerImpl
+----------------------------
+
+moveToState(android.app.Fragment int int int boolean )
+  Unable to fully structure code
+popBackStackState(java.util.ArrayList<android.app.BackStackRecord> java.util.ArrayList<java.lang.Boolean> java.lang.String int int )
+  Unable to fully structure code
+
+
+android.app.backup.BackupAgent
+----------------------------
+
+fullBackupFile(java.io.File android.app.backup.FullBackupDataOutput )
+  Loose catch block
+doBackup(android.os.ParcelFileDescriptor android.os.ParcelFileDescriptor android.os.ParcelFileDescriptor long android.app.backup.IBackupCallback int )
+  Unable to fully structure code
+doFullBackup(android.os.ParcelFileDescriptor long int android.app.backup.IBackupManager int )
+  Unable to fully structure code
+doMeasureFullBackup(long int android.app.backup.IBackupManager int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[CATCHBLOCK]], but top level block is 2[TRYBLOCK]
+doQuotaExceeded(long long android.app.backup.IBackupCallback )
+  Loose catch block
+doRestore(android.os.ParcelFileDescriptor long android.os.ParcelFileDescriptor int android.app.backup.IBackupManager )
+  Unable to fully structure code
+doRestoreFile(android.os.ParcelFileDescriptor long int java.lang.String java.lang.String long long int android.app.backup.IBackupManager )
+  Loose catch block
+doRestoreFinished(int android.app.backup.IBackupManager )
+  Loose catch block
+
+
+android.content.ContentProvider
+----------------------------
+
+applyBatch(java.lang.String java.lang.String java.util.ArrayList<android.content.ContentProviderOperation> )
+  Loose catch block
+bulkInsert(java.lang.String android.net.Uri android.content.ContentValues[] )
+  Loose catch block
+call(java.lang.String java.lang.String java.lang.String java.lang.String android.os.Bundle )
+  Loose catch block
+canonicalize(java.lang.String android.net.Uri )
+  Loose catch block
+delete(java.lang.String android.net.Uri java.lang.String java.lang.String[] )
+  Loose catch block
+getStreamTypes(android.net.Uri java.lang.String )
+  Loose catch block
+getType(android.net.Uri )
+  Loose catch block
+insert(java.lang.String android.net.Uri android.content.ContentValues )
+  Loose catch block
+openAssetFile(java.lang.String android.net.Uri java.lang.String android.os.ICancellationSignal )
+  Loose catch block
+openFile(java.lang.String android.net.Uri java.lang.String android.os.ICancellationSignal android.os.IBinder )
+  Loose catch block
+openTypedAssetFile(java.lang.String android.net.Uri java.lang.String android.os.Bundle android.os.ICancellationSignal )
+  Loose catch block
+query(java.lang.String android.net.Uri java.lang.String[] android.os.Bundle android.os.ICancellationSignal )
+  Loose catch block
+uncanonicalize(java.lang.String android.net.Uri )
+  Loose catch block
+update(java.lang.String android.net.Uri android.content.ContentValues java.lang.String java.lang.String[] )
+  Loose catch block
+
+
+android.content.ContentProviderNative
+----------------------------
+
+onTransact(int android.os.Parcel android.os.Parcel int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [12[CASE]], but top level block is 0[TRYBLOCK]
+
+
+android.content.ContentProviderProxy
+----------------------------
+
+query(java.lang.String android.net.Uri java.lang.String[] android.os.Bundle android.os.ICancellationSignal )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[CATCHBLOCK]], but top level block is 2[TRYBLOCK]
+
+
+android.database.BulkCursorNative
+----------------------------
+
+onTransact(int android.os.Parcel android.os.Parcel int )
+  Unable to fully structure code
+
+
+android.database.sqlite.SQLiteQuery
+----------------------------
+
+fillWindow(android.database.CursorWindow int int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[CATCHBLOCK]], but top level block is 3[TRYBLOCK]
+
+
+android.database.sqlite.SQLiteStatement
+----------------------------
+
+execute()
+  Loose catch block
+executeInsert()
+  Loose catch block
+executeUpdateDelete()
+  Loose catch block
+simpleQueryForBlobFileDescriptor()
+  Loose catch block
+simpleQueryForLong()
+  Loose catch block
+simpleQueryForString()
+  Loose catch block
+
+
+android.graphics.drawable.AnimatedRotateDrawable
+----------------------------
+
+applyTheme(android.content.res.Resources$Theme )
+  Unable to fully structure code
+
+
+android.graphics.drawable.ClipDrawable
+----------------------------
+
+applyTheme(android.content.res.Resources$Theme )
+  Unable to fully structure code
+
+
+android.graphics.drawable.InsetDrawable
+----------------------------
+
+applyTheme(android.content.res.Resources$Theme )
+  Unable to fully structure code
+
+
+android.graphics.drawable.RippleDrawable
+----------------------------
+
+applyTheme(android.content.res.Resources$Theme )
+  Unable to fully structure code
+
+
+android.graphics.drawable.RotateDrawable
+----------------------------
+
+applyTheme(android.content.res.Resources$Theme )
+  Unable to fully structure code
+
+
+android.graphics.drawable.ScaleDrawable
+----------------------------
+
+applyTheme(android.content.res.Resources$Theme )
+  Unable to fully structure code
+
+
+android.inputmethodservice.KeyboardView
+----------------------------
+
+onFling(android.view.MotionEvent android.view.MotionEvent float float )
+  Unable to fully structure code
+onModifiedTouchEvent(android.view.MotionEvent boolean )
+  Unable to fully structure code
+
+
+android.app.Activity
+----------------------------
+
+finish(int )
+  Unable to fully structure code
+notifyContentCaptureManagerIfNeeded(int )
+  Unable to fully structure code
+startIntentSenderForResultInner(android.content.IntentSender java.lang.String int android.content.Intent int int android.os.Bundle )
+  Unable to fully structure code
+dumpInner(java.lang.String java.io.FileDescriptor java.io.PrintWriter java.lang.String[] )
+  Unable to fully structure code
+
+
+android.app.UiAutomationConnection
+----------------------------
+
+setRotation(int )
+  Unable to fully structure code
+
+
+android.inputmethodservice.IInputMethodWrapper
+----------------------------
+
+sessionCreated(android.view.inputmethod.InputMethodSession )
+  Unable to fully structure code
+
+
+android.accounts.ChooseTypeAndAccountActivity
+----------------------------
+
+run(android.accounts.AccountManagerFuture<android.os.Bundle> )
+  Loose catch block
+
+
+android.app.AliasActivity
+----------------------------
+
+onCreate(android.os.Bundle )
+  Unable to fully structure code
+
+
+android.database.BulkCursorToCursorAdaptor
+----------------------------
+
+close()
+  Unable to fully structure code
+
+
+android.media.AudioManager
+----------------------------
+
+requestAudioFocus(android.media.AudioFocusRequest android.media.audiopolicy.AudioPolicy )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+android.media.Cea708CCParser
+----------------------------
+
+parseC0(byte[] int )
+  Unable to fully structure code
+
+
+android.media.ExifInterface
+----------------------------
+
+getHeifAttributes(android.media.ExifInterface$ByteOrderedDataInputStream )
+  Unable to fully structure code
+getJpegAttributes(android.media.ExifInterface$ByteOrderedDataInputStream int int )
+  Unable to fully structure code
+isHeifFormat(byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 8[UNCONDITIONALDOLOOP]
+loadAttributes(java.io.InputStream )
+  Unable to fully structure code
+readImageFileDirectory(android.media.ExifInterface$ByteOrderedDataInputStream int )
+  Unable to fully structure code
+getThumbnailBytes()
+  Unable to fully structure code
+saveAttributes()
+  Loose catch block
+getValue(java.nio.ByteOrder )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [23[CASE]], but top level block is 10[TRYBLOCK]
+
+
+android.media.ImageReader
+----------------------------
+
+acquireLatestImage()
+  Loose catch block
+
+
+android.media.ImageUtils
+----------------------------
+
+getEffectivePlaneSizeForImage(android.media.Image int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+getEstimatedNativeAllocBytes(int int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+getNumPlanesForFormat(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+android.media.MediaCas
+----------------------------
+
+<init>(int )
+  Loose catch block
+
+
+android.media.MediaCodecInfo
+----------------------------
+
+applyLevelLimits()
+  Unable to fully structure code
+parseFromInfo(android.media.MediaFormat )
+  Unable to fully structure code
+
+
+android.media.MediaDescrambler
+----------------------------
+
+<init>(int )
+  Loose catch block
+
+
+android.media.MediaExtractor
+----------------------------
+
+setDataSource(android.content.Context android.net.Uri java.util.Map<java.lang.String, java.lang.String> )
+  Loose catch block
+
+
+android.media.MediaMetadataRetriever
+----------------------------
+
+setDataSource(android.content.Context android.net.Uri )
+  Unable to fully structure code
+
+
+android.media.MediaScanner
+----------------------------
+
+prescan(java.lang.String boolean )
+  Unable to fully structure code
+processM3uPlayList(java.lang.String java.lang.String android.net.Uri android.content.ContentValues android.database.Cursor )
+  Loose catch block
+processPlsPlayList(java.lang.String java.lang.String android.net.Uri android.content.ContentValues android.database.Cursor )
+  Loose catch block
+processWplPlayList(java.lang.String java.lang.String android.net.Uri android.content.ContentValues android.database.Cursor )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+scanMtpFile(java.lang.String int int )
+  Loose catch block
+scanSingleFile(java.lang.String java.lang.String )
+  Loose catch block
+doScanFile(java.lang.String java.lang.String long long boolean boolean boolean )
+  Unable to fully structure code
+
+
+android.media.Ringtone
+----------------------------
+
+getTitle(android.content.Context android.net.Uri boolean boolean )
+  Unable to fully structure code
+playFallbackRingtone()
+  Unable to fully structure code
+
+
+android.media.RingtoneManager
+----------------------------
+
+setActualDefaultRingtoneUri(android.content.Context int android.net.Uri )
+  Loose catch block
+addCustomExternalRingtone(android.net.Uri int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.media.ThumbnailUtils
+----------------------------
+
+createAudioThumbnail(java.io.File android.util.Size android.os.CancellationSignal )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+createImageThumbnail(java.io.File android.util.Size android.os.CancellationSignal )
+  Loose catch block
+createVideoThumbnail(java.io.File android.util.Size android.os.CancellationSignal )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.media.TtmlParser
+----------------------------
+
+parseTtml()
+  Unable to fully structure code
+
+
+android.media.WebVttParser
+----------------------------
+
+parseRegion(java.lang.String )
+  Loose catch block
+
+
+android.media.browse.MediaBrowser
+----------------------------
+
+subscribeInternal(java.lang.String android.os.Bundle android.media.browse.MediaBrowser$SubscriptionCallback )
+  Unable to fully structure code
+unsubscribeInternal(java.lang.String android.media.browse.MediaBrowser$SubscriptionCallback )
+  Unable to fully structure code
+
+
+android.media.midi.MidiDeviceServer
+----------------------------
+
+updateDeviceStatus()
+  Unable to fully structure code
+
+
+android.media.midi.MidiManager
+----------------------------
+
+createDeviceServer(android.media.midi.MidiReceiver[] int java.lang.String[] java.lang.String[] android.os.Bundle int android.media.midi.MidiDeviceServer$Callback )
+  Loose catch block
+
+
+android.media.session.MediaSession
+----------------------------
+
+hasCustomParcelable(android.os.Bundle )
+  Loose catch block
+
+
+android.media.session.MediaSessionManager
+----------------------------
+
+removeOnActiveSessionsChangedListener(android.media.session.MediaSessionManager$OnActiveSessionsChangedListener )
+  Loose catch block
+setCallback(android.media.session.MediaSessionManager$Callback android.os.Handler )
+  Unable to fully structure code
+setOnMediaKeyListener(android.media.session.MediaSessionManager$OnMediaKeyListener android.os.Handler )
+  Unable to fully structure code
+setOnVolumeKeyLongPressListener(android.media.session.MediaSessionManager$OnVolumeKeyLongPressListener android.os.Handler )
+  Unable to fully structure code
+
+
+android.media.tv.TvInputManager
+----------------------------
+
+openDvbDevice(android.media.tv.DvbDeviceInfo int )
+  Unable to fully structure code
+selectTrack(int java.lang.String )
+  Unable to fully structure code
+setStreamVolume(float )
+  Unable to fully structure code
+
+
+android.mtp.MtpDatabase
+----------------------------
+
+deleteFromMedia(android.mtp.MtpStorageManager$MtpObject java.nio.file.Path boolean )
+  Unable to fully structure code
+endMoveObject(int int int int int boolean )
+  Unable to fully structure code
+findInMedia(android.mtp.MtpStorageManager$MtpObject java.nio.file.Path )
+  Unable to fully structure code
+getObjectPropertiesUri(int java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+getObjectReferences(int )
+  Loose catch block
+getSupportedObjectProperties(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+initDeviceProperties(android.content.Context )
+  Unable to fully structure code
+
+
+android.mtp.MtpPropertyGroup
+----------------------------
+
+getPropertyList(android.content.ContentProviderClient java.lang.String android.mtp.MtpStorageManager$MtpObject android.mtp.MtpPropertyList )
+  Unable to fully structure code
+
+
+android.mtp.MtpStorageManager
+----------------------------
+
+handleAddedObject(android.mtp.MtpStorageManager$MtpObject java.lang.String boolean )
+  Unable to fully structure code
+checkConsistency()
+  Loose catch block
+
+
+android.net.ConnectivityManager
+----------------------------
+
+networkCapabilitiesForFeature(int java.lang.String )
+  Unable to fully structure code
+sendRequestForNetwork(android.net.NetworkCapabilities android.net.ConnectivityManager$NetworkCallback int int int android.net.ConnectivityManager$CallbackHandler )
+  Loose catch block
+unregisterNetworkCallback(android.net.ConnectivityManager$NetworkCallback )
+  Unable to fully structure code
+
+
+android.net.DnsResolver
+----------------------------
+
+lambda$registerFDListener$8(java.lang.Object android.os.CancellationSignal java.io.FileDescriptor android.net.DnsResolver$Callback )
+  Unable to fully structure code
+query(android.net.Network java.lang.String int int java.util.concurrent.Executor android.os.CancellationSignal android.net.DnsResolver$Callback<? super java.util.List<java.net.InetAddress>> )
+  Unable to fully structure code
+query(android.net.Network java.lang.String int java.util.concurrent.Executor android.os.CancellationSignal android.net.DnsResolver$Callback<? super java.util.List<java.net.InetAddress>> )
+  Loose catch block
+
+
+android.net.IpSecManager
+----------------------------
+
+close()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 5[UNCONDITIONALDOLOOP]
+<init>(android.net.IIpSecService java.net.InetAddress int )
+  Unable to fully structure code
+close()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 5[UNCONDITIONALDOLOOP]
+close()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 8[UNCONDITIONALDOLOOP]
+
+
+android.net.IpSecTransform
+----------------------------
+
+close()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 5[UNCONDITIONALDOLOOP]
+
+
+android.net.LocalSocketImpl
+----------------------------
+
+setOption(int java.lang.Object )
+  Unable to fully structure code
+flush()
+  Unable to fully structure code
+
+
+android.net.PrivateDnsConnectivityChecker
+----------------------------
+
+canConnectToPrivateDnsServer(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+android.net.SntpClient
+----------------------------
+
+requestTime(java.net.InetAddress int int android.net.Network )
+  Loose catch block
+
+
+android.net.UriCodec
+----------------------------
+
+appendDecoded(java.lang.StringBuilder java.lang.String boolean java.nio.charset.Charset boolean )
+  Unable to fully structure code
+flushDecodingByteAccumulator(java.lang.StringBuilder java.nio.charset.CharsetDecoder java.nio.ByteBuffer boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+
+
+android.net.lowpan.LowpanInterface
+----------------------------
+
+removeExternalRoute(android.net.IpPrefix )
+  Loose catch block
+removeOnMeshPrefix(android.net.IpPrefix )
+  Loose catch block
+
+
+android.net.util.DnsUtils
+----------------------------
+
+checkConnectivity(android.net.Network int java.net.SocketAddress )
+  Unable to fully structure code
+findSrcAddress(android.net.Network java.net.InetAddress )
+  Unable to fully structure code
+
+
+android.net.wifi.hotspot2.omadm.PpsMoParser
+----------------------------
+
+parseCredential(android.net.wifi.hotspot2.omadm.PpsMoParser$PPSNode )
+  Unable to fully structure code
+parseEAPMethod(android.net.wifi.hotspot2.omadm.PpsMoParser$PPSNode android.net.wifi.hotspot2.pps.Credential$UserCredential )
+  Unable to fully structure code
+parseHomeSP(android.net.wifi.hotspot2.omadm.PpsMoParser$PPSNode )
+  Unable to fully structure code
+parsePolicy(android.net.wifi.hotspot2.omadm.PpsMoParser$PPSNode )
+  Unable to fully structure code
+parsePpsInstance(android.net.wifi.hotspot2.omadm.PpsMoParser$PPSNode )
+  Unable to fully structure code
+parseSubscriptionParameter(android.net.wifi.hotspot2.omadm.PpsMoParser$PPSNode android.net.wifi.hotspot2.PasspointConfiguration )
+  Unable to fully structure code
+parseUpdateParameter(android.net.wifi.hotspot2.omadm.PpsMoParser$PPSNode )
+  Unable to fully structure code
+parseUsageLimits(android.net.wifi.hotspot2.omadm.PpsMoParser$PPSNode android.net.wifi.hotspot2.PasspointConfiguration )
+  Unable to fully structure code
+parseUserCredential(android.net.wifi.hotspot2.omadm.PpsMoParser$PPSNode )
+  Unable to fully structure code
+
+
+android.net.wifi.p2p.WifiP2pManager
+----------------------------
+
+close()
+  Loose catch block
+
+
+android.nfc.NfcAdapter
+----------------------------
+
+enableForegroundDispatch(android.app.Activity android.app.PendingIntent android.content.IntentFilter[] java.lang.String[][] )
+  Unable to fully structure code
+
+
+android.os.BaseBundle
+----------------------------
+
+initializeFromParcelLocked(android.os.Parcel boolean boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [9[SIMPLE_IF_TAKEN]], but top level block is 0[TRYBLOCK]
+
+
+android.os.BugreportManager
+----------------------------
+
+startBugreport(android.os.ParcelFileDescriptor android.os.ParcelFileDescriptor android.os.BugreportParams java.util.concurrent.Executor android.os.BugreportManager$BugreportCallback )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.os.Debug
+----------------------------
+
+getMemoryStat(java.lang.String )
+  Unable to fully structure code
+
+
+android.os.DropBoxManager
+----------------------------
+
+addFile(java.lang.String java.io.File int )
+  Loose catch block
+getText(int )
+  Loose catch block
+
+
+android.os.FileBridge
+----------------------------
+
+run()
+  Loose catch block
+
+
+android.os.FileUtils
+----------------------------
+
+bytesToFile(java.lang.String byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+copy(java.io.File java.io.File android.os.CancellationSignal java.util.concurrent.Executor android.os.FileUtils$ProgressListener )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+copyToFileOrThrow(java.io.InputStream java.io.File )
+  Loose catch block
+readTextFile(java.io.File int java.lang.String )
+  Unable to fully structure code
+
+
+android.os.Looper
+----------------------------
+
+loop()
+  Loose catch block
+
+
+android.os.MessageQueue
+----------------------------
+
+next()
+  Unable to fully structure code
+
+
+android.os.Parcel
+----------------------------
+
+readParcelableCreator(java.lang.ClassLoader )
+  Unable to fully structure code
+
+
+android.os.RecoverySystem
+----------------------------
+
+getTrustedCerts(java.io.File )
+  Loose catch block
+verifyPackage(java.io.File android.os.RecoverySystem$ProgressListener java.io.File )
+  Unable to fully structure code
+wipeEuiccData(android.content.Context java.lang.String )
+  Loose catch block
+
+
+android.os.RedactingFileDescriptor
+----------------------------
+
+<init>(android.content.Context java.io.File int long[] long[] )
+  Loose catch block
+
+
+android.os.ServiceManager
+----------------------------
+
+rawGetService(java.lang.String )
+  Unable to fully structure code
+
+
+android.os.ShellCommand
+----------------------------
+
+exec(android.os.Binder java.io.FileDescriptor java.io.FileDescriptor java.io.FileDescriptor java.lang.String[] android.os.ShellCallback android.os.ResultReceiver )
+  Unable to fully structure code
+
+
+android.os.SystemProperties
+----------------------------
+
+callChangeCallbacks()
+  Unable to fully structure code
+
+
+android.os.UserManager
+----------------------------
+
+getUserIcon(int )
+  Loose catch block
+
+
+android.os.storage.StorageManager
+----------------------------
+
+checkPermissionAndAppOp(android.content.Context boolean int int java.lang.String java.lang.String int boolean )
+  Loose catch block
+isUserKeyUnlocked(int )
+  Loose catch block
+allocateBytes(java.io.FileDescriptor long int )
+  Loose catch block
+openProxyFileDescriptor(int android.os.ProxyFileDescriptorCallback android.os.Handler java.util.concurrent.ThreadFactory )
+  Loose catch block
+
+
+android.permission.PermissionControllerManager
+----------------------------
+
+doInBackground(java.lang.Void[] )
+  Loose catch block
+doInBackground(byte[][] )
+  Loose catch block
+lambda$new$0$PermissionControllerManager$PendingGetPermissionUsagesRequest(android.os.Bundle android.permission.PermissionControllerManager$OnPermissionUsageResultCallback )
+  Unable to fully structure code
+run(android.permission.IPermissionController )
+  Unable to fully structure code
+
+
+android.print.PrintManager
+----------------------------
+
+onLayoutCancelled()
+  Unable to fully structure code
+onLayoutFailed(java.lang.CharSequence )
+  Unable to fully structure code
+onLayoutFinished(android.print.PrintDocumentInfo boolean )
+  Unable to fully structure code
+onWriteCancelled()
+  Unable to fully structure code
+onWriteFailed(java.lang.CharSequence )
+  Unable to fully structure code
+
+
+android.print.PrinterDiscoverySession
+----------------------------
+
+destroyNoCheck()
+  Unable to fully structure code
+
+
+android.printservice.PrintDocument
+----------------------------
+
+getData()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.provider.FontsContract
+----------------------------
+
+buildTypeface(android.content.Context android.os.CancellationSignal android.provider.FontsContract$FontInfo[] )
+  Loose catch block
+prepareFontData(android.content.Context android.provider.FontsContract$FontInfo[] android.os.CancellationSignal )
+  Loose catch block
+
+
+android.provider.MediaStore
+----------------------------
+
+getDocumentUri(android.content.Context android.net.Uri )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+getMediaUri(android.content.Context android.net.Uri )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+getVersion(android.content.Context java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+scan(android.content.Context java.lang.String java.io.File boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+insertImage(android.content.ContentResolver android.graphics.Bitmap java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 4 blocks at once
+insertImage(android.content.ContentResolver java.lang.String java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 6 blocks at once
+getThumbnail(android.content.ContentResolver android.net.Uri int android.graphics.BitmapFactory$Options )
+  Loose catch block
+
+
+android.provider.SearchRecentSuggestions
+----------------------------
+
+truncateHistory(android.content.ContentResolver int )
+  Unable to fully structure code
+
+
+android.provider.Settings
+----------------------------
+
+getStringForUser(android.content.ContentResolver java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.provider.Telephony
+----------------------------
+
+getOrCreateCanonicalAddressId(android.content.ContentResolver java.lang.String )
+  Unable to fully structure code
+
+
+android.se.omapi.SEService
+----------------------------
+
+getReaders()
+  Loose catch block
+
+
+android.security.KeyStore
+----------------------------
+
+importKeyInternal(java.lang.String android.security.keymaster.KeymasterArguments int byte[] int int android.security.keymaster.KeyCharacteristics )
+  Loose catch block
+importWrappedKeyInternal(java.lang.String byte[] java.lang.String byte[] android.security.keymaster.KeymasterArguments long long android.security.keymaster.KeyCharacteristics )
+  Loose catch block
+abort(android.os.IBinder )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+addRngEntropy(byte[] int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+attestDeviceIds(android.security.keymaster.KeymasterArguments android.security.keymaster.KeymasterCertificateChain )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+attestKey(java.lang.String android.security.keymaster.KeymasterArguments android.security.keymaster.KeymasterCertificateChain )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+begin(java.lang.String int boolean android.security.keymaster.KeymasterArguments byte[] int )
+  Loose catch block
+exportKey(java.lang.String int android.security.keymaster.KeymasterBlob android.security.keymaster.KeymasterBlob int )
+  Loose catch block
+finish(android.os.IBinder android.security.keymaster.KeymasterArguments byte[] byte[] )
+  Loose catch block
+generateKey(java.lang.String android.security.keymaster.KeymasterArguments byte[] int int android.security.keymaster.KeyCharacteristics )
+  Loose catch block
+getKeyCharacteristics(java.lang.String android.security.keymaster.KeymasterBlob android.security.keymaster.KeymasterBlob int android.security.keymaster.KeyCharacteristics )
+  Loose catch block
+importWrappedKey(java.lang.String byte[] java.lang.String byte[] android.security.keymaster.KeymasterArguments long long int android.security.keymaster.KeyCharacteristics )
+  Loose catch block
+insert(java.lang.String byte[] int int )
+  Unable to fully structure code
+update(android.os.IBinder android.security.keymaster.KeymasterArguments byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.security.keystore.AndroidKeyStoreKeyGeneratorSpi
+----------------------------
+
+engineInit(java.security.spec.AlgorithmParameterSpec java.security.SecureRandom )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 8[FORLOOP]
+
+
+android.security.keystore.AndroidKeyStoreKeyPairGeneratorSpi
+----------------------------
+
+generateKeyPair()
+  Loose catch block
+initialize(java.security.spec.AlgorithmParameterSpec java.security.SecureRandom )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 10[CATCHBLOCK]
+
+
+android.security.keystore.AndroidKeyStoreSecretKeyFactorySpi
+----------------------------
+
+getKeyInfo(android.security.KeyStore java.lang.String java.lang.String int )
+  Unable to fully structure code
+
+
+android.security.keystore.AndroidKeyStoreSpi
+----------------------------
+
+setPrivateKeyEntry(java.lang.String java.security.PrivateKey java.security.cert.Certificate[] java.security.KeyStore$ProtectionParameter )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[TRYBLOCK]], but top level block is 24[FORLOOP]
+setSecretKeyEntry(java.lang.String javax.crypto.SecretKey java.security.KeyStore$ProtectionParameter )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[TRYBLOCK]], but top level block is 13[WHILELOOP]
+
+
+android.security.keystore.KeyProperties
+----------------------------
+
+toKeymaster(java.lang.String )
+  Unable to fully structure code
+toKeymasterDigest(java.lang.String )
+  Unable to fully structure code
+
+
+android.service.autofill.AutofillServiceInfo
+----------------------------
+
+<init>(android.content.Context android.content.pm.ServiceInfo )
+  Unable to fully structure code
+parseCompatibilityPackages(org.xmlpull.v1.XmlPullParser android.content.res.Resources )
+  Loose catch block
+
+
+android.service.contentcapture.ContentCaptureServiceInfo
+----------------------------
+
+<init>(android.content.Context android.content.pm.ServiceInfo )
+  Unable to fully structure code
+
+
+android.service.voice.VoiceInteractionServiceInfo
+----------------------------
+
+<init>(android.content.pm.PackageManager android.content.pm.ServiceInfo )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+android.speech.tts.AudioPlaybackHandler
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+android.speech.tts.TtsEngines
+----------------------------
+
+settingsActivityFromServiceInfo(android.content.pm.ServiceInfo android.content.pm.PackageManager )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+android.telecom.Call
+----------------------------
+
+internalUpdate(android.telecom.ParcelableCall java.util.Map<java.lang.String, android.telecom.Call> )
+  Unable to fully structure code
+
+
+android.telecom.DefaultDialerManager
+----------------------------
+
+setDefaultDialerApplication(android.content.Context java.lang.String int )
+  Loose catch block
+
+
+android.telephony.MbmsDownloadSession
+----------------------------
+
+onServiceConnected(android.content.ComponentName android.os.IBinder )
+  Loose catch block
+checkDownloadRequestDestination(android.telephony.mbms.DownloadRequest )
+  Loose catch block
+
+
+android.telephony.MbmsGroupCallSession
+----------------------------
+
+onServiceConnected(android.content.ComponentName android.os.IBinder )
+  Loose catch block
+
+
+android.telephony.MbmsStreamingSession
+----------------------------
+
+onServiceConnected(android.content.ComponentName android.os.IBinder )
+  Loose catch block
+
+
+android.telephony.PhoneNumberUtils
+----------------------------
+
+getNumberFromIntent(android.content.Intent android.content.Context )
+  Unable to fully structure code
+isVoiceMailNumber(android.content.Context int java.lang.String )
+  Unable to fully structure code
+
+
+android.telephony.SmsManager
+----------------------------
+
+sendMultipartTextMessageInternal(java.lang.String java.lang.String java.util.List<java.lang.String> java.util.List<android.app.PendingIntent> java.util.List<android.app.PendingIntent> boolean int boolean int )
+  Loose catch block
+
+
+android.telephony.TelephonyManager
+----------------------------
+
+getProcCmdLine()
+  Unable to fully structure code
+
+
+android.telephony.TelephonyScanManager
+----------------------------
+
+handleMessage(android.os.Message )
+  Unable to fully structure code
+
+
+android.telephony.euicc.EuiccCardManager
+----------------------------
+
+authenticateServer(java.lang.String java.lang.String byte[] byte[] byte[] byte[] java.util.concurrent.Executor android.telephony.euicc.EuiccCardManager$ResultCallback<byte[]> )
+  Loose catch block
+
+
+android.telephony.mbms.GroupCall
+----------------------------
+
+close()
+  Unable to fully structure code
+updateGroupCall(java.util.List<java.lang.Integer> java.util.List<java.lang.Integer> )
+  Unable to fully structure code
+
+
+android.telephony.mbms.MbmsUtils
+----------------------------
+
+getOverrideServiceName(android.content.Context java.lang.String )
+  Unable to fully structure code
+
+
+android.telephony.mbms.StreamingService
+----------------------------
+
+close()
+  Unable to fully structure code
+
+
+android.text.AutoText
+----------------------------
+
+init(android.content.res.Resources )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+
+
+android.text.Layout
+----------------------------
+
+measurePara(android.text.TextPaint java.lang.CharSequence int int android.text.TextDirectionHeuristic )
+  Unable to fully structure code
+
+
+android.text.TextUtils
+----------------------------
+
+commaEllipsize(java.lang.CharSequence android.text.TextPaint float java.lang.String java.lang.String android.text.TextDirectionHeuristic )
+  Unable to fully structure code
+delimitedStringContains(java.lang.String char java.lang.String )
+  Unable to fully structure code
+ellipsize(java.lang.CharSequence android.text.TextPaint float android.text.TextUtils$TruncateAt boolean android.text.TextUtils$EllipsizeCallback android.text.TextDirectionHeuristic java.lang.String )
+  Unable to fully structure code
+expandTemplate(java.lang.CharSequence java.lang.CharSequence[] )
+  Loose catch block
+
+
+android.text.format.DateFormat
+----------------------------
+
+format(java.lang.CharSequence java.util.Calendar )
+  Unable to fully structure code
+
+
+android.text.format.TimeFormatter
+----------------------------
+
+handleToken(java.nio.CharBuffer libcore.util.ZoneInfo$WallTime libcore.util.ZoneInfo )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+android.transition.TransitionInflater
+----------------------------
+
+getTargetIds(org.xmlpull.v1.XmlPullParser android.util.AttributeSet android.transition.Transition )
+  Unable to fully structure code
+inflateTransition(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+inflateTransitionManager(int android.view.ViewGroup )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+
+
+android.util.AtomicFile
+----------------------------
+
+truncate()
+  Loose catch block
+
+
+android.util.Base64
+----------------------------
+
+process(byte[] int int boolean )
+  Unable to fully structure code
+
+
+android.util.EventLog
+----------------------------
+
+readTagsFile()
+  Loose catch block
+getData()
+  Loose catch block
+
+
+android.util.JsonReader
+----------------------------
+
+nextInObject(boolean )
+  Unable to fully structure code
+nextLiteral(boolean )
+  Unable to fully structure code
+
+
+android.util.apk.ApkSignatureSchemeV2Verifier
+----------------------------
+
+hasSignature(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+verifySigner(java.nio.ByteBuffer java.util.Map<java.lang.Integer, byte[]> java.security.cert.CertificateFactory )
+  Unable to fully structure code
+
+
+android.util.apk.ApkSignatureSchemeV3Verifier
+----------------------------
+
+hasSignature(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+verifyProofOfRotationStruct(java.nio.ByteBuffer java.security.cert.CertificateFactory )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 9[UNCONDITIONALDOLOOP]
+verifySigner(java.nio.ByteBuffer java.util.Map<java.lang.Integer, byte[]> java.security.cert.CertificateFactory )
+  Unable to fully structure code
+
+
+android.util.apk.ApkSignatureVerifier
+----------------------------
+
+loadCertificates(android.util.jar.StrictJarFile java.util.zip.ZipEntry )
+  Loose catch block
+unsafeGetCertsWithoutVerification(java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+verify(java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+verifyV1Signature(java.lang.String boolean )
+  Unable to fully structure code
+
+
+android.util.jar.StrictJarFile
+----------------------------
+
+<init>(java.lang.String java.io.FileDescriptor boolean boolean )
+  Unable to fully structure code
+
+
+android.util.jar.StrictJarVerifier
+----------------------------
+
+verifyBytes(byte[] byte[] )
+  Unable to fully structure code
+verifyCertificate(java.lang.String )
+  Loose catch block
+initEntry(java.lang.String )
+  Loose catch block
+
+
+android.media.AudioAttributes
+----------------------------
+
+setInternalLegacyStreamType(int )
+  Unable to fully structure code
+
+
+android.media.AudioRecord
+----------------------------
+
+getMinBufferSize(int int int )
+  Unable to fully structure code
+
+
+android.media.AudioTrack
+----------------------------
+
+audioParamCheck(int int int int int )
+  Unable to fully structure code
+getMinBufferSize(int int int )
+  Unable to fully structure code
+
+
+android.media.IAudioService
+----------------------------
+
+registerAudioPolicy(android.media.audiopolicy.AudioPolicyConfig android.media.audiopolicy.IAudioPolicyCallback boolean boolean boolean boolean android.media.projection.IMediaProjection )
+  Loose catch block
+requestAudioFocus(android.media.AudioAttributes int android.os.IBinder android.media.IAudioFocusDispatcher java.lang.String java.lang.String int android.media.audiopolicy.IAudioPolicyCallback int )
+  Loose catch block
+
+
+android.media.IRingtonePlayer
+----------------------------
+
+playWithVolumeShaping(android.os.IBinder android.net.Uri android.media.AudioAttributes float boolean android.media.VolumeShaper$Configuration )
+  Loose catch block
+
+
+android.media.MediaPlayer
+----------------------------
+
+addTimedTextSource(android.content.Context android.net.Uri java.lang.String )
+  Loose catch block
+prepareDrm(java.util.UUID )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+releaseDrm()
+  Loose catch block
+handleMessage(android.os.Message )
+  Unable to fully structure code
+run()
+  Unable to fully structure code
+notifyTimedEvent(boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 10[FORLOOP]
+
+
+android.media.MediaRecorder
+----------------------------
+
+handleMessage(android.os.Message )
+  Unable to fully structure code
+
+
+android.media.midi.IMidiManager
+----------------------------
+
+registerDeviceServer(android.media.midi.IMidiDeviceServer int int java.lang.String[] java.lang.String[] android.os.Bundle int )
+  Loose catch block
+
+
+android.media.session.ISessionCallback
+----------------------------
+
+onCommand(java.lang.String int int android.media.session.ISessionControllerCallback java.lang.String android.os.Bundle android.os.ResultReceiver )
+  Loose catch block
+onCustomAction(java.lang.String int int android.media.session.ISessionControllerCallback java.lang.String android.os.Bundle )
+  Loose catch block
+onMediaButton(java.lang.String int int android.content.Intent int android.os.ResultReceiver )
+  Loose catch block
+onPlayFromMediaId(java.lang.String int int android.media.session.ISessionControllerCallback java.lang.String android.os.Bundle )
+  Loose catch block
+onPlayFromSearch(java.lang.String int int android.media.session.ISessionControllerCallback java.lang.String android.os.Bundle )
+  Loose catch block
+onPlayFromUri(java.lang.String int int android.media.session.ISessionControllerCallback android.net.Uri android.os.Bundle )
+  Loose catch block
+onPrepareFromMediaId(java.lang.String int int android.media.session.ISessionControllerCallback java.lang.String android.os.Bundle )
+  Loose catch block
+onPrepareFromSearch(java.lang.String int int android.media.session.ISessionControllerCallback java.lang.String android.os.Bundle )
+  Loose catch block
+onPrepareFromUri(java.lang.String int int android.media.session.ISessionControllerCallback android.net.Uri android.os.Bundle )
+  Loose catch block
+onSeekTo(java.lang.String int int android.media.session.ISessionControllerCallback long )
+  Loose catch block
+onSkipToTrack(java.lang.String int int android.media.session.ISessionControllerCallback long )
+  Loose catch block
+
+
+android.media.session.ISessionManager
+----------------------------
+
+dispatchVolumeKeyEvent(java.lang.String java.lang.String boolean android.view.KeyEvent int boolean )
+  Loose catch block
+
+
+android.media.tv.TvInputInfo
+----------------------------
+
+loadIcon(android.content.Context )
+  Unable to fully structure code
+
+
+android.net.IConnectivityManager
+----------------------------
+
+startNattKeepalive(android.net.Network int android.net.ISocketKeepaliveCallback java.lang.String int java.lang.String )
+  Loose catch block
+startNattKeepaliveWithFd(android.net.Network java.io.FileDescriptor int int android.net.ISocketKeepaliveCallback java.lang.String java.lang.String )
+  Loose catch block
+
+
+android.net.INetdEventCallback
+----------------------------
+
+onDnsEvent(int int int java.lang.String java.lang.String[] int long int )
+  Loose catch block
+
+
+android.net.INetworkPolicyManager
+----------------------------
+
+setSubscriptionOverride(int int int long java.lang.String )
+  Loose catch block
+
+
+android.net.INetworkStatsSession
+----------------------------
+
+getHistoryIntervalForUid(android.net.NetworkTemplate int int int int long long )
+  Loose catch block
+getSummaryForAllUid(android.net.NetworkTemplate long long boolean )
+  Loose catch block
+
+
+android.net.IpSecAlgorithm
+----------------------------
+
+checkValidOrThrow(java.lang.String int int )
+  Unable to fully structure code
+
+
+android.net.Network
+----------------------------
+
+connectToHost(java.lang.String int java.net.SocketAddress )
+  Unable to fully structure code
+
+
+android.net.nsd.NsdServiceInfo
+----------------------------
+
+setAttribute(java.lang.String java.lang.String )
+  Unable to fully structure code
+setTxtRecords(java.lang.String )
+  Unable to fully structure code
+
+
+android.net.wifi.aware.IWifiAwareManager
+----------------------------
+
+sendMessage(int int int byte[] int int )
+  Loose catch block
+
+
+android.nfc.INfcDta
+----------------------------
+
+enableServer(java.lang.String int int int int )
+  Loose catch block
+
+
+android.nfc.cardemulation.ApduServiceInfo
+----------------------------
+
+<init>(android.content.pm.PackageManager android.content.pm.ResolveInfo boolean )
+  Unable to fully structure code
+
+
+android.nfc.cardemulation.NfcFServiceInfo
+----------------------------
+
+<init>(android.content.pm.PackageManager android.content.pm.ResolveInfo )
+  Unable to fully structure code
+
+
+android.os.BatteryStats
+----------------------------
+
+dumpProtoHistoryLocked(android.util.proto.ProtoOutputStream int long )
+  Unable to fully structure code
+dumpLocked(android.content.Context java.io.PrintWriter int int long )
+  Unable to fully structure code
+
+
+android.os.Binder
+----------------------------
+
+execTransactInternal(int long long int int )
+  Unable to fully structure code
+onTransact(int android.os.Parcel android.os.Parcel int )
+  Loose catch block
+
+
+android.os.IDumpstate
+----------------------------
+
+startBugreport(int java.lang.String java.io.FileDescriptor java.io.FileDescriptor int android.os.IDumpstateListener )
+  Loose catch block
+
+
+android.os.IIncidentCompanion
+----------------------------
+
+authorizeReport(int java.lang.String java.lang.String java.lang.String int android.os.IIncidentAuthListener )
+  Loose catch block
+
+
+android.os.IInstalld
+----------------------------
+
+clearAppData(java.lang.String java.lang.String int int long )
+  Loose catch block
+createAppData(java.lang.String java.lang.String int int int java.lang.String int )
+  Loose catch block
+destroyAppData(java.lang.String java.lang.String int int long )
+  Loose catch block
+destroyAppDataSnapshot(java.lang.String java.lang.String int long int int )
+  Loose catch block
+freeCache(java.lang.String long long int )
+  Loose catch block
+getAppSize(java.lang.String java.lang.String[] int int int long[] java.lang.String[] )
+  Loose catch block
+moveCompleteApp(java.lang.String java.lang.String java.lang.String java.lang.String int java.lang.String int )
+  Loose catch block
+prepareAppProfile(java.lang.String int int java.lang.String java.lang.String java.lang.String )
+  Loose catch block
+reconcileSecondaryDexFile(java.lang.String java.lang.String int java.lang.String[] java.lang.String int )
+  Loose catch block
+restoreAppDataSnapshot(java.lang.String java.lang.String int java.lang.String int int int )
+  Loose catch block
+restoreconAppData(java.lang.String java.lang.String int int int java.lang.String )
+  Loose catch block
+
+
+android.os.IPowerManager
+----------------------------
+
+acquireWakeLock(android.os.IBinder int java.lang.String java.lang.String android.os.WorkSource java.lang.String )
+  Loose catch block
+
+
+android.os.IStatsCompanionService
+----------------------------
+
+sendSubscriberBroadcast(android.os.IBinder long long long long java.lang.String[] android.os.StatsDimensionsValue )
+  Loose catch block
+
+
+android.os.IStatsManager
+----------------------------
+
+informOnePackage(java.lang.String int long java.lang.String java.lang.String )
+  Loose catch block
+sendBinaryPushStateChangedAtom(java.lang.String long int int long[] )
+  Loose catch block
+setBroadcastSubscriber(long long android.os.IBinder java.lang.String )
+  Loose catch block
+
+
+android.os.IUpdateEngine
+----------------------------
+
+applyPayload(java.lang.String long long java.lang.String[] )
+  Loose catch block
+
+
+android.os.IVibratorService
+----------------------------
+
+vibrate(int java.lang.String android.os.VibrationEffect int java.lang.String android.os.IBinder )
+  Loose catch block
+
+
+android.os.PatternMatcher
+----------------------------
+
+parseAndVerifyAdvancedPattern(java.lang.String )
+  Unable to fully structure code
+
+
+android.os.StatsDimensionsValue
+----------------------------
+
+writeValueToParcel(int java.lang.Object android.os.Parcel int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[CASE]], but top level block is 1[TRYBLOCK]
+
+
+android.os.storage.IStorageManager
+----------------------------
+
+mountObb(java.lang.String java.lang.String java.lang.String android.os.storage.IObbActionListener int android.content.res.ObbInfo )
+  Loose catch block
+
+
+android.print.IPrintManager
+----------------------------
+
+print(java.lang.String android.print.IPrintDocumentAdapter android.print.PrintAttributes java.lang.String int int )
+  Loose catch block
+
+
+android.print.PrintFileDocumentAdapter
+----------------------------
+
+doInBackground(java.lang.Void[] )
+  Loose catch block
+
+
+android.printservice.PrintServiceInfo
+----------------------------
+
+create(android.content.Context android.content.pm.ResolveInfo )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[WHILELOOP]], but top level block is 0[TRYBLOCK]
+
+
+android.renderscript.Allocation
+----------------------------
+
+createSized(android.renderscript.RenderScript android.renderscript.Element int int )
+  Loose catch block
+createTyped(android.renderscript.RenderScript android.renderscript.Type android.renderscript.Allocation$MipmapControl int )
+  Unable to fully structure code
+copy2DRangeFrom(int int int int java.lang.Object )
+  Loose catch block
+copy3DRangeFrom(int int int int int int java.lang.Object )
+  Loose catch block
+
+
+android.renderscript.Program
+----------------------------
+
+setShader(android.content.res.Resources int )
+  Unable to fully structure code
+
+
+android.security.keystore.AndroidKeyStoreCipherSpiBase
+----------------------------
+
+init(int java.security.Key java.security.SecureRandom )
+  Unable to fully structure code
+engineDoFinal(byte[] int int )
+  Loose catch block
+engineUnwrap(byte[] java.lang.String int )
+  Loose catch block
+engineUpdate(byte[] int int )
+  Loose catch block
+engineUpdateAAD(byte[] int int )
+  Loose catch block
+
+
+android.security.keystore.IKeystoreService
+----------------------------
+
+begin(android.security.keystore.IKeystoreOperationResultCallback android.os.IBinder java.lang.String int boolean android.security.keymaster.KeymasterArguments byte[] int )
+  Loose catch block
+exportKey(android.security.keystore.IKeystoreExportKeyCallback java.lang.String int android.security.keymaster.KeymasterBlob android.security.keymaster.KeymasterBlob int )
+  Loose catch block
+generateKey(android.security.keystore.IKeystoreKeyCharacteristicsCallback java.lang.String android.security.keymaster.KeymasterArguments byte[] int int )
+  Loose catch block
+importKey(android.security.keystore.IKeystoreKeyCharacteristicsCallback java.lang.String android.security.keymaster.KeymasterArguments int byte[] int int )
+  Loose catch block
+importWrappedKey(android.security.keystore.IKeystoreKeyCharacteristicsCallback java.lang.String byte[] java.lang.String byte[] android.security.keymaster.KeymasterArguments long long )
+  Loose catch block
+
+
+android.security.keystore.KeyStoreCryptoOperationChunkedStreamer
+----------------------------
+
+update(byte[] int int )
+  Loose catch block
+
+
+android.security.net.config.DirectoryCertificateSource
+----------------------------
+
+readCertificate(java.lang.String )
+  Loose catch block
+
+
+android.security.net.config.ResourceCertificateSource
+----------------------------
+
+ensureInitialized()
+  Loose catch block
+
+
+android.security.net.config.XmlConfigSource
+----------------------------
+
+ensureInitialized()
+  Unable to fully structure code
+
+
+android.service.autofill.IAutofillFieldClassificationService
+----------------------------
+
+calculateScores(android.os.RemoteCallback java.util.List<android.view.autofill.AutofillValue> java.lang.String[] java.lang.String[] java.lang.String android.os.Bundle java.util.Map java.util.Map )
+  Loose catch block
+
+
+android.service.autofill.augmented.IAugmentedAutofillService
+----------------------------
+
+onFillRequest(int android.os.IBinder int android.content.ComponentName android.view.autofill.AutofillId android.view.autofill.AutofillValue long android.service.autofill.augmented.IFillCallback )
+  Loose catch block
+
+
+android.service.carrier.ICarrierMessagingService
+----------------------------
+
+sendDataSms(byte[] int java.lang.String int int android.service.carrier.ICarrierMessagingCallback )
+  Loose catch block
+
+
+android.service.euicc.IEuiccService
+----------------------------
+
+downloadSubscription(int android.telephony.euicc.DownloadableSubscription boolean boolean android.os.Bundle android.service.euicc.IDownloadSubscriptionCallback )
+  Loose catch block
+
+
+android.service.voice.IVoiceInteractionSession
+----------------------------
+
+handleAssist(int android.os.IBinder android.os.Bundle android.app.assist.AssistStructure android.app.assist.AssistContent int int )
+  Loose catch block
+
+
+android.service.wallpaper.IWallpaperService
+----------------------------
+
+attach(android.service.wallpaper.IWallpaperConnection android.os.IBinder int boolean int int android.graphics.Rect int )
+  Loose catch block
+
+
+android.telecom.ConnectionServiceAdapter
+----------------------------
+
+setVideoProvider(java.lang.String android.telecom.Connection$VideoProvider )
+  Unable to fully structure code
+
+
+android.telephony.CellSignalStrengthWcdma
+----------------------------
+
+updateLevel(android.os.PersistableBundle android.telephony.ServiceState )
+  Unable to fully structure code
+
+
+android.telephony.NeighboringCellInfo
+----------------------------
+
+<init>(int java.lang.String int )
+  Unable to fully structure code
+
+
+android.telephony.RadioAccessFamily
+----------------------------
+
+singleRafTypeFromString(java.lang.String )
+  Unable to fully structure code
+
+
+android.telephony.UiccAccessRule
+----------------------------
+
+decodeRules(byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+android.telephony.data.IDataService
+----------------------------
+
+setupDataCall(int int android.telephony.data.DataProfile boolean boolean int android.net.LinkProperties android.telephony.data.IDataServiceCallback )
+  Loose catch block
+
+
+android.telephony.ims.aidl.IImsMmTelFeature
+----------------------------
+
+sendSms(int int java.lang.String java.lang.String boolean byte[] )
+  Loose catch block
+
+
+android.telephony.ims.aidl.IRcs
+----------------------------
+
+createGroupThreadIconChangedEvent(long int int android.net.Uri java.lang.String )
+  Loose catch block
+createGroupThreadNameChangedEvent(long int int java.lang.String java.lang.String )
+  Loose catch block
+createGroupThreadParticipantJoinedEvent(long int int int java.lang.String )
+  Loose catch block
+createGroupThreadParticipantLeftEvent(long int int int java.lang.String )
+  Loose catch block
+
+
+android.telephony.mbms.IDownloadProgressListener
+----------------------------
+
+onProgressUpdated(android.telephony.mbms.DownloadRequest android.telephony.mbms.FileInfo int int int int )
+  Loose catch block
+
+
+android.telephony.mbms.vendor.IMbmsGroupCallService
+----------------------------
+
+startGroupCall(int long java.util.List java.util.List android.telephony.mbms.IGroupCallCallback )
+  Loose catch block
+
+
+android.util.MemoryIntArray
+----------------------------
+
+writeToParcel(android.os.Parcel int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+android.util.apk.MemoryMappedFileDataSource
+----------------------------
+
+feedIntoDataDigester(android.util.apk.DataDigester long int )
+  Loose catch block
+
+
+android.util.proto.ProtoInputStream
+----------------------------
+
+readInt(long )
+  Unable to fully structure code
+
+
+android.util.proto.ProtoOutputStream
+----------------------------
+
+editEncodedSize(int )
+  Unable to fully structure code
+write(long double )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+write(long float )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+write(long int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+write(long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+write(long byte[] )
+  Unable to fully structure code
+
+
+android.nfc.tech.MifareClassic
+----------------------------
+
+authenticate(int byte[] boolean )
+  Loose catch block
+
+
+android.os.ServiceManagerProxy
+----------------------------
+
+listServices(int )
+  Unable to fully structure code
+
+
+android.renderscript.ScriptC
+----------------------------
+
+internalCreate(android.renderscript.RenderScript android.content.res.Resources int )
+  Unable to fully structure code
+
+
+android.security.keystore.AndroidKeyStoreRSACipherSpi
+----------------------------
+
+initKey(int java.security.Key )
+  Unable to fully structure code
+
+
+android.service.voice.VoiceInteractionSession
+----------------------------
+
+sendCommandResult(boolean android.os.Bundle )
+  Unable to fully structure code
+sendPickOptionResult(boolean android.app.VoiceInteractor$PickOptionRequest$Option[] android.os.Bundle )
+  Unable to fully structure code
+
+
+android.text.method.NumberKeyListener
+----------------------------
+
+addFormatCharsFromSkeleton(java.util.Collection<java.lang.Character> java.util.Locale java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+android.media.MediaHTTPConnection
+----------------------------
+
+readAt(long byte[] int )
+  Unable to fully structure code
+connect(java.lang.String java.lang.String )
+  Loose catch block
+
+
+android.media.SRTTrack
+----------------------------
+
+onData(byte[] boolean long )
+  Loose catch block
+
+
+android.nfc.NfcActivityManager
+----------------------------
+
+createBeamShareData(byte )
+  Unable to fully structure code
+
+
+android.opengl.GLSurfaceView
+----------------------------
+
+guardedRun()
+  Unable to fully structure code
+run()
+  Unable to fully structure code
+
+
+android.permission.PermissionControllerService
+----------------------------
+
+getRuntimePermissionBackup(android.os.UserHandle android.os.ParcelFileDescriptor )
+  Loose catch block
+restoreRuntimePermissionBackup(android.os.UserHandle android.os.ParcelFileDescriptor )
+  Loose catch block
+
+
+android.service.wallpaper.WallpaperService
+----------------------------
+
+updateSurface(boolean boolean boolean )
+  Unable to fully structure code
+
+
+android.speech.tts.TextToSpeechService
+----------------------------
+
+onGetVoices()
+  Unable to fully structure code
+
+
+android.telephony.mbms.MbmsTempFileProvider
+----------------------------
+
+getEmbmsTempFileDir(android.content.Context )
+  Unable to fully structure code
+
+
+android.text.SpannableStringBuilder
+----------------------------
+
+sendToSpanWatchers(int int int )
+  Unable to fully structure code
+
+
+android.preference.PreferenceActivity
+----------------------------
+
+loadHeadersFromResource(int java.util.List<android.preference.PreferenceActivity$Header> )
+  Unable to fully structure code
+
+
+android.view.AccessibilityInteractionController
+----------------------------
+
+findAccessibilityNodeInfoByAccessibilityIdUiThread(android.os.Message )
+  Loose catch block
+findAccessibilityNodeInfosByTextUiThread(android.os.Message )
+  Loose catch block
+findAccessibilityNodeInfosByViewIdUiThread(android.os.Message )
+  Loose catch block
+
+
+android.view.Choreographer
+----------------------------
+
+doCallbacks(int long )
+  Loose catch block
+
+
+android.view.DisplayCutout
+----------------------------
+
+pathAndDisplayCutoutFromSpec(java.lang.String int int float )
+  Loose catch block
+
+
+android.view.GestureDetector
+----------------------------
+
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.view.InputEventConsistencyVerifier
+----------------------------
+
+onGenericMotionEvent(android.view.MotionEvent int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[CASE]], but top level block is 1[TRYBLOCK]
+
+
+android.view.LayoutInflater
+----------------------------
+
+parseInclude(org.xmlpull.v1.XmlPullParser android.content.Context android.view.View android.util.AttributeSet )
+  Loose catch block
+tryInflatePrecompiled(int android.content.res.Resources android.view.ViewGroup boolean )
+  Loose catch block
+createView(android.content.Context java.lang.String java.lang.String android.util.AttributeSet )
+  Unable to fully structure code
+createViewFromTag(android.view.View java.lang.String android.content.Context android.util.AttributeSet boolean )
+  Loose catch block
+inflate(org.xmlpull.v1.XmlPullParser android.view.ViewGroup boolean )
+  Unable to fully structure code
+
+
+android.view.MenuInflater
+----------------------------
+
+inflate(int android.view.Menu )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+
+
+android.view.ViewDebug
+----------------------------
+
+callMethodOnAppropriateTheadBlocking(java.lang.reflect.Method java.lang.Object )
+  Loose catch block
+dump(android.view.View boolean boolean java.io.OutputStream )
+  Unable to fully structure code
+dumpTheme(android.view.View java.io.OutputStream )
+  Unable to fully structure code
+exportFields(android.content.Context java.lang.Object java.io.BufferedWriter java.lang.Class<?> java.lang.String )
+  Unable to fully structure code
+exportMethods(android.content.Context java.lang.Object java.io.BufferedWriter java.lang.Class<?> java.lang.String )
+  Unable to fully structure code
+profile(android.view.View java.io.OutputStream java.lang.String )
+  Unable to fully structure code
+
+
+android.view.accessibility.AccessibilityManager
+----------------------------
+
+sendAccessibilityEvent(android.view.accessibility.AccessibilityEvent )
+  Loose catch block
+
+
+android.view.animation.AnimationUtils
+----------------------------
+
+loadAnimation(android.content.Context int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+loadInterpolator(android.content.Context int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+loadInterpolator(android.content.res.Resources android.content.res.Resources$Theme int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+loadLayoutAnimation(android.content.Context int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+
+
+android.view.autofill.AutofillManager
+----------------------------
+
+autofill(int java.util.List<android.view.autofill.AutofillId> java.util.List<android.view.autofill.AutofillValue> )
+  Unable to fully structure code
+requestShowFillUi(int android.view.autofill.AutofillId int int android.graphics.Rect android.view.autofill.IAutofillWindowPresenter )
+  Loose catch block
+startSessionLocked(android.view.autofill.AutofillId android.graphics.Rect android.view.autofill.AutofillValue int )
+  Loose catch block
+
+
+android.view.inputmethod.InputMethodManager
+----------------------------
+
+onPostWindowFocus(android.view.View android.view.View int boolean int )
+  Loose catch block
+startInputInner(int android.os.IBinder int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 6[TRYBLOCK]
+
+
+android.view.inputmethod.InputMethodSubtypeArray
+----------------------------
+
+compress(byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 4 blocks at once
+decompress(byte[] int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.view.textclassifier.ModelFileManager
+----------------------------
+
+createModelFile(java.io.File )
+  Loose catch block
+
+
+android.webkit.PluginList
+----------------------------
+
+pluginClicked(android.content.Context int )
+  Loose catch block
+
+
+android.webkit.WebViewFactory
+----------------------------
+
+getProvider()
+  Loose catch block
+getProviderClass()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+getWebViewContextAndSetProvider()
+  Loose catch block
+
+
+android.widget.Editor
+----------------------------
+
+obtainMagnifierShowCoordinates(android.view.MotionEvent android.graphics.PointF )
+  Unable to fully structure code
+filter(java.lang.CharSequence int int android.text.Spanned int int )
+  Unable to fully structure code
+
+
+android.widget.Filter
+----------------------------
+
+handleMessage(android.os.Message )
+  Unable to fully structure code
+
+
+android.widget.SelectionActionModeHelper
+----------------------------
+
+getActionType(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+com.android.framework.protobuf.Utf8
+----------------------------
+
+encodeUtf8Default(java.lang.CharSequence java.nio.ByteBuffer )
+  Unable to fully structure code
+
+
+com.android.framework.protobuf.nano.Extension
+----------------------------
+
+writeRepeatedData(java.lang.Object com.android.framework.protobuf.nano.CodedOutputByteBufferNano )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 19[CASE]
+
+
+com.android.framework.protobuf.nano.MessageNanoPrinter
+----------------------------
+
+print(java.lang.String java.lang.Object java.lang.StringBuffer java.lang.StringBuffer )
+  Loose catch block
+
+
+com.android.internal.alsa.AlsaDevicesParser
+----------------------------
+
+parse(java.lang.String )
+  Unable to fully structure code
+
+
+com.android.internal.content.PackageHelper
+----------------------------
+
+calculateInstalledSize(android.content.pm.PackageParser$PackageLite java.lang.String java.io.FileDescriptor )
+  Unable to fully structure code
+
+
+com.android.internal.os.AtomicFile
+----------------------------
+
+truncate()
+  Loose catch block
+
+
+com.android.internal.os.BatteryStatsHelper
+----------------------------
+
+getStats(com.android.internal.app.IBatteryStats )
+  Unable to fully structure code
+statsFromFile(android.content.Context java.lang.String )
+  Loose catch block
+storeStatsHistoryInFile(java.lang.String )
+  Loose catch block
+
+
+com.android.internal.os.ChildZygoteInit
+----------------------------
+
+runZygoteServer(com.android.internal.os.ZygoteServer java.lang.String[] )
+  Loose catch block
+
+
+com.android.internal.os.KernelCpuProcStringReader
+----------------------------
+
+open(boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 15[WHILELOOP]
+
+
+com.android.internal.os.KernelCpuSpeedReader
+----------------------------
+
+readAbsolute()
+  Unable to fully structure code
+readDelta()
+  Unable to fully structure code
+
+
+com.android.internal.os.KernelCpuThreadReader
+----------------------------
+
+getProcessCpuUsage(java.nio.file.Path int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+getProcessCpuUsage()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+com.android.internal.os.KernelCpuUidTimeReader
+----------------------------
+
+readDeltaImpl(com.android.internal.os.KernelCpuUidTimeReader$Callback<long[]> )
+  Unable to fully structure code
+readDeltaImpl(com.android.internal.os.KernelCpuUidTimeReader$Callback<long[]> )
+  Unable to fully structure code
+readFreqs(com.android.internal.os.PowerProfile )
+  Loose catch block
+removeUidsFromKernelModule(int int )
+  Loose catch block
+
+
+com.android.internal.os.KernelMemoryBandwidthStats
+----------------------------
+
+updateStats()
+  Loose catch block
+
+
+com.android.internal.os.KernelWakelockReader
+----------------------------
+
+parseProcWakelocks(byte[] int boolean com.android.internal.os.KernelWakelockStats )
+  Unable to fully structure code
+readKernelWakelockStats(com.android.internal.os.KernelWakelockStats )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 8[CATCHBLOCK]
+
+
+com.android.internal.os.PowerProfile
+----------------------------
+
+readPowerValuesFromXml(android.content.Context boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 8[UNCONDITIONALDOLOOP]
+
+
+com.android.internal.os.ProcStatsUtil
+----------------------------
+
+readTerminatedProcFile(java.lang.String byte )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 18[UNCONDITIONALDOLOOP]
+
+
+com.android.internal.os.StoragedUidIoStatsReader
+----------------------------
+
+readAbsolute(com.android.internal.os.StoragedUidIoStatsReader$Callback )
+  Loose catch block
+
+
+com.android.internal.os.TransferPipe
+----------------------------
+
+dumpAsync(android.os.IBinder java.lang.String[] )
+  Loose catch block
+run()
+  Unable to fully structure code
+
+
+com.android.internal.os.Zygote
+----------------------------
+
+usapMain(android.net.LocalServerSocket java.io.FileDescriptor )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [22[UNCONDITIONALDOLOOP]], but top level block is 8[TRYBLOCK]
+
+
+com.android.internal.os.ZygoteConnection
+----------------------------
+
+handleParentProc(int java.io.FileDescriptor[] java.io.FileDescriptor )
+  Loose catch block
+processOneCommand(com.android.internal.os.ZygoteServer )
+  Loose catch block
+
+
+com.android.internal.os.ZygoteInit
+----------------------------
+
+main(java.lang.String[] )
+  Loose catch block
+performSystemServerDexOpt(java.lang.String )
+  Loose catch block
+preloadClasses()
+  Unable to fully structure code
+
+
+com.android.internal.telephony.CarrierAppUtils
+----------------------------
+
+disableCarrierAppsUntilPrivileged(java.lang.String android.content.pm.IPackageManager android.telephony.TelephonyManager android.content.ContentResolver int android.util.ArraySet<java.lang.String> android.util.ArrayMap<java.lang.String, java.util.List<java.lang.String>> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 17[UNCONDITIONALDOLOOP]
+
+
+com.android.internal.telephony.GsmAlphabet
+----------------------------
+
+gsm7BitPackedToString(byte[] int int int int int )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.Sms7BitEncodingTranslator
+----------------------------
+
+load7BitTranslationTableFromXml()
+  Loose catch block
+
+
+com.android.internal.telephony.cdma.sms.BearerData
+----------------------------
+
+decode(byte[] int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 26[WHILELOOP]
+decode7bitAscii(byte[] int int )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.gsm.GsmSmsCbMessage
+----------------------------
+
+parseBody(com.android.internal.telephony.gsm.SmsCbHeader byte[] )
+  Unable to fully structure code
+
+
+com.android.internal.telephony.gsm.SmsCbHeader
+----------------------------
+
+getCmasCertainty()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+getCmasSeverity()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+getCmasUrgency()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+com.android.internal.util.CallbackRegistry
+----------------------------
+
+clone()
+  Loose catch block
+
+
+com.android.internal.util.FileRotator
+----------------------------
+
+dumpAll(java.io.OutputStream )
+  Loose catch block
+
+
+com.android.internal.util.MessageUtils
+----------------------------
+
+findMessageNames(java.lang.Class[] java.lang.String[] )
+  Unable to fully structure code
+
+
+com.android.internal.util.MimeIconUtils
+----------------------------
+
+buildTypeInfo(java.lang.String )
+  Unable to fully structure code
+
+
+com.android.internal.util.ScreenshotHelper
+----------------------------
+
+takeScreenshot(int boolean boolean android.os.Handler )
+  Unable to fully structure code
+
+
+com.android.internal.util.StateMachine
+----------------------------
+
+handleMessage(android.os.Message )
+  Unable to fully structure code
+
+
+com.android.internal.widget.BackgroundFallback
+----------------------------
+
+draw(android.view.ViewGroup android.view.ViewGroup android.graphics.Canvas android.view.View android.view.View android.view.View )
+  Unable to fully structure code
+
+
+com.android.server.SystemConfig
+----------------------------
+
+readPermissionsFromXml(java.io.File int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.view.IPinnedStackListener
+----------------------------
+
+onMovementBoundsChanged(android.graphics.Rect android.graphics.Rect android.graphics.Rect boolean boolean int )
+  Loose catch block
+
+
+android.view.IWindow
+----------------------------
+
+dispatchWallpaperCommand(java.lang.String int int int android.os.Bundle boolean )
+  Loose catch block
+resized(android.graphics.Rect android.graphics.Rect android.graphics.Rect android.graphics.Rect android.graphics.Rect android.graphics.Rect boolean android.util.MergedConfiguration android.graphics.Rect boolean boolean int android.view.DisplayCutout$ParcelableWrapper )
+  Unable to fully structure code
+
+
+android.view.IWindowSession
+----------------------------
+
+addToDisplay(android.view.IWindow int android.view.WindowManager$LayoutParams int int android.graphics.Rect android.graphics.Rect android.graphics.Rect android.graphics.Rect android.view.DisplayCutout$ParcelableWrapper android.view.InputChannel android.view.InsetsState )
+  Unable to fully structure code
+addToDisplayWithoutInputChannel(android.view.IWindow int android.view.WindowManager$LayoutParams int int android.graphics.Rect android.graphics.Rect android.view.InsetsState )
+  Unable to fully structure code
+performDrag(android.view.IWindow int android.view.SurfaceControl int float float float float android.content.ClipData )
+  Loose catch block
+relayout(android.view.IWindow int android.view.WindowManager$LayoutParams int int int int long android.graphics.Rect android.graphics.Rect android.graphics.Rect android.graphics.Rect android.graphics.Rect android.graphics.Rect android.graphics.Rect android.view.DisplayCutout$ParcelableWrapper android.util.MergedConfiguration android.view.SurfaceControl android.view.InsetsState )
+  Unable to fully structure code
+sendWallpaperCommand(android.os.IBinder java.lang.String int int int android.os.Bundle boolean )
+  Loose catch block
+
+
+android.view.InsetsController
+----------------------------
+
+show(int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Statement already marked as first in another block
+hide(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Statement already marked as first in another block
+
+
+android.view.PointerIcon
+----------------------------
+
+loadResource(android.content.Context android.content.res.Resources int )
+  Loose catch block
+
+
+android.view.View
+----------------------------
+
+<init>(android.content.Context android.util.AttributeSet int int )
+  Unable to fully structure code
+buildDrawingCacheImpl(boolean )
+  Loose catch block
+handleScrollBarDragging(android.view.MotionEvent )
+  Unable to fully structure code
+onProvideStructure(android.view.ViewStructure int int )
+  Unable to fully structure code
+resolveTextAlignment()
+  Unable to fully structure code
+resolveTextDirection()
+  Unable to fully structure code
+startDragAndDrop(android.content.ClipData android.view.View$DragShadowBuilder java.lang.Object int )
+  Unable to fully structure code
+updateDisplayListIfDirty()
+  Unable to fully structure code
+updateDragShadow(android.view.View$DragShadowBuilder )
+  Loose catch block
+
+
+android.view.ViewRootImpl
+----------------------------
+
+<init>(android.content.Context android.view.Display )
+  Loose catch block
+draw(boolean )
+  Unable to fully structure code
+drawSoftware(android.view.Surface android.view.View$AttachInfo int int boolean android.graphics.Rect android.graphics.Rect )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+finishInputEvent(android.view.ViewRootImpl$QueuedInputEvent )
+  Unable to fully structure code
+handleDragEvent(android.view.DragEvent )
+  Unable to fully structure code
+performTraversals()
+  Unable to fully structure code
+setView(android.view.View android.view.WindowManager$LayoutParams android.view.View )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [13[CASE]], but top level block is 7[TRYBLOCK]
+executeCommand(java.lang.String java.lang.String android.os.ParcelFileDescriptor )
+  Loose catch block
+
+
+android.view.accessibility.IAccessibilityInteractionConnection
+----------------------------
+
+findAccessibilityNodeInfoByAccessibilityId(long android.graphics.Region int android.view.accessibility.IAccessibilityInteractionConnectionCallback int int long android.view.MagnificationSpec android.os.Bundle )
+  Unable to fully structure code
+performAccessibilityAction(long int android.os.Bundle int android.view.accessibility.IAccessibilityInteractionConnectionCallback int int long )
+  Loose catch block
+
+
+android.view.autofill.IAugmentedAutofillManagerClient
+----------------------------
+
+requestShowFillUi(int android.view.autofill.AutofillId int int android.graphics.Rect android.view.autofill.IAutofillWindowPresenter )
+  Loose catch block
+
+
+android.view.autofill.IAutoFillManager
+----------------------------
+
+startSession(android.os.IBinder android.os.IBinder android.view.autofill.AutofillId android.graphics.Rect android.view.autofill.AutofillValue int boolean int android.content.ComponentName boolean com.android.internal.os.IResultReceiver )
+  Unable to fully structure code
+updateSession(int android.view.autofill.AutofillId android.graphics.Rect android.view.autofill.AutofillValue int int int )
+  Loose catch block
+
+
+android.view.autofill.IAutoFillManagerClient
+----------------------------
+
+requestShowFillUi(int android.view.autofill.AutofillId int int android.graphics.Rect android.view.autofill.IAutofillWindowPresenter )
+  Loose catch block
+setTrackedViews(int android.view.autofill.AutofillId[] boolean boolean android.view.autofill.AutofillId[] android.view.autofill.AutofillId )
+  Loose catch block
+
+
+android.view.inputmethod.InputMethodInfo
+----------------------------
+
+<init>(android.content.Context android.content.pm.ResolveInfo java.util.List<android.view.inputmethod.InputMethodSubtype> )
+  Unable to fully structure code
+
+
+android.view.textclassifier.TextClassifierImpl
+----------------------------
+
+generateLanguageBundles(java.lang.String int int )
+  Unable to fully structure code
+getActionsImpl()
+  Unable to fully structure code
+getAnnotatorImpl(android.os.LocaleList )
+  Unable to fully structure code
+generateLinks(android.view.textclassifier.TextLinks$Request )
+  Unable to fully structure code
+
+
+android.view.textclassifier.intent.LegacyClassificationIntentFactory
+----------------------------
+
+create(android.content.Context java.lang.String boolean java.time.Instant com.google.android.textclassifier.AnnotatorModel$ClassificationResult )
+  Unable to fully structure code
+
+
+android.view.textservice.SpellCheckerInfo
+----------------------------
+
+<init>(android.content.Context android.content.pm.ResolveInfo )
+  Unable to fully structure code
+
+
+android.widget.RemoteViews
+----------------------------
+
+getMethod(android.view.View java.lang.String java.lang.Class<?> boolean )
+  Unable to fully structure code
+
+
+com.android.framework.protobuf.AbstractParser
+----------------------------
+
+parsePartialFrom(com.android.framework.protobuf.ByteString com.android.framework.protobuf.ExtensionRegistryLite )
+  Loose catch block
+parsePartialFrom(byte[] int int com.android.framework.protobuf.ExtensionRegistryLite )
+  Loose catch block
+
+
+com.android.framework.protobuf.CodedOutputStream
+----------------------------
+
+writeUInt32NoTag(int )
+  Unable to fully structure code
+writeUInt64NoTag(long )
+  Unable to fully structure code
+writeUInt32NoTag(int )
+  Unable to fully structure code
+writeUInt64NoTag(long )
+  Unable to fully structure code
+writeStringNoTag(java.lang.String )
+  Unable to fully structure code
+
+
+com.android.ims.internal.uce.options.IOptionsService
+----------------------------
+
+responseIncomingOptions(int int int java.lang.String com.android.ims.internal.uce.options.OptionsCapInfo boolean )
+  Loose catch block
+
+
+com.android.internal.app.IAppOpsService
+----------------------------
+
+getHistoricalOps(int java.lang.String java.util.List<java.lang.String> long long int android.os.RemoteCallback )
+  Loose catch block
+getHistoricalOpsFromDiskRaw(int java.lang.String java.util.List<java.lang.String> long long int android.os.RemoteCallback )
+  Loose catch block
+
+
+com.android.internal.app.IBatteryStats
+----------------------------
+
+noteChangeWakelockFromSource(android.os.WorkSource int java.lang.String java.lang.String int android.os.WorkSource int java.lang.String java.lang.String int boolean )
+  Unable to fully structure code
+noteStartWakelock(int int java.lang.String java.lang.String int boolean )
+  Loose catch block
+noteStartWakelockFromSource(android.os.WorkSource int java.lang.String java.lang.String int boolean )
+  Loose catch block
+setBatteryState(int int int int int int int int )
+  Loose catch block
+
+
+com.android.internal.app.IVoiceInteractionManagerService
+----------------------------
+
+performDirectAction(android.os.IBinder java.lang.String android.os.Bundle int android.os.IBinder android.os.RemoteCallback android.os.RemoteCallback )
+  Loose catch block
+
+
+com.android.internal.app.procstats.ProcessStats
+----------------------------
+
+dumpLocked(java.io.PrintWriter java.lang.String long boolean boolean boolean boolean int )
+  Unable to fully structure code
+updateFragmentation()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 11[UNCONDITIONALDOLOOP]
+
+
+com.android.internal.appwidget.IAppWidgetService
+----------------------------
+
+bindAppWidgetId(java.lang.String int int android.content.ComponentName android.os.Bundle )
+  Loose catch block
+bindRemoteViewsService(java.lang.String int android.content.Intent android.app.IApplicationThread android.os.IBinder android.app.IServiceConnection int )
+  Loose catch block
+
+
+com.android.internal.infra.AbstractRemoteService
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+com.android.internal.inputmethod.IMultiClientInputMethodSession
+----------------------------
+
+startInputOrWindowGainedFocus(com.android.internal.view.IInputContext int android.view.inputmethod.EditorInfo int int int )
+  Loose catch block
+
+
+com.android.internal.os.BinderCallsStats
+----------------------------
+
+processCallEnded(com.android.internal.os.BinderInternal$CallSession int int int )
+  Unable to fully structure code
+
+
+com.android.internal.os.FuseAppLoop
+----------------------------
+
+handleMessage(android.os.Message )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 31[CATCHBLOCK]
+
+
+com.android.internal.policy.PhoneFallbackEventHandler
+----------------------------
+
+onKeyDown(int android.view.KeyEvent )
+  Unable to fully structure code
+onKeyUp(int android.view.KeyEvent )
+  Unable to fully structure code
+
+
+com.android.internal.policy.PhoneWindow
+----------------------------
+
+onKeyDown(int int android.view.KeyEvent )
+  Unable to fully structure code
+onKeyUp(int int android.view.KeyEvent )
+  Unable to fully structure code
+
+
+com.android.internal.statusbar.IStatusBar
+----------------------------
+
+setSystemUiVisibility(int int int int int android.graphics.Rect android.graphics.Rect boolean )
+  Loose catch block
+
+
+com.android.internal.statusbar.IStatusBarService
+----------------------------
+
+onNotificationClear(java.lang.String java.lang.String int int java.lang.String int int com.android.internal.statusbar.NotificationVisibility )
+  Loose catch block
+onNotificationError(java.lang.String java.lang.String int int int java.lang.String int )
+  Loose catch block
+
+
+com.android.internal.telecom.IConnectionService
+----------------------------
+
+createConnection(android.telecom.PhoneAccountHandle java.lang.String android.telecom.ConnectionRequest boolean boolean android.telecom.Logging.Session$Info )
+  Loose catch block
+
+
+com.android.internal.telephony.IMms
+----------------------------
+
+downloadMessage(int java.lang.String java.lang.String android.net.Uri android.os.Bundle android.app.PendingIntent )
+  Loose catch block
+importMultimediaMessage(java.lang.String android.net.Uri java.lang.String long boolean boolean )
+  Loose catch block
+importTextMessage(java.lang.String java.lang.String int java.lang.String long boolean boolean )
+  Loose catch block
+sendMessage(int java.lang.String android.net.Uri java.lang.String android.os.Bundle android.app.PendingIntent )
+  Loose catch block
+
+
+com.android.internal.telephony.ISms
+----------------------------
+
+copyMessageToIccEfForSubscriber(int java.lang.String int byte[] byte[] )
+  Loose catch block
+sendDataForSubscriber(int java.lang.String java.lang.String java.lang.String int byte[] android.app.PendingIntent android.app.PendingIntent )
+  Loose catch block
+sendDataForSubscriberWithSelfPermissions(int java.lang.String java.lang.String java.lang.String int byte[] android.app.PendingIntent android.app.PendingIntent )
+  Loose catch block
+sendMultipartTextForSubscriber(int java.lang.String java.lang.String java.lang.String java.util.List<java.lang.String> java.util.List<android.app.PendingIntent> java.util.List<android.app.PendingIntent> boolean )
+  Loose catch block
+sendMultipartTextForSubscriberWithOptions(int java.lang.String java.lang.String java.lang.String java.util.List<java.lang.String> java.util.List<android.app.PendingIntent> java.util.List<android.app.PendingIntent> boolean int boolean int )
+  Loose catch block
+sendStoredMultipartText(int java.lang.String android.net.Uri java.lang.String java.util.List<android.app.PendingIntent> java.util.List<android.app.PendingIntent> )
+  Loose catch block
+sendStoredText(int java.lang.String android.net.Uri java.lang.String android.app.PendingIntent android.app.PendingIntent )
+  Loose catch block
+sendTextForSubscriber(int java.lang.String java.lang.String java.lang.String java.lang.String android.app.PendingIntent android.app.PendingIntent boolean )
+  Loose catch block
+sendTextForSubscriberWithOptions(int java.lang.String java.lang.String java.lang.String java.lang.String android.app.PendingIntent android.app.PendingIntent boolean int boolean int )
+  Unable to fully structure code
+sendTextForSubscriberWithSelfPermissions(int java.lang.String java.lang.String java.lang.String java.lang.String android.app.PendingIntent android.app.PendingIntent boolean )
+  Loose catch block
+updateMessageOnIccEfForSubscriber(int java.lang.String int int byte[] )
+  Loose catch block
+
+
+com.android.internal.telephony.ITelephony
+----------------------------
+
+iccExchangeSimIO(int int int int int int java.lang.String )
+  Loose catch block
+iccTransmitApduBasicChannel(int java.lang.String int int int int int java.lang.String )
+  Loose catch block
+iccTransmitApduBasicChannelBySlot(int java.lang.String int int int int int java.lang.String )
+  Loose catch block
+iccTransmitApduLogicalChannel(int int int int int int int java.lang.String )
+  Loose catch block
+iccTransmitApduLogicalChannelBySlot(int int int int int int int java.lang.String )
+  Loose catch block
+sendVisualVoicemailSmsForSubscriber(java.lang.String int java.lang.String int java.lang.String android.app.PendingIntent )
+  Loose catch block
+setCarrierTestOverride(int java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String java.lang.String )
+  Loose catch block
+setRoamingOverride(int java.util.List<java.lang.String> java.util.List<java.lang.String> java.util.List<java.lang.String> java.util.List<java.lang.String> )
+  Loose catch block
+
+
+com.android.internal.telephony.ITelephonyRegistry
+----------------------------
+
+notifyDataConnection(int boolean java.lang.String java.lang.String android.net.LinkProperties android.net.NetworkCapabilities int boolean )
+  Loose catch block
+
+
+com.android.internal.telephony.IWapPushManager
+----------------------------
+
+addPackage(java.lang.String java.lang.String java.lang.String java.lang.String int boolean boolean )
+  Loose catch block
+updatePackage(java.lang.String java.lang.String java.lang.String java.lang.String int boolean boolean )
+  Loose catch block
+
+
+com.android.internal.telephony.cdma.SmsMessage
+----------------------------
+
+parsePdu(byte[] )
+  Loose catch block
+parsePduFromEfRecord(byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 15[UNCONDITIONALDOLOOP]
+
+
+com.android.internal.telephony.euicc.IEuiccCardController
+----------------------------
+
+authenticateServer(java.lang.String java.lang.String java.lang.String byte[] byte[] byte[] byte[] com.android.internal.telephony.euicc.IAuthenticateServerCallback )
+  Loose catch block
+prepareDownload(java.lang.String java.lang.String byte[] byte[] byte[] byte[] com.android.internal.telephony.euicc.IPrepareDownloadCallback )
+  Loose catch block
+
+
+com.android.internal.telephony.euicc.IEuiccController
+----------------------------
+
+downloadSubscription(int android.telephony.euicc.DownloadableSubscription boolean java.lang.String android.os.Bundle android.app.PendingIntent )
+  Loose catch block
+
+
+com.android.internal.telephony.gsm.SmsMessage
+----------------------------
+
+getSubmitPdu(java.lang.String java.lang.String java.lang.String boolean byte[] int int int int )
+  Unable to fully structure code
+parseUserData(com.android.internal.telephony.gsm.SmsMessage$PduParser boolean )
+  Unable to fully structure code
+
+
+com.android.internal.textservice.ITextServicesManager
+----------------------------
+
+getSpellCheckerService(int java.lang.String java.lang.String com.android.internal.textservice.ITextServicesSessionListener com.android.internal.textservice.ISpellCheckerSessionListener android.os.Bundle )
+  Loose catch block
+
+
+com.android.internal.view.BaseSurfaceHolder
+----------------------------
+
+internalLockCanvas(android.graphics.Rect boolean )
+  Unable to fully structure code
+
+
+com.android.internal.view.IInputMethod
+----------------------------
+
+startInput(android.os.IBinder com.android.internal.view.IInputContext int android.view.inputmethod.EditorInfo boolean boolean )
+  Loose catch block
+
+
+com.android.internal.view.IInputMethodManager
+----------------------------
+
+startInputOrWindowGainedFocus(int com.android.internal.view.IInputMethodClient android.os.IBinder int int int android.view.inputmethod.EditorInfo com.android.internal.view.IInputContext int int )
+  Loose catch block
+
+
+com.android.internal.view.IInputMethodSession
+----------------------------
+
+updateSelection(int int int int int int )
+  Loose catch block
+
+
+com.android.internal.view.InputConnectionWrapper
+----------------------------
+
+commitContent(android.view.inputmethod.InputContentInfo int android.os.Bundle )
+  Unable to fully structure code
+
+
+com.android.internal.widget.ILockSettings
+----------------------------
+
+setLockCredential(byte[] int byte[] int int boolean )
+  Loose catch block
+startRecoverySessionWithCertPath(java.lang.String java.lang.String android.security.keystore.recovery.RecoveryCertPath byte[] byte[] java.util.List<android.security.keystore.recovery.KeyChainProtectionParams> )
+  Loose catch block
+
+
+com.android.server.BootReceiver
+----------------------------
+
+fixFsckFsStat(java.lang.String int java.lang.String[] int int )
+  Unable to fully structure code
+readTimestamps()
+  Unable to fully structure code
+writeTimestamps(java.util.HashMap<java.lang.String, java.lang.Long> )
+  Loose catch block
+
+
+com.android.server.backup.AccountSyncSettingsBackupHelper
+----------------------------
+
+restoreFromJsonArray(org.json.JSONArray int )
+  Loose catch block
+restoreEntity(android.app.backup.BackupDataInputStream )
+  Loose catch block
+
+
+android.view.MotionEvent
+----------------------------
+
+clampNoHistory(float float float float )
+  Unable to fully structure code
+split(int )
+  Unable to fully structure code
+
+
+android.view.SurfaceView
+----------------------------
+
+internalLockCanvas(android.graphics.Rect boolean )
+  Unable to fully structure code
+updateSurface()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.view.ViewGroup
+----------------------------
+
+dispatchTransformedTouchEvent(android.view.MotionEvent boolean android.view.View int )
+  Unable to fully structure code
+dispatchTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.widget.ActivityChooserModel
+----------------------------
+
+readHistoricalDataImpl()
+  Loose catch block
+doInBackground(java.lang.Object[] )
+  Loose catch block
+
+
+android.widget.SimpleMonthView
+----------------------------
+
+onKeyDown(int android.view.KeyEvent )
+  Unable to fully structure code
+
+
+android.widget.TextView
+----------------------------
+
+<init>(android.content.Context android.util.AttributeSet int int )
+  Unable to fully structure code
+
+
+com.android.internal.os.BatteryStatsImpl
+----------------------------
+
+noteScreenStateLocked(int )
+  Unable to fully structure code
+readDailyStatsLocked()
+  Loose catch block
+readLocked()
+  Unable to fully structure code
+run()
+  Loose catch block
+updateMobileRadioState(android.telephony.ModemActivityInfo )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [15[TRYBLOCK]], but top level block is 16[TRYBLOCK]
+updateWifiState(android.net.wifi.WifiActivityEnergyInfo )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [20[UNCONDITIONALDOLOOP]], but top level block is 7[TRYBLOCK]
+
+
+android.view.accessibility.AccessibilityInteractionClient
+----------------------------
+
+findAccessibilityNodeInfoByAccessibilityId(int int long boolean int android.os.Bundle )
+  Unable to fully structure code
+findAccessibilityNodeInfosByText(int int long java.lang.String )
+  Loose catch block
+findAccessibilityNodeInfosByViewId(int int long java.lang.String )
+  Loose catch block
+findFocus(int int long int )
+  Loose catch block
+focusSearch(int int long int )
+  Loose catch block
+getWindow(int int )
+  Loose catch block
+getWindows(int )
+  Loose catch block
+performAccessibilityAction(int int long int android.os.Bundle )
+  Loose catch block
+
+
+android.widget.QuickContactBadge
+----------------------------
+
+onQueryComplete(int java.lang.Object android.database.Cursor )
+  Unable to fully structure code
+
+
+android.widget.RemoteViewsAdapter
+----------------------------
+
+sendNotifyDataSetChange(boolean )
+  Unable to fully structure code
+
+
+android.widget.VideoView
+----------------------------
+
+openVideo()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+com.android.framework.protobuf.GeneratedMessageLite
+----------------------------
+
+parsePartialFrom(T com.android.framework.protobuf.ByteString com.android.framework.protobuf.ExtensionRegistryLite )
+  Loose catch block
+parsePartialFrom(T byte[] com.android.framework.protobuf.ExtensionRegistryLite )
+  Loose catch block
+
+
+com.android.internal.view.IInputConnectionWrapper
+----------------------------
+
+executeMessage(android.os.Message )
+  Unable to fully structure code
+
+
+com.android.internal.widget.RecyclerView
+----------------------------
+
+createLayoutManager(android.content.Context java.lang.String android.util.AttributeSet int int )
+  Unable to fully structure code
+findViewHolderForPosition(int boolean )
+  Unable to fully structure code
+
+
+com.android.internal.widget.SlidingTab
+----------------------------
+
+onTouchEvent(android.view.MotionEvent )
+  Unable to fully structure code
+
+
+android.widget.AbsListView
+----------------------------
+
+sendToTextFilter(int int android.view.KeyEvent )
+  Unable to fully structure code
+
+
+android.widget.DialerFilter
+----------------------------
+
+onKeyDown(int android.view.KeyEvent )
+  Unable to fully structure code
+
+
+com.android.internal.content.FileSystemProvider
+----------------------------
+
+getDocumentMetadata(java.lang.String )
+  Loose catch block
+
+
+com.android.internal.widget.ActionBarView
+----------------------------
+
+onLayout(boolean int int int int )
+  Unable to fully structure code
+onMeasure(int int )
+  Unable to fully structure code
+
+
+com.android.server.backup.SystemBackupAgent
+----------------------------
+
+onRestoreFile(android.os.ParcelFileDescriptor long int java.lang.String java.lang.String long long )
+  Unable to fully structure code
+
+
+android.widget.GridView
+----------------------------
+
+layoutChildren()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 17[CASE]
+
+
+android.widget.ListView
+----------------------------
+
+layoutChildren()
+  Unable to fully structure code
+
+
+android.widget.SuggestionsAdapter
+----------------------------
+
+getDrawable(android.net.Uri )
+  Unable to fully structure code
+
+
+com.android.internal.app.ChooserActivity
+----------------------------
+
+extractFileInfo(android.net.Uri android.content.ContentResolver )
+  Unable to fully structure code
+onCreate(android.os.Bundle )
+  Unable to fully structure code

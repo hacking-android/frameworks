@@ -1,0 +1,182 @@
+Summary for /tmp/frameworksh3008liq/devices/google/Pixel 2/29/QPP6.190730.005/jar/conscrypt.jar
+Decompiled with CFR 0.145
+
+
+com.android.org.conscrypt.CryptoUpcalls
+----------------------------
+
+rsaOpWithPrivateKey(java.security.PrivateKey int int byte[] )
+  Unable to fully structure code
+signDigestWithPrivateKey(java.security.PrivateKey byte[] java.lang.String )
+  Unable to fully structure code
+
+
+com.android.org.conscrypt.FileClientSessionCache
+----------------------------
+
+getSessionData(java.lang.String int )
+  Loose catch block
+putSessionData(javax.net.ssl.SSLSession byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 26[UNCONDITIONALDOLOOP]
+
+
+com.android.org.conscrypt.GCMParameters
+----------------------------
+
+engineGetEncoded()
+  Loose catch block
+
+
+com.android.org.conscrypt.IvParameters
+----------------------------
+
+engineGetEncoded()
+  Loose catch block
+
+
+com.android.org.conscrypt.NativeSsl
+----------------------------
+
+clientPSKKeyRequested(java.lang.String byte[] byte[] )
+  Loose catch block
+
+
+com.android.org.conscrypt.NativeSslSession
+----------------------------
+
+newInstance(com.android.org.conscrypt.AbstractSessionContext byte[] java.lang.String int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+com.android.org.conscrypt.OAEPParameters
+----------------------------
+
+engineGetEncoded()
+  Unable to fully structure code
+engineInit(byte[] )
+  Unable to fully structure code
+
+
+com.android.org.conscrypt.OpenSSLKey
+----------------------------
+
+fromPrivateKeyPemInputStream(java.io.InputStream )
+  Loose catch block
+fromPublicKeyPemInputStream(java.io.InputStream )
+  Loose catch block
+
+
+com.android.org.conscrypt.OpenSSLSignature
+----------------------------
+
+engineSign()
+  Loose catch block
+engineVerify(byte[] )
+  Loose catch block
+
+
+com.android.org.conscrypt.OpenSSLSignatureRawRSA
+----------------------------
+
+engineSign()
+  Loose catch block
+engineVerify(byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 7[CATCHBLOCK]
+
+
+com.android.org.conscrypt.OpenSSLX509CRL
+----------------------------
+
+fromPkcs7DerInputStream(java.io.InputStream )
+  Loose catch block
+fromPkcs7PemInputStream(java.io.InputStream )
+  Loose catch block
+fromX509DerInputStream(java.io.InputStream )
+  Loose catch block
+fromX509PemInputStream(java.io.InputStream )
+  Loose catch block
+isRevoked(java.security.cert.Certificate )
+  Loose catch block
+
+
+com.android.org.conscrypt.OpenSSLX509CertPath
+----------------------------
+
+fromPkiPathEncoding(java.io.InputStream )
+  Unable to fully structure code
+
+
+com.android.org.conscrypt.OpenSSLX509Certificate
+----------------------------
+
+fromPkcs7DerInputStream(java.io.InputStream )
+  Loose catch block
+fromPkcs7PemInputStream(java.io.InputStream )
+  Loose catch block
+fromX509DerInputStream(java.io.InputStream )
+  Loose catch block
+fromX509PemInputStream(java.io.InputStream )
+  Loose catch block
+
+
+com.android.org.conscrypt.OpenSSLX509CertificateFactory
+----------------------------
+
+generateItem(java.io.InputStream )
+  Unable to fully structure code
+generateItems(java.io.InputStream )
+  Loose catch block
+
+
+com.android.org.conscrypt.PSSParameters
+----------------------------
+
+engineGetEncoded()
+  Unable to fully structure code
+engineInit(byte[] )
+  Unable to fully structure code
+
+
+com.android.org.conscrypt.Platform
+----------------------------
+
+getOriginalHostNameFromInetAddress(java.net.InetAddress )
+  Loose catch block
+
+
+com.android.org.conscrypt.TrustManagerImpl
+----------------------------
+
+checkTrustedRecursive(java.security.cert.X509Certificate[] byte[] byte[] java.lang.String boolean java.util.ArrayList<java.security.cert.X509Certificate> java.util.ArrayList<java.security.cert.TrustAnchor> java.util.Set<java.security.cert.X509Certificate> )
+  Loose catch block
+verifyChain(java.util.List<java.security.cert.X509Certificate> java.util.List<java.security.cert.TrustAnchor> java.lang.String boolean byte[] byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 3[CATCHBLOCK]
+check(java.security.cert.Certificate java.util.Collection<java.lang.String> )
+  Unable to fully structure code
+
+
+com.android.org.conscrypt.ct.Serialization
+----------------------------
+
+writeNumber(java.io.OutputStream long int )
+  Unable to fully structure code
+
+
+com.android.org.conscrypt.ConscryptEngine
+----------------------------
+
+beginHandshakeInternal()
+  Loose catch block
+unwrap(java.nio.ByteBuffer[] int int java.nio.ByteBuffer[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+verifyCertificateChain(byte[][] java.lang.String )
+  Unable to fully structure code
+
+
+com.android.org.conscrypt.ConscryptFileDescriptorSocket
+----------------------------
+
+startHandshake()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [22[TRYBLOCK]], but top level block is 53[CATCHBLOCK]
+verifyCertificateChain(byte[][] java.lang.String )
+  Unable to fully structure code

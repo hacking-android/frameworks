@@ -1,0 +1,23 @@
+Summary for /tmp/frameworksh3008liq/devices/google/Pixel 2/29/QPP6.190730.005/jar/voip-common.jar
+Decompiled with CFR 0.145
+
+
+android.net.sip.SipAudioCall
+----------------------------
+
+onCallTransferring(android.net.sip.SipSession java.lang.String )
+  Unable to fully structure code
+
+
+com.android.server.sip.SipHelper
+----------------------------
+
+sendOptions(android.net.sip.SipProfile android.net.sip.SipProfile java.lang.String )
+  Unable to fully structure code
+
+
+com.android.server.sip.SipSessionGroup
+----------------------------
+
+process(java.util.EventObject )
+  Unable to fully structure code
