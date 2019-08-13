@@ -1,0 +1,1311 @@
+Summary for /tmp/frameworksh3008liq/devices/google/Pixel 2/29/QPP6.190730.005/jar/core-oj.jar
+Decompiled with CFR 0.145
+
+
+java.beans.ChangeListenerMap
+----------------------------
+
+getListeners()
+  Unable to fully structure code
+
+
+java.lang.CharSequence
+----------------------------
+
+forEachRemaining(java.util.function.IntConsumer )
+  Loose catch block
+
+
+java.net.NetworkInterface
+----------------------------
+
+getAll()
+  Unable to fully structure code
+getFlags()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+getInterfaceAddresses()
+  Unable to fully structure code
+getMTU()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CATCHBLOCK]], but top level block is 1[TRYBLOCK]
+<init>(java.net.NetworkInterface )
+  Unable to fully structure code
+
+
+java.net.URLConnection
+----------------------------
+
+getContentHandler()
+  Unable to fully structure code
+
+
+java.net.URLDecoder
+----------------------------
+
+decode(java.lang.String java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+java.nio.channels.Channels
+----------------------------
+
+read(byte[] int int )
+  Loose catch block
+write(byte[] int int )
+  Unable to fully structure code
+read(java.nio.ByteBuffer )
+  Unable to fully structure code
+write(java.nio.ByteBuffer )
+  Unable to fully structure code
+
+
+java.nio.charset.CharsetDecoder
+----------------------------
+
+decode(java.nio.ByteBuffer java.nio.CharBuffer boolean )
+  Loose catch block
+
+
+java.nio.charset.CharsetEncoder
+----------------------------
+
+encode(java.nio.CharBuffer java.nio.ByteBuffer boolean )
+  Loose catch block
+isLegalReplacement(byte[] )
+  Unable to fully structure code
+
+
+java.nio.file.CopyMoveHelper
+----------------------------
+
+copyToForeignTarget(java.nio.file.Path java.nio.file.Path java.nio.file.CopyOption[] )
+  Loose catch block
+
+
+java.nio.file.Files
+----------------------------
+
+readAllBytes(java.nio.file.Path )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+walkFileTree(java.nio.file.Path java.util.Set<java.nio.file.FileVisitOption> int java.nio.file.FileVisitor<? super java.nio.file.Path> )
+  Unable to fully structure code
+
+
+java.nio.file.TempFileHelper
+----------------------------
+
+create(java.nio.file.Path java.lang.String java.lang.String boolean java.nio.file.attribute.FileAttribute<?>[] )
+  Loose catch block
+
+
+java.security.Security
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+java.time.format.DateTimeFormatterBuilder
+----------------------------
+
+parseField(char int java.time.temporal.TemporalField )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+parse(java.time.format.DateTimeParseContext java.lang.CharSequence int )
+  Loose catch block
+parse(java.time.format.DateTimeParseContext java.lang.CharSequence int )
+  Unable to fully structure code
+printerParser(java.util.Locale )
+  Unable to fully structure code
+getDisplayName(java.lang.String int java.util.Locale )
+  Unable to fully structure code
+
+
+java.util.Base64
+----------------------------
+
+read(byte[] int int )
+  Unable to fully structure code
+
+
+java.util.ComparableTimSort
+----------------------------
+
+binarySort(java.lang.Object[] int int int )
+  Unable to fully structure code
+mergeHi(int int int int )
+  Unable to fully structure code
+mergeLo(int int int int )
+  Unable to fully structure code
+
+
+java.util.DualPivotQuicksort
+----------------------------
+
+sort(double[] int int double[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: CONTINUE without a while class org.benf.cfr.reader.bytecode.analysis.parse.statement.IfStatement
+
+
+java.util.ResourceBundle
+----------------------------
+
+findBundleInCache(java.util.ResourceBundle$CacheKey java.util.ResourceBundle$Control )
+  Loose catch block
+needsReload(java.lang.String java.util.Locale java.lang.String java.lang.ClassLoader java.util.ResourceBundle long )
+  Loose catch block
+createObject(sun.util.locale.BaseLocale )
+  Unable to fully structure code
+
+
+java.util.TimSort
+----------------------------
+
+binarySort(T[] int int int java.util.Comparator<? super T> )
+  Unable to fully structure code
+mergeHi(int int int int )
+  Unable to fully structure code
+mergeLo(int int int int )
+  Unable to fully structure code
+
+
+java.util.concurrent.CyclicBarrier
+----------------------------
+
+dowait(boolean long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[TRYBLOCK]], but top level block is 10[UNCONDITIONALDOLOOP]
+
+
+java.util.concurrent.Phaser
+----------------------------
+
+doRegister(int )
+  Loose catch block
+internalAwaitAdvance(int java.util.concurrent.Phaser$QNode )
+  Unable to fully structure code
+
+
+java.util.jar.JarVerifier
+----------------------------
+
+processEntry(sun.security.util.ManifestEntryVerifier )
+  Unable to fully structure code
+
+
+javax.crypto.EncryptedPrivateKeyInfo
+----------------------------
+
+getKeySpecImpl(java.security.Key java.security.Provider )
+  Unable to fully structure code
+
+
+javax.crypto.JarVerifier
+----------------------------
+
+verify()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 6[CATCHBLOCK]
+
+
+javax.crypto.JceSecurity
+----------------------------
+
+getVerificationResult(java.security.Provider )
+  Loose catch block
+
+
+sun.misc.FloatingDecimal
+----------------------------
+
+readJavaFormatString(java.lang.String )
+  Loose catch block
+floatValue()
+  Unable to fully structure code
+
+
+sun.misc.Resource
+----------------------------
+
+getBytes()
+  Unable to fully structure code
+
+
+sun.misc.URLClassPath
+----------------------------
+
+getResource(java.lang.String boolean java.util.Set<java.lang.String> )
+  Unable to fully structure code
+findResource(java.lang.String boolean )
+  Unable to fully structure code
+getResource(java.lang.String boolean )
+  Unable to fully structure code
+
+
+sun.net.www.MessageHeader
+----------------------------
+
+filterNTLMResponses(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Statement already marked as first in another block
+
+
+sun.net.www.ParseUtil
+----------------------------
+
+decode(java.lang.String )
+  Loose catch block
+
+
+sun.nio.ch.Invoker
+----------------------------
+
+invokeOnThreadInThreadPool(sun.nio.ch.Groupable java.lang.Runnable )
+  Unable to fully structure code
+
+
+sun.nio.fs.Globs
+----------------------------
+
+toRegexPattern(java.lang.String boolean )
+  Unable to fully structure code
+
+
+sun.nio.fs.UnixChannelFactory
+----------------------------
+
+open(int sun.nio.fs.UnixPath java.lang.String sun.nio.fs.UnixChannelFactory$Flags int )
+  Unable to fully structure code
+
+
+sun.nio.fs.UnixCopyFile
+----------------------------
+
+copyDirectory(sun.nio.fs.UnixPath sun.nio.fs.UnixFileAttributes sun.nio.fs.UnixPath sun.nio.fs.UnixCopyFile$Flags )
+  Unable to fully structure code
+copyLink(sun.nio.fs.UnixPath sun.nio.fs.UnixFileAttributes sun.nio.fs.UnixPath sun.nio.fs.UnixCopyFile$Flags )
+  Loose catch block
+
+
+sun.nio.fs.UnixFileAttributeViews
+----------------------------
+
+setTimes(java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime )
+  Loose catch block
+setMode(int )
+  Loose catch block
+
+
+sun.nio.fs.UnixUserPrincipals
+----------------------------
+
+lookupName(java.lang.String boolean )
+  Unable to fully structure code
+
+
+sun.security.jca.ProviderList
+----------------------------
+
+tryGet(int )
+  Unable to fully structure code
+
+
+sun.security.pkcs.PKCS7
+----------------------------
+
+parseNetscapeCertChain(sun.security.util.DerValue )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[CATCHBLOCK]], but top level block is 2[TRYBLOCK]
+parseOldSignedData(sun.security.util.DerValue )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [7[CATCHBLOCK]], but top level block is 3[TRYBLOCK]
+parseSignedData(sun.security.util.DerValue )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [9[CATCHBLOCK]], but top level block is 3[TRYBLOCK]
+
+
+sun.security.provider.certpath.DistributionPointFetcher
+----------------------------
+
+getCRLs(java.security.cert.X509CRLSelector sun.security.x509.X509CertImpl sun.security.x509.DistributionPoint boolean[] boolean java.security.PublicKey java.security.cert.X509Certificate java.lang.String java.util.List<java.security.cert.CertStore> java.util.Set<java.security.cert.TrustAnchor> java.util.Date )
+  Unable to fully structure code
+verifyCRL(sun.security.x509.X509CertImpl sun.security.x509.DistributionPoint java.security.cert.X509CRL boolean[] boolean java.security.PublicKey java.security.cert.X509Certificate java.lang.String java.util.Set<java.security.cert.TrustAnchor> java.util.List<java.security.cert.CertStore> java.util.Date )
+  Loose catch block
+
+
+sun.security.provider.certpath.OCSP
+----------------------------
+
+check(java.util.List<sun.security.provider.certpath.CertId> java.net.URI java.security.cert.X509Certificate java.security.cert.X509Certificate java.util.Date java.util.List<java.security.cert.Extension> )
+  Loose catch block
+
+
+sun.security.provider.certpath.OCSPResponse
+----------------------------
+
+<init>(byte[] )
+  Loose catch block
+verify(java.util.List<sun.security.provider.certpath.CertId> java.security.cert.X509Certificate java.security.cert.X509Certificate java.util.Date byte[] )
+  Unable to fully structure code
+
+
+sun.security.provider.certpath.Vertex
+----------------------------
+
+certToString()
+  Loose catch block
+
+
+sun.security.util.AnchorCertificates
+----------------------------
+
+run()
+  Loose catch block
+
+
+sun.security.util.ManifestDigester
+----------------------------
+
+<init>(byte[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[WHILELOOP]], but top level block is 1[TRYBLOCK]
+
+
+sun.security.util.SignatureFileVerifier
+----------------------------
+
+verifyManifestMainAttrs(java.util.jar.Manifest sun.security.util.ManifestDigester )
+  Unable to fully structure code
+
+
+sun.util.calendar.CalendarSystem
+----------------------------
+
+forName(java.lang.String )
+  Loose catch block
+
+
+sun.util.locale.LocaleMatcher
+----------------------------
+
+parse(java.lang.String )
+  Loose catch block
+
+
+sun.util.locale.provider.CalendarDataUtility
+----------------------------
+
+retrieveFieldValueName(java.lang.String int int int java.util.Locale )
+  Unable to fully structure code
+
+
+java.io.Console
+----------------------------
+
+readPassword(java.lang.String java.lang.Object[] )
+  Unable to fully structure code
+
+
+java.io.ObjectStreamClass
+----------------------------
+
+computeFieldOffsets()
+  Unable to fully structure code
+writeNonProxy(java.io.ObjectOutputStream )
+  Unable to fully structure code
+
+
+java.lang.Package
+----------------------------
+
+loadManifest(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 4 blocks at once
+
+
+java.lang.UNIXProcess
+----------------------------
+
+processExited()
+  Loose catch block
+
+
+java.net.CookieManager
+----------------------------
+
+put(java.net.URI java.util.Map<java.lang.String, java.util.List<java.lang.String>> )
+  Unable to fully structure code
+
+
+java.net.Inet6AddressImpl
+----------------------------
+
+tcpEcho(java.net.InetAddress int java.net.InetAddress int )
+  Loose catch block
+icmpEcho(java.net.InetAddress int java.net.InetAddress int )
+  Loose catch block
+
+
+java.net.URL
+----------------------------
+
+<init>(java.net.URL java.lang.String java.net.URLStreamHandler )
+  Unable to fully structure code
+setDeserializedFields(java.net.URLStreamHandler )
+  Unable to fully structure code
+
+
+java.time.chrono.Chronology
+----------------------------
+
+zonedDateTime(java.time.temporal.TemporalAccessor )
+  Loose catch block
+
+
+java.time.zone.IcuZoneRulesProvider
+----------------------------
+
+generateZoneRules(java.lang.String )
+  Unable to fully structure code
+
+
+java.util.Date
+----------------------------
+
+parse(java.lang.String )
+  Unable to fully structure code
+
+
+java.util.Hashtable
+----------------------------
+
+clone()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[UNCONDITIONALDOLOOP]], but top level block is 2[TRYBLOCK]
+contains(java.lang.Object )
+  Unable to fully structure code
+equals(java.lang.Object )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 10[WHILELOOP]
+
+
+java.util.ServiceLoader
+----------------------------
+
+parse(java.lang.Class<?> java.net.URL )
+  Loose catch block
+
+
+java.util.concurrent.CompletableFuture
+----------------------------
+
+orRun(java.util.concurrent.CompletableFuture<?> java.util.concurrent.CompletableFuture<?> java.lang.Runnable java.util.concurrent.CompletableFuture$OrRun<?, ?> )
+  Unable to fully structure code
+
+
+java.util.concurrent.ConcurrentMap
+----------------------------
+
+compute(K java.util.function.BiFunction<? super K, ? super V, ? extends V> )
+  Unable to fully structure code
+merge(K V java.util.function.BiFunction<? super V, ? super V, ? extends V> )
+  Unable to fully structure code
+
+
+java.util.concurrent.ForkJoinTask
+----------------------------
+
+getThrowableException()
+  Loose catch block
+get(long java.util.concurrent.TimeUnit )
+  Unable to fully structure code
+
+
+java.util.concurrent.locks.StampedLock
+----------------------------
+
+acquireRead(boolean long )
+  Unable to fully structure code
+tryReadLock()
+  Unable to fully structure code
+
+
+java.util.prefs.AbstractPreferences
+----------------------------
+
+run()
+  Unable to fully structure code
+
+
+javax.crypto.SealedObject
+----------------------------
+
+<init>(java.io.Serializable javax.crypto.Cipher )
+  Loose catch block
+unseal(java.security.Key java.lang.String )
+  Unable to fully structure code
+
+
+javax.security.auth.Subject
+----------------------------
+
+removeAll(java.util.Collection<?> )
+  Unable to fully structure code
+retainAll(java.util.Collection<?> )
+  Unable to fully structure code
+
+
+sun.misc.BASE64Decoder
+----------------------------
+
+decodeAtom(java.io.PushbackInputStream java.io.OutputStream int )
+  Unable to fully structure code
+
+
+sun.nio.fs.UnixFileStore
+----------------------------
+
+loadProperties()
+  Loose catch block
+
+
+sun.security.pkcs.SignerInfo
+----------------------------
+
+verify(sun.security.pkcs.PKCS7 java.io.InputStream )
+  Unable to fully structure code
+
+
+sun.security.provider.certpath.SunCertPathBuilder
+----------------------------
+
+buildCertPath(boolean java.util.List<java.util.List<sun.security.provider.certpath.Vertex>> )
+  Loose catch block
+
+
+sun.security.provider.certpath.URICertStore
+----------------------------
+
+engineGetCRLs(java.security.cert.CRLSelector )
+  Unable to fully structure code
+engineGetCertificates(java.security.cert.CertSelector )
+  Unable to fully structure code
+
+
+sun.security.util.ObjectIdentifier
+----------------------------
+
+<init>(java.lang.String )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [5[DOLOOP]], but top level block is 2[TRYBLOCK]
+
+
+sun.security.x509.AVA
+----------------------------
+
+toKeywordValueString(java.lang.String )
+  Unable to fully structure code
+trailingSpace(java.io.Reader )
+  Unable to fully structure code
+
+
+sun.security.x509.GeneralSubtrees
+----------------------------
+
+createWidestSubtree(sun.security.x509.GeneralNameInterface )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[CASE]], but top level block is 1[TRYBLOCK]
+
+
+java.net.AbstractPlainSocketImpl
+----------------------------
+
+connect(java.net.SocketAddress int )
+  Unable to fully structure code
+doConnect(java.net.InetAddress int int )
+  Loose catch block
+
+
+java.net.DatagramSocket
+----------------------------
+
+connectInternal(java.net.InetAddress int )
+  Unable to fully structure code
+
+
+java.net.URLClassLoader
+----------------------------
+
+definePackageInternal(java.lang.String java.util.jar.Manifest java.net.URL )
+  Unable to fully structure code
+getResourceAsStream(java.lang.String )
+  Unable to fully structure code
+
+
+java.security.cert.X509CRLSelector
+----------------------------
+
+match(java.security.cert.CRL )
+  Loose catch block
+
+
+java.security.cert.X509CertSelector
+----------------------------
+
+makeGeneralNameInterface(int java.lang.Object )
+  Unable to fully structure code
+setIssuer(byte[] )
+  Unable to fully structure code
+setSubject(byte[] )
+  Unable to fully structure code
+
+
+java.sql.Timestamp
+----------------------------
+
+valueOf(java.lang.String )
+  Unable to fully structure code
+
+
+java.util.Formatter
+----------------------------
+
+print(java.lang.StringBuilder java.time.temporal.TemporalAccessor char java.util.Locale )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+print(java.lang.StringBuilder java.util.Calendar char java.util.Locale )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+print(java.lang.Object java.util.Locale )
+  Unable to fully structure code
+
+
+java.util.HashMap
+----------------------------
+
+putVal(int K V boolean boolean )
+  Unable to fully structure code
+forEachRemaining(java.util.function.Consumer<? super java.util.Map$Entry<K, V>> )
+  Unable to fully structure code
+forEachRemaining(java.util.function.Consumer<? super K> )
+  Unable to fully structure code
+find(int java.lang.Object java.lang.Class<?> )
+  Unable to fully structure code
+treeify(java.util.HashMap$Node<K, V>[] )
+  Unable to fully structure code
+forEachRemaining(java.util.function.Consumer<? super V> )
+  Unable to fully structure code
+
+
+java.util.JapaneseImperialCalendar
+----------------------------
+
+roll(int int )
+  Unable to fully structure code
+
+
+java.util.WeakHashMap
+----------------------------
+
+forEachRemaining(java.util.function.Consumer<? super java.util.Map$Entry<K, V>> )
+  Unable to fully structure code
+forEachRemaining(java.util.function.Consumer<? super K> )
+  Unable to fully structure code
+forEachRemaining(java.util.function.Consumer<? super V> )
+  Unable to fully structure code
+
+
+java.util.concurrent.AbstractExecutorService
+----------------------------
+
+doInvokeAny(java.util.Collection<? extends java.util.concurrent.Callable<T>> boolean long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 8[UNCONDITIONALDOLOOP]
+
+
+java.util.concurrent.ConcurrentHashMap
+----------------------------
+
+transfer(java.util.concurrent.ConcurrentHashMap$Node<K, V>[] java.util.concurrent.ConcurrentHashMap$Node<K, V>[] )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[TRYBLOCK]], but top level block is 10[TRYBLOCK]
+tryPresize(int )
+  Unable to fully structure code
+computeIfAbsent(K java.util.function.Function<? super K, ? extends V> )
+  Unable to fully structure code
+computeIfPresent(K java.util.function.BiFunction<? super K, ? super V, ? extends V> )
+  Unable to fully structure code
+get(java.lang.Object )
+  Unable to fully structure code
+merge(K V java.util.function.BiFunction<? super V, ? super V, ? extends V> )
+  Unable to fully structure code
+putVal(K V boolean )
+  Unable to fully structure code
+replaceNode(java.lang.Object V java.lang.Object )
+  Unable to fully structure code
+<init>(java.util.concurrent.ConcurrentHashMap$TreeNode<K, V> )
+  Unable to fully structure code
+findTreeNode(int java.lang.Object java.lang.Class<?> )
+  Unable to fully structure code
+
+
+java.util.concurrent.CountedCompleter
+----------------------------
+
+tryComplete()
+  Unable to fully structure code
+
+
+java.util.concurrent.ForkJoinWorkerThread
+----------------------------
+
+run()
+  Loose catch block
+
+
+java.util.concurrent.FutureTask
+----------------------------
+
+removeWaiter(java.util.concurrent.FutureTask$WaitNode )
+  Unable to fully structure code
+run()
+  Unable to fully structure code
+runAndReset()
+  Loose catch block
+
+
+java.util.concurrent.locks.AbstractQueuedLongSynchronizer
+----------------------------
+
+doReleaseShared()
+  Unable to fully structure code
+
+
+java.util.concurrent.locks.AbstractQueuedSynchronizer
+----------------------------
+
+doReleaseShared()
+  Unable to fully structure code
+
+
+java.util.logging.FileHandler
+----------------------------
+
+openFiles()
+  Unable to fully structure code
+
+
+java.util.prefs.FileSystemPreferences
+----------------------------
+
+loadCache()
+  Loose catch block
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+sun.net.www.protocol.ftp.FtpURLConnection
+----------------------------
+
+connect()
+  Loose catch block
+getInputStream()
+  Unable to fully structure code
+
+
+sun.nio.fs.LinuxFileStore
+----------------------------
+
+isExtendedAttributesEnabled(sun.nio.fs.UnixPath )
+  Unable to fully structure code
+
+
+sun.security.provider.certpath.ConstraintsChecker
+----------------------------
+
+mergeNameConstraints(java.security.cert.X509Certificate sun.security.x509.NameConstraintsExtension )
+  Loose catch block
+
+
+sun.security.provider.certpath.ForwardState
+----------------------------
+
+updateState(java.security.cert.X509Certificate )
+  Loose catch block
+
+
+sun.security.provider.certpath.X509CertPath
+----------------------------
+
+<init>(java.io.InputStream java.lang.String )
+  Unable to fully structure code
+getEncoded(java.lang.String )
+  Unable to fully structure code
+
+
+sun.security.util.DisabledAlgorithmConstraints
+----------------------------
+
+of(java.lang.String )
+  Unable to fully structure code
+
+
+java.io.BufferedWriter
+----------------------------
+
+close()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+java.io.ObjectInputStream
+----------------------------
+
+readEnum(boolean )
+  Unable to fully structure code
+readNonProxyDesc(boolean )
+  Loose catch block
+readObject0(boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [10[CASE]], but top level block is 0[TRYBLOCK]
+readSerialData(java.lang.Object java.io.ObjectStreamClass )
+  Loose catch block
+readBlockHeader(boolean )
+  Unable to fully structure code
+readUTFSpan(java.lang.StringBuilder long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [7[CASE]], but top level block is 1[TRYBLOCK]
+
+
+java.net.MulticastSocket
+----------------------------
+
+send(java.net.DatagramPacket byte )
+  Unable to fully structure code
+
+
+java.text.SimpleDateFormat
+----------------------------
+
+parseInternal(java.lang.String java.text.ParsePosition )
+  Unable to fully structure code
+subParse(java.lang.String int int int boolean boolean[] java.text.ParsePosition boolean java.text.CalendarBuilder )
+  Unable to fully structure code
+subParseNumericZone(java.lang.String int int int boolean java.text.CalendarBuilder )
+  Unable to fully structure code
+
+
+java.time.chrono.HijrahChronology
+----------------------------
+
+loadCalendarData()
+  Unable to fully structure code
+
+
+java.util.concurrent.ForkJoinPool
+----------------------------
+
+managedBlock(java.util.concurrent.ForkJoinPool$ManagedBlocker )
+  Unable to fully structure code
+timedAwaitWork(java.util.concurrent.ForkJoinPool$WorkQueue long )
+  Loose catch block
+poll()
+  Unable to fully structure code
+
+
+java.util.concurrent.ThreadPoolExecutor
+----------------------------
+
+addWorker(java.lang.Runnable boolean )
+  Unable to fully structure code
+addWorkerFailed(java.util.concurrent.ThreadPoolExecutor$Worker )
+  Unable to fully structure code
+getTask()
+  Unable to fully structure code
+interruptIdleWorkers(boolean )
+  Loose catch block
+runWorker(java.util.concurrent.ThreadPoolExecutor$Worker )
+  Unable to fully structure code
+tryTerminate()
+  Unable to fully structure code
+
+
+sun.net.ftp.impl.FtpClient
+----------------------------
+
+listFiles(java.lang.String )
+  Unable to fully structure code
+
+
+sun.nio.ch.DatagramSocketAdaptor
+----------------------------
+
+bind(java.net.SocketAddress )
+  Unable to fully structure code
+
+
+sun.nio.ch.EPollPort
+----------------------------
+
+poll()
+  Unable to fully structure code
+run()
+  Unable to fully structure code
+
+
+sun.nio.ch.ServerSocketAdaptor
+----------------------------
+
+accept()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [12[WHILELOOP]], but top level block is 6[TRYBLOCK]
+
+
+sun.nio.ch.SocketAdaptor
+----------------------------
+
+connect(java.net.SocketAddress int )
+  Unable to fully structure code
+read(java.nio.ByteBuffer )
+  Unable to fully structure code
+
+
+sun.nio.fs.UnixDirectoryStream
+----------------------------
+
+readNextEntry()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[DOLOOP]], but top level block is 1[TRYBLOCK]
+
+
+sun.security.pkcs.PKCS8Key
+----------------------------
+
+buildPKCS8Key(sun.security.x509.AlgorithmId byte[] )
+  Unable to fully structure code
+
+
+sun.security.provider.certpath.RevocationChecker
+----------------------------
+
+buildToNewKey(java.security.cert.X509Certificate java.security.PublicKey java.util.Set<java.security.cert.X509Certificate> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [9[TRYBLOCK]], but top level block is 16[TRYBLOCK]
+check(java.security.cert.X509Certificate java.util.Collection<java.lang.String> java.security.PublicKey boolean )
+  Unable to fully structure code
+checkCRLs(java.security.cert.X509Certificate java.security.PublicKey java.security.cert.X509Certificate boolean boolean java.util.Set<java.security.cert.X509Certificate> java.util.Set<java.security.cert.TrustAnchor> )
+  Loose catch block
+checkOCSP(java.security.cert.X509Certificate java.util.Collection<java.lang.String> )
+  Loose catch block
+verifyPossibleCRLs(java.util.Set<java.security.cert.X509CRL> java.security.cert.X509Certificate java.security.PublicKey boolean boolean[] java.util.Set<java.security.cert.TrustAnchor> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[DOLOOP]], but top level block is 1[TRYBLOCK]
+
+
+sun.security.x509.X509CertImpl
+----------------------------
+
+getIssuerAlternativeNames(java.security.cert.X509Certificate )
+  Loose catch block
+getSubjectAlternativeNames(java.security.cert.X509Certificate )
+  Loose catch block
+isSelfSigned(java.security.cert.X509Certificate java.lang.String )
+  Unable to fully structure code
+makeAltNames(sun.security.x509.GeneralNames )
+  Loose catch block
+
+
+sun.security.x509.X509Key
+----------------------------
+
+buildX509Key(sun.security.x509.AlgorithmId sun.security.util.BitArray )
+  Unable to fully structure code
+
+
+java.io.PushbackReader
+----------------------------
+
+read(char[] int int )
+  Unable to fully structure code
+
+
+java.net.SocketOutputStream
+----------------------------
+
+socketWrite(byte[] int int )
+  Loose catch block
+
+
+java.util.ArrayList
+----------------------------
+
+batchRemove(java.util.Collection<?> boolean )
+  Loose catch block
+
+
+java.util.concurrent.ArrayBlockingQueue
+----------------------------
+
+drainTo(java.util.Collection<? super E> int )
+  Loose catch block
+poll(long java.util.concurrent.TimeUnit )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[UNCONDITIONALDOLOOP]], but top level block is 1[TRYBLOCK]
+
+
+java.util.concurrent.ConcurrentLinkedDeque
+----------------------------
+
+updateHead()
+  Unable to fully structure code
+updateTail()
+  Unable to fully structure code
+
+
+java.util.concurrent.ConcurrentLinkedQueue
+----------------------------
+
+remove(java.lang.Object )
+  Unable to fully structure code
+
+
+java.util.concurrent.ConcurrentSkipListMap
+----------------------------
+
+doGet(java.lang.Object )
+  Unable to fully structure code
+doPut(K V boolean )
+  Unable to fully structure code
+findNode(java.lang.Object )
+  Unable to fully structure code
+compute(K java.util.function.BiFunction<? super K, ? super V, ? extends V> )
+  Unable to fully structure code
+findNear(K int java.util.Comparator<? super K> )
+  Unable to fully structure code
+merge(K V java.util.function.BiFunction<? super V, ? super V, ? extends V> )
+  Unable to fully structure code
+replace(K V V )
+  Unable to fully structure code
+
+
+java.util.concurrent.DelayQueue
+----------------------------
+
+poll(long java.util.concurrent.TimeUnit )
+  Unable to fully structure code
+take()
+  Loose catch block
+
+
+java.util.concurrent.LinkedBlockingQueue
+----------------------------
+
+drainTo(java.util.Collection<? super E> int )
+  Loose catch block
+poll(long java.util.concurrent.TimeUnit )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[UNCONDITIONALDOLOOP]], but top level block is 1[TRYBLOCK]
+forEachRemaining(java.util.function.Consumer<? super E> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[DOLOOP]], but top level block is 5[SIMPLE_IF_TAKEN]
+trySplit()
+  Unable to fully structure code
+
+
+java.util.concurrent.ScheduledThreadPoolExecutor
+----------------------------
+
+poll(long java.util.concurrent.TimeUnit )
+  Unable to fully structure code
+take()
+  Loose catch block
+
+
+javax.crypto.CipherOutputStream
+----------------------------
+
+close()
+  Loose catch block
+
+
+sun.net.www.protocol.jar.URLJarFile
+----------------------------
+
+retrieve(java.net.URL sun.net.www.protocol.jar.URLJarFile$URLJarFileCloseController )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+sun.nio.ch.SelectorImpl
+----------------------------
+
+processDeregisterQueue()
+  Loose catch block
+
+
+sun.nio.fs.LinuxFileSystem
+----------------------------
+
+getMountEntries(java.lang.String )
+  Loose catch block
+
+
+sun.nio.fs.LinuxUserDefinedFileAttributeView
+----------------------------
+
+copyExtendedAttributes(int int )
+  Loose catch block
+delete(java.lang.String )
+  Loose catch block
+read(java.lang.String java.nio.ByteBuffer )
+  Unable to fully structure code
+size(java.lang.String )
+  Loose catch block
+write(java.lang.String java.nio.ByteBuffer )
+  Loose catch block
+
+
+sun.nio.fs.LinuxWatchService
+----------------------------
+
+implRegister(java.nio.file.Path java.util.Set<? extends java.nio.file.WatchEvent$Kind<?>> java.nio.file.WatchEvent$Modifier[] )
+  Loose catch block
+run()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [4[TRYBLOCK]], but top level block is 11[UNCONDITIONALDOLOOP]
+
+
+sun.nio.fs.PollingWatchService
+----------------------------
+
+<init>(sun.nio.fs.PollingWatchService java.nio.file.Path sun.nio.fs.PollingWatchService java.lang.Object )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 3 blocks at once
+
+
+sun.nio.fs.UnixSecureDirectoryStream
+----------------------------
+
+move(java.nio.file.Path java.nio.file.SecureDirectoryStream<java.nio.file.Path> java.nio.file.Path )
+  Unable to fully structure code
+readAttributes()
+  Loose catch block
+setTimes(java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime java.nio.file.attribute.FileTime )
+  Unable to fully structure code
+setOwners(int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+setPermissions(java.util.Set<java.nio.file.attribute.PosixFilePermission> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [2[TRYBLOCK]], but top level block is 5[TRYBLOCK]
+
+
+java.util.concurrent.LinkedBlockingDeque
+----------------------------
+
+pollFirst(long java.util.concurrent.TimeUnit )
+  Loose catch block
+pollLast(long java.util.concurrent.TimeUnit )
+  Loose catch block
+forEachRemaining(java.util.function.Consumer<? super E> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [3[DOLOOP]], but top level block is 5[SIMPLE_IF_TAKEN]
+trySplit()
+  Unable to fully structure code
+
+
+java.util.concurrent.LinkedTransferQueue
+----------------------------
+
+unsplice(java.util.concurrent.LinkedTransferQueue$Node java.util.concurrent.LinkedTransferQueue$Node )
+  Unable to fully structure code
+
+
+sun.nio.ch.AsynchronousFileChannelImpl
+----------------------------
+
+addToFileLockTable(long long boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 4[CATCHBLOCK]
+
+
+sun.nio.fs.LinuxDosFileAttributeView
+----------------------------
+
+getDosAttribute(int )
+  Loose catch block
+updateDosAttribute(int boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+readAttributes()
+  Loose catch block
+
+
+sun.nio.ch.AsynchronousSocketChannelImpl
+----------------------------
+
+shutdownInput()
+  Unable to fully structure code
+shutdownOutput()
+  Unable to fully structure code
+
+
+sun.nio.ch.SimpleAsynchronousFileChannelImpl
+----------------------------
+
+run()
+  Unable to fully structure code
+tryLock(long long boolean )
+  Unable to fully structure code
+
+
+sun.nio.ch.UnixAsynchronousServerSocketChannelImpl
+----------------------------
+
+finishAccept(java.io.FileDescriptor java.net.InetSocketAddress java.security.AccessControlContext )
+  Unable to fully structure code
+implAccept(java.lang.Object java.nio.channels.CompletionHandler<java.nio.channels.AsynchronousSocketChannel, java.lang.Object> )
+  Unable to fully structure code
+onEvent(int boolean )
+  Unable to fully structure code
+
+
+sun.nio.ch.FileChannelImpl
+----------------------------
+
+transferFromArbitraryChannel(java.nio.channels.ReadableByteChannel long long )
+  Loose catch block
+transferFromFileChannel(sun.nio.ch.FileChannelImpl long long )
+  Loose catch block
+transferToArbitraryChannel(long int java.nio.channels.WritableByteChannel )
+  Loose catch block
+transferToDirectlyInternal(long int java.nio.channels.WritableByteChannel java.io.FileDescriptor )
+  Loose catch block
+transferToTrustedChannel(long long java.nio.channels.WritableByteChannel )
+  Unable to fully structure code
+lock(long long boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [16[DOLOOP]], but top level block is 4[TRYBLOCK]
+map(java.nio.channels.FileChannel$MapMode long long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [23[DOLOOP]], but top level block is 2[TRYBLOCK]
+read(java.nio.ByteBuffer )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[DOLOOP]], but top level block is 2[TRYBLOCK]
+read(java.nio.ByteBuffer[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[DOLOOP]], but top level block is 2[TRYBLOCK]
+size()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[DOLOOP]], but top level block is 2[TRYBLOCK]
+truncate(long )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [12[DOLOOP]], but top level block is 2[TRYBLOCK]
+tryLock(long long boolean )
+  Loose catch block
+write(java.nio.ByteBuffer )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[DOLOOP]], but top level block is 2[TRYBLOCK]
+write(java.nio.ByteBuffer[] int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [6[DOLOOP]], but top level block is 2[TRYBLOCK]
+
+
+sun.nio.ch.UnixAsynchronousSocketChannelImpl
+----------------------------
+
+finishRead(boolean )
+  Unable to fully structure code
+finishWrite(boolean )
+  Unable to fully structure code
+implConnect(java.net.SocketAddress A java.nio.channels.CompletionHandler<java.lang.Void, ? super A> )
+  Unable to fully structure code
+implRead(boolean java.nio.ByteBuffer java.nio.ByteBuffer[] long java.util.concurrent.TimeUnit A java.nio.channels.CompletionHandler<V, ? super A> )
+  Unable to fully structure code
+implWrite(boolean java.nio.ByteBuffer java.nio.ByteBuffer[] long java.util.concurrent.TimeUnit A java.nio.channels.CompletionHandler<V, ? super A> )
+  Unable to fully structure code
+
+
+sun.nio.ch.DatagramChannelImpl
+----------------------------
+
+innerJoin(java.net.InetAddress java.net.NetworkInterface java.net.InetAddress )
+  Unable to fully structure code
+receive(java.nio.ByteBuffer )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+send(java.nio.ByteBuffer java.net.SocketAddress )
+  Loose catch block
+
+
+sun.nio.ch.SocketChannelImpl
+----------------------------
+
+connect(java.net.SocketAddress )
+  Unable to fully structure code
+finishConnect()
+  Exception : java.lang.IllegalStateException: Last catch has completely empty body
+read(java.nio.ByteBuffer )
+  Unable to fully structure code
+read(java.nio.ByteBuffer[] int int )
+  Unable to fully structure code
+sendOutOfBandData(byte )
+  Unable to fully structure code
+write(java.nio.ByteBuffer )
+  Unable to fully structure code
+write(java.nio.ByteBuffer[] int int )
+  Unable to fully structure code

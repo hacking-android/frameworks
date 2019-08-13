@@ -1,0 +1,777 @@
+Summary for /tmp/frameworksh3008liq/devices/google/Pixel 2/29/QPP6.190730.005/jar/core-libart.jar
+Decompiled with CFR 0.145
+
+
+android.icu.impl.CaseMapImpl
+----------------------------
+
+fold(int java.lang.CharSequence A android.icu.text.Edits )
+  Unable to fully structure code
+toLower(int int java.lang.CharSequence A android.icu.text.Edits )
+  Unable to fully structure code
+toTitle(int int android.icu.text.BreakIterator java.lang.CharSequence A android.icu.text.Edits )
+  Unable to fully structure code
+getDiacriticData(int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+android.icu.impl.ICUBinary
+----------------------------
+
+getByteBufferFromInputStreamAndCloseStream(java.io.InputStream )
+  Unable to fully structure code
+mapFile(java.io.File )
+  Loose catch block
+
+
+android.icu.impl.ICUConfig
+----------------------------
+
+<clinit>()
+  Loose catch block
+
+
+android.icu.impl.LocaleIDParser
+----------------------------
+
+getKeywordMap()
+  Unable to fully structure code
+
+
+android.icu.impl.Normalizer2Impl
+----------------------------
+
+compose(java.lang.CharSequence int int boolean boolean android.icu.impl.Normalizer2Impl$ReorderingBuffer )
+  Unable to fully structure code
+ensureCanonIterData()
+  Unable to fully structure code
+getRawDecomposition(int java.lang.Appendable )
+  Unable to fully structure code
+flush()
+  Loose catch block
+flushAndAppendZeroCC(java.lang.CharSequence int int )
+  Loose catch block
+
+
+android.icu.impl.PatternTokenizer
+----------------------------
+
+next(java.lang.StringBuffer )
+  Unable to fully structure code
+
+
+android.icu.impl.SimpleFormatterImpl
+----------------------------
+
+compileToStringMinMaxArguments(java.lang.CharSequence java.lang.StringBuilder int int )
+  Unable to fully structure code
+
+
+android.icu.impl.UCaseProps
+----------------------------
+
+toUpperOrTitle(int android.icu.impl.UCaseProps$ContextIterator java.lang.Appendable int boolean )
+  Loose catch block
+toFullLower(int android.icu.impl.UCaseProps$ContextIterator java.lang.Appendable int )
+  Unable to fully structure code
+
+
+android.icu.impl.UPropertyAliases
+----------------------------
+
+compare(java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+android.icu.impl.URLHandler
+----------------------------
+
+<clinit>()
+  Unable to fully structure code
+
+
+android.icu.impl.UnicodeSetStringSpan
+----------------------------
+
+spanWithStrings(java.lang.CharSequence int int android.icu.text.UnicodeSet$SpanCondition )
+  Unable to fully structure code
+spanBack(java.lang.CharSequence int android.icu.text.UnicodeSet$SpanCondition )
+  Unable to fully structure code
+
+
+android.icu.impl.Utility
+----------------------------
+
+appendNumber(T int int int )
+  Unable to fully structure code
+encodeRun(T short int )
+  Unable to fully structure code
+hex(S int U boolean T )
+  Unable to fully structure code
+recursiveAppendNumber(T int int int )
+  Unable to fully structure code
+
+
+android.icu.impl.ZoneMeta
+----------------------------
+
+getEquivalentID(java.lang.String int )
+  Unable to fully structure code
+openOlsonResource(android.icu.util.UResourceBundle java.lang.String )
+  Unable to fully structure code
+
+
+android.icu.impl.coll.CollationCompare
+----------------------------
+
+compareUpToQuaternary(android.icu.impl.coll.CollationIterator android.icu.impl.coll.CollationIterator android.icu.impl.coll.CollationSettings )
+  Unable to fully structure code
+
+
+android.icu.impl.coll.CollationDataBuilder
+----------------------------
+
+buildContext(android.icu.impl.coll.CollationDataBuilder$ConditionalCE32 )
+  Unable to fully structure code
+
+
+android.icu.impl.coll.CollationFastLatinBuilder
+----------------------------
+
+encodeUniqueCEs()
+  Unable to fully structure code
+
+
+android.icu.impl.coll.CollationRuleParser
+----------------------------
+
+parseString(int java.lang.StringBuilder )
+  Unable to fully structure code
+
+
+android.icu.impl.coll.TailoredSet
+----------------------------
+
+compare(int int int )
+  Unable to fully structure code
+
+
+android.icu.impl.data.ResourceReader
+----------------------------
+
+<init>(java.io.InputStream java.lang.String java.lang.String )
+  Unable to fully structure code
+
+
+android.icu.impl.duration.impl.PeriodFormatterData
+----------------------------
+
+appendCount(android.icu.impl.duration.TimeUnit boolean boolean int int boolean java.lang.String boolean java.lang.StringBuffer )
+  Unable to fully structure code
+appendUnit(android.icu.impl.duration.TimeUnit int int int boolean boolean boolean boolean boolean java.lang.StringBuffer )
+  Loose catch block
+
+
+android.icu.impl.number.DecimalFormatProperties
+----------------------------
+
+readObjectImpl(java.io.ObjectInputStream )
+  Loose catch block
+
+
+android.icu.impl.number.PatternStringParser
+----------------------------
+
+consumeAffix(android.icu.impl.number.PatternStringParser$ParserState android.icu.impl.number.PatternStringParser$ParsedSubpatternInfo )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+android.icu.math.BigDecimal
+----------------------------
+
+dodivide(char android.icu.math.BigDecimal android.icu.math.MathContext int )
+  Unable to fully structure code
+add(android.icu.math.BigDecimal android.icu.math.MathContext )
+  Unable to fully structure code
+
+
+android.icu.number.NumberRangeFormatterImpl
+----------------------------
+
+format(android.icu.impl.number.DecimalQuantity android.icu.impl.number.DecimalQuantity boolean )
+  Unable to fully structure code
+
+
+android.icu.number.NumberSkeletonImpl
+----------------------------
+
+parseDigitsStem(android.icu.impl.StringSegment android.icu.impl.number.MacroProps )
+  Unable to fully structure code
+parseFractionStem(android.icu.impl.StringSegment android.icu.impl.number.MacroProps )
+  Unable to fully structure code
+
+
+android.icu.text.Bidi
+----------------------------
+
+resolveExplicitLevels()
+  Unable to fully structure code
+
+
+android.icu.text.BidiLine
+----------------------------
+
+getRuns(android.icu.text.Bidi )
+  Unable to fully structure code
+setLine(android.icu.text.Bidi int int )
+  Unable to fully structure code
+
+
+android.icu.text.DateFormatSymbols
+----------------------------
+
+processResource(java.lang.String android.icu.impl.UResource$Key android.icu.impl.UResource$Value )
+  Unable to fully structure code
+
+
+android.icu.text.Edits
+----------------------------
+
+mergeAndAppend(android.icu.text.Edits android.icu.text.Edits )
+  Unable to fully structure code
+previous()
+  Unable to fully structure code
+
+
+android.icu.text.MessagePatternUtil
+----------------------------
+
+buildMessageNode(android.icu.text.MessagePattern int int )
+  Unable to fully structure code
+
+
+android.icu.text.Normalizer
+----------------------------
+
+cmpEquivFold(java.lang.CharSequence java.lang.CharSequence int )
+  Unable to fully structure code
+
+
+android.icu.text.RBBIRuleScanner
+----------------------------
+
+parse()
+  Unable to fully structure code
+
+
+android.icu.text.TransliteratorParser
+----------------------------
+
+parseRules(android.icu.text.TransliteratorParser$RuleBody int )
+  Unable to fully structure code
+parseSection(java.lang.String int int android.icu.text.TransliteratorParser java.lang.StringBuffer android.icu.text.UnicodeSet boolean )
+  Unable to fully structure code
+
+
+android.icu.util.Calendar
+----------------------------
+
+add(int int )
+  Unable to fully structure code
+getActualMaximum(int )
+  Unable to fully structure code
+roll(int int )
+  Unable to fully structure code
+
+
+android.icu.util.ULocale
+----------------------------
+
+parseAcceptLanguage(java.lang.String boolean )
+  Unable to fully structure code
+
+
+dalvik.system.DexPathList
+----------------------------
+
+makeDexElements(java.util.List<java.io.File> java.io.File java.util.List<java.io.IOException> java.lang.ClassLoader boolean )
+  Loose catch block
+makeInMemoryDexElements(java.nio.ByteBuffer[] java.util.List<java.io.IOException> )
+  Loose catch block
+
+
+java.math.BigDecimal
+----------------------------
+
+divideToIntegralValue(java.math.BigDecimal java.math.MathContext )
+  Unable to fully structure code
+
+
+java.math.Conversion
+----------------------------
+
+toDecimalScaledString(java.math.BigInteger int )
+  Unable to fully structure code
+
+
+java.math.Logical
+----------------------------
+
+xorDiffSigns(java.math.BigInteger java.math.BigInteger )
+  Unable to fully structure code
+
+
+java.math.Multiplication
+----------------------------
+
+powerOf10(long )
+  Unable to fully structure code
+
+
+java.nio.charset.CharsetDecoderICU
+----------------------------
+
+decodeLoop(java.nio.ByteBuffer java.nio.CharBuffer )
+  Unable to fully structure code
+
+
+java.nio.charset.CharsetEncoderICU
+----------------------------
+
+encodeLoop(java.nio.CharBuffer java.nio.ByteBuffer )
+  Unable to fully structure code
+
+
+javax.xml.datatype.DatatypeFactory
+----------------------------
+
+newInstance(java.lang.String java.lang.ClassLoader )
+  Unable to fully structure code
+
+
+javax.xml.datatype.FactoryFinder
+----------------------------
+
+newInstance(java.lang.String java.lang.ClassLoader )
+  Unable to fully structure code
+which(java.lang.Class )
+  Loose catch block
+<clinit>()
+  Loose catch block
+
+
+javax.xml.parsers.DocumentBuilderFactory
+----------------------------
+
+newInstance(java.lang.String java.lang.ClassLoader )
+  Unable to fully structure code
+
+
+javax.xml.parsers.SAXParserFactory
+----------------------------
+
+newInstance(java.lang.String java.lang.ClassLoader )
+  Unable to fully structure code
+
+
+javax.xml.transform.TransformerFactory
+----------------------------
+
+newInstance(java.lang.String java.lang.ClassLoader )
+  Unable to fully structure code
+
+
+javax.xml.validation.SchemaFactory
+----------------------------
+
+newInstance(java.lang.String java.lang.String java.lang.ClassLoader )
+  Unable to fully structure code
+
+
+javax.xml.validation.SchemaFactoryFinder
+----------------------------
+
+_newFactory(java.lang.String )
+  Unable to fully structure code
+loadFromServicesFile(java.lang.String java.lang.String java.io.InputStream )
+  Loose catch block
+createInstance(java.lang.String )
+  Loose catch block
+<clinit>()
+  Loose catch block
+
+
+javax.xml.xpath.XPathFactoryFinder
+----------------------------
+
+loadFromServicesFile(java.lang.String java.lang.String java.io.InputStream )
+  Loose catch block
+createInstance(java.lang.String )
+  Loose catch block
+<clinit>()
+  Loose catch block
+
+
+libcore.icu.RelativeDateTimeFormatter
+----------------------------
+
+getRelativeTimeSpanString(android.icu.util.ULocale android.icu.util.TimeZone long long long int android.icu.text.DisplayContext )
+  Unable to fully structure code
+
+
+libcore.io.IoBridge
+----------------------------
+
+getSocketOptionErrno(java.io.FileDescriptor int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Extractable last case doesn't follow previous
+
+
+libcore.io.IoUtils
+----------------------------
+
+readFully()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [0[TRYBLOCK]], but top level block is 6[WHILELOOP]
+
+
+libcore.net.MimeUtils
+----------------------------
+
+parseTypes(java.lang.String )
+  Unable to fully structure code
+
+
+libcore.timezone.TimeZoneFinder
+----------------------------
+
+processCountryZones(org.xmlpull.v1.XmlPullParser libcore.timezone.TimeZoneFinder$TimeZonesProcessor )
+  Unable to fully structure code
+
+
+libcore.timezone.ZoneInfoDB
+----------------------------
+
+readHeader()
+  Unable to fully structure code
+
+
+libcore.util.Objects
+----------------------------
+
+toString(java.lang.Object )
+  Unable to fully structure code
+
+
+org.apache.harmony.xml.ExpatParser
+----------------------------
+
+finalize()
+  Loose catch block
+finalize()
+  Loose catch block
+
+
+org.xml.sax.helpers.XMLReaderFactory
+----------------------------
+
+createXMLReader()
+  Unable to fully structure code
+
+
+android.icu.impl.ICUCurrencyDisplayInfoProvider
+----------------------------
+
+getInstance(android.icu.util.ULocale boolean )
+  Loose catch block
+
+
+android.icu.impl.ICUResourceBundle
+----------------------------
+
+addLocaleIDsFromListFile(java.lang.String java.lang.ClassLoader java.util.Set<java.lang.String> )
+  Loose catch block
+findStringWithFallback(java.lang.String android.icu.util.UResourceBundle android.icu.util.UResourceBundle )
+  Unable to fully structure code
+getFunctionalEquivalent(java.lang.String java.lang.ClassLoader java.lang.String java.lang.String android.icu.util.ULocale boolean[] boolean )
+  Loose catch block
+
+
+android.icu.impl.ICUService
+----------------------------
+
+getKey(android.icu.impl.ICUService$Key java.lang.String[] android.icu.impl.ICUService$Factory )
+  Unable to fully structure code
+
+
+android.icu.impl.LocaleDisplayNamesImpl
+----------------------------
+
+localeDisplayNameInternal(android.icu.util.ULocale )
+  Unable to fully structure code
+
+
+android.icu.impl.Relation
+----------------------------
+
+<init>(java.util.Map<K, java.util.Set<V>> java.lang.Class<?> java.util.Comparator<V> )
+  Unable to fully structure code
+
+
+android.icu.impl.ResourceBundleWrapper
+----------------------------
+
+load()
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.icu.impl.TimeZoneGenericNames
+----------------------------
+
+loadStrings(java.lang.String )
+  Unable to fully structure code
+
+
+android.icu.impl.Trie2Writable
+----------------------------
+
+findHighStart(int )
+  Unable to fully structure code
+
+
+android.icu.impl.Trie2_16
+----------------------------
+
+rangeEnd(int int int )
+  Unable to fully structure code
+
+
+android.icu.impl.Trie2_32
+----------------------------
+
+rangeEnd(int int int )
+  Unable to fully structure code
+
+
+android.icu.impl.UTS46
+----------------------------
+
+processLabel(java.lang.StringBuilder int int boolean android.icu.text.IDNA$Info )
+  Unable to fully structure code
+
+
+android.icu.impl.coll.CollationBuilder
+----------------------------
+
+getSpecialResetPosition(java.lang.CharSequence )
+  Unable to fully structure code
+
+
+android.icu.impl.duration.impl.ResourceBasedPeriodFormatterDataService
+----------------------------
+
+<init>()
+  Loose catch block
+
+
+android.icu.lang.UCharacter
+----------------------------
+
+codePointCount(java.lang.CharSequence int int )
+  Unable to fully structure code
+codePointCount(char[] int int )
+  Unable to fully structure code
+offsetByCodePoints(char[] int int int int )
+  Unable to fully structure code
+
+
+android.icu.text.BreakIteratorFactory
+----------------------------
+
+createBreakInstance(android.icu.util.ULocale int )
+  Unable to fully structure code
+
+
+android.icu.text.DateTimePatternGenerator
+----------------------------
+
+getBestPattern(java.lang.String android.icu.text.DateTimePatternGenerator$DateTimeMatcher int )
+  Unable to fully structure code
+
+
+android.icu.text.MessageFormat
+----------------------------
+
+format(int android.icu.text.MessageFormat$PluralSelectorContext java.lang.Object[] java.util.Map<java.lang.String, java.lang.Object> android.icu.text.MessageFormat$AppendableWrapper java.text.FieldPosition )
+  Unable to fully structure code
+parse(int java.lang.String java.text.ParsePosition java.lang.Object[] java.util.Map<java.lang.String, java.lang.Object> )
+  Unable to fully structure code
+
+
+android.icu.text.MessagePattern
+----------------------------
+
+parseDouble(int int boolean )
+  Unable to fully structure code
+
+
+android.icu.text.TimeZoneFormat
+----------------------------
+
+<init>(android.icu.util.ULocale )
+  Loose catch block
+parseDefaultOffsetFields(java.lang.String int char int[] )
+  Unable to fully structure code
+parseOffsetPattern(java.lang.String java.lang.String )
+  Unable to fully structure code
+parse(android.icu.text.TimeZoneFormat$Style java.lang.String java.text.ParsePosition java.util.EnumSet<android.icu.text.TimeZoneFormat$ParseOption> android.icu.util.Output<android.icu.text.TimeZoneFormat$TimeType> )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+android.icu.util.CodePointTrie
+----------------------------
+
+fromBinary(android.icu.util.CodePointTrie$Type android.icu.util.CodePointTrie$ValueWidth java.nio.ByteBuffer )
+  Unable to fully structure code
+getRange(int android.icu.util.CodePointMap$ValueFilter android.icu.util.CodePointMap$Range )
+  Unable to fully structure code
+
+
+android.icu.util.GlobalizationPreferences
+----------------------------
+
+getDisplayName(java.lang.String int )
+  Unable to fully structure code
+getResourceBundle(java.lang.String java.lang.ClassLoader )
+  Unable to fully structure code
+
+
+android.icu.util.MutableCodePointTrie
+----------------------------
+
+build(android.icu.util.CodePointTrie$Type android.icu.util.CodePointTrie$ValueWidth )
+  Unable to fully structure code
+compactIndex(int android.icu.util.MutableCodePointTrie$MixedBlocks )
+  Unable to fully structure code
+compactWholeDataBlocks(int android.icu.util.MutableCodePointTrie$AllSameBlocks )
+  Unable to fully structure code
+findHighStart()
+  Unable to fully structure code
+getRange(int android.icu.util.CodePointMap$ValueFilter android.icu.util.CodePointMap$Range )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Started 2 blocks at once
+
+
+com.android.org.kxml2.io.KXmlParser
+----------------------------
+
+next(boolean )
+  Unable to fully structure code
+setInput(java.io.InputStream java.lang.String )
+  Unable to fully structure code
+
+
+org.apache.harmony.xml.parsers.DocumentBuilderImpl
+----------------------------
+
+parse(org.xml.sax.InputSource )
+  Unable to fully structure code
+
+
+org.xmlpull.v1.sax2.Driver
+----------------------------
+
+parse(org.xml.sax.InputSource )
+  Unable to fully structure code
+
+
+android.icu.text.DecimalFormat_ICU58_Android
+----------------------------
+
+applyPatternWithoutExpandAffix(java.lang.String boolean )
+  Unable to fully structure code
+compareComplexAffix(java.lang.String java.lang.String int int android.icu.util.Currency[] )
+  Unable to fully structure code
+expandAffix(java.lang.String java.lang.String java.lang.StringBuffer )
+  Unable to fully structure code
+format(long java.lang.StringBuffer java.text.FieldPosition boolean )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [1[TRYBLOCK]], but top level block is 3[CATCHBLOCK]
+subparse(java.lang.String java.text.ParsePosition android.icu.text.DigitList_Android boolean[] android.icu.util.Currency[] java.lang.String java.lang.String java.lang.String java.lang.String boolean int )
+  Unable to fully structure code
+
+
+android.icu.text.RuleBasedCollator
+----------------------------
+
+compareNFDIter(android.icu.impl.Normalizer2Impl android.icu.text.RuleBasedCollator$NFDIterator android.icu.text.RuleBasedCollator$NFDIterator )
+  Unable to fully structure code
+
+
+android.icu.text.SimpleDateFormat
+----------------------------
+
+subParse(java.lang.String int char int boolean boolean boolean[] android.icu.util.Calendar android.icu.text.MessageFormat android.icu.util.Output<android.icu.text.TimeZoneFormat$TimeType> android.icu.util.Output<android.icu.impl.DayPeriodRules$DayPeriod> )
+  Unable to fully structure code
+intervalFormatByAlgorithm(android.icu.util.Calendar android.icu.util.Calendar java.lang.StringBuffer java.text.FieldPosition )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: Tried to end blocks [9[UNCONDITIONALDOLOOP]], but top level block is 0[TRYBLOCK]
+parse(java.lang.String android.icu.util.Calendar java.text.ParsePosition )
+  Unable to fully structure code
+subFormat(java.lang.StringBuffer char int int int android.icu.text.DisplayContext java.text.FieldPosition android.icu.util.Calendar )
+  Unable to fully structure code
+
+
+android.icu.text.ThaiBreakEngine
+----------------------------
+
+divideUpDictionaryRange(java.text.CharacterIterator int int android.icu.text.DictionaryBreakEngine$DequeI )
+  Unable to fully structure code
+
+
+android.icu.text.TimeUnitFormat
+----------------------------
+
+setup(java.lang.String java.util.Map<android.icu.util.TimeUnit, java.util.Map<java.lang.String, java.lang.Object[]>> int java.util.Set<java.lang.String> )
+  Loose catch block
+
+
+android.icu.text.UnicodeSet
+----------------------------
+
+_appendToPat(T int boolean )
+  Unable to fully structure code
+_toPattern(T boolean )
+  Unable to fully structure code
+appendCodePoint(java.lang.Appendable int )
+  Unable to fully structure code
+appendNewPattern(T boolean boolean )
+  Unable to fully structure code
+applyPattern(android.icu.impl.RuleCharacterIterator android.icu.text.SymbolTable java.lang.Appendable int int )
+  Unable to fully structure code
+matches(android.icu.text.Replaceable int[] int boolean )
+  Unable to fully structure code
+
+
+android.icu.impl.OlsonTimeZone
+----------------------------
+
+initTransitionRules()
+  Unable to fully structure code
+
+
+android.icu.util.SimpleTimeZone
+----------------------------
+
+compareToRule(int int int int int int int int int int int int )
+  Exception : org.benf.cfr.reader.util.ConfusedCFRException: CONTINUE without a while class org.benf.cfr.reader.bytecode.analysis.parse.statement.AssignmentSimple
+
+
+android.icu.util.VTimeZone
+----------------------------
+
+createRuleByRRULE(java.lang.String int int long java.util.List<java.lang.String> int )
+  Unable to fully structure code
+parse()
+  Unable to fully structure code
+parseDateTimeString(java.lang.String int )
+  Unable to fully structure code
+parseRRULE(java.lang.String long[] )
+  Unable to fully structure code
+writeZonePropsByDOW_GEQ_DOM(java.io.Writer boolean java.lang.String int int int int int long long )
+  Unable to fully structure code
